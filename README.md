@@ -30,8 +30,8 @@ XAI/
 ├── xai_evaluator.py                # Module tính toán các chỉ số đánh giá định lượng XAI
 ├── main.py                         # File thực thi chạy thực nghiệm cấu hình tổng thể
 └── README.md                       # Tài liệu hướng dẫn dự án
----
-"""
+
+
 ## 📊 Tham Số Cấu Hình Hệ Thống (`main.py`)
 
 Anh có thể điều chỉnh linh hoạt các tham số dưới đây khi thực thi pipeline nghiên cứu:
