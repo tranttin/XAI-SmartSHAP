@@ -1,0 +1,2988 @@
+(venv) PS C:\Users\ADMIN\PycharmProjects\XAI> python main.py --samples 1000 --dataset arxiv --log_name maihoa200 --ns_smart 200 --seed 2011 --mode maihoa
+[*] Khởi tạo Recommender (Bi-encoder: BAAI/bge-small-en, Cross-encoder: BAAI/bge-reranker-base) trên cpu
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 4540.72it/s]
+BertModel LOAD REPORT from: BAAI/bge-small-en
+Key                     | Status     | Details
+------------------------+------------+--------
+embeddings.position_ids | UNEXPECTED |
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loading weights: 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 201/201 [00:00<00:00, 3693.33it/s]
+XLMRobertaForSequenceClassification LOAD REPORT from: BAAI/bge-reranker-base
+Key                             | Status     | Details
+--------------------------------+------------+--------
+roberta.embeddings.position_ids | UNEXPECTED |
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[*] Đang đọc file: data\arxiv\papers.csv
+[*] MODE: maihoa | samples=1000 | seed=2011
+
+>>> [1/1000] Online Algorithms for the Multi-Armed Bandit Problem with Markovian   Rewards
+Comp=-0.0058 | Suff=-0.0369 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.97s | CPU=93.45s
+
+>>> [2/1000] Crossing the Reality Gap: a Short Introduction to the Transferability   Approach
+Comp=0.0114 | Suff=-0.0262 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.64s | CPU=92.61s
+
+>>> [3/1000] Signal Processing in Large Systems: a New Paradigm
+Comp=-0.0092 | Suff=-0.0211 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.10s | CPU=42.42s
+
+>>> [4/1000] Laser acceleration of protons from near critical density targets for   applicati
+Comp=-0.0015 | Suff=-0.0261 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.70s | CPU=51.00s
+
+>>> [5/1000] Clique problem, cutting plane proofs and communication complexity
+Comp=0.0011 | Suff=-0.0366 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.72s | CPU=10.12s
+
+>>> [6/1000] Existence of new inequalities for representable polymatroids
+Comp=-0.0015 | Suff=0.0204 | Rank=0.3181818181818182 | MAE=0.0223 | RMSE=0.0347 | Stab=0.3000 | Time=13.59s | CPU=80.50s
+
+>>> [7/1000] A New Technique for the Calculation of Effective Mesonic Potential at   Finite T
+Comp=0.0088 | Suff=-0.0351 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.41s | CPU=8.42s
+
+>>> [8/1000] Control Complexity in Fallback Voting
+Comp=0.0083 | Suff=-0.0208 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.36s | CPU=49.92s
+
+>>> [9/1000] Optimal mechanisms with simple menus
+Comp=-0.0007 | Suff=0.0510 | Rank=0.0368421052631579 | MAE=0.0490 | RMSE=0.0574 | Stab=0.2851 | Time=13.87s | CPU=82.83s
+
+>>> [10/1000] Exploring Landscape, renormgroup quantization
+Comp=0.0020 | Suff=0.0034 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.18s | CPU=37.02s
+
+>>> [11/1000] Delay-Constrained Utility Maximization in Multihop Random Access   Networks
+Comp=-0.0020 | Suff=-0.0401 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.44s | CPU=20.53s
+
+>>> [12/1000] Reasoning on Schemata of Formulae
+Comp=0.0001 | Suff=-0.0294 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.70s | CPU=4.14s
+
+>>> [13/1000] Maps on the basis of the Arts & Humanities Citation Index: The journals   Leonar
+Comp=0.0176 | Suff=0.0205 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.46s | CPU=20.69s
+
+>>> [14/1000] Human-Centric Process-Aware Information Systems (HC-PAIS)
+Comp=0.0061 | Suff=-0.0409 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.39s | CPU=20.28s
+
+>>> [15/1000] Fast and Robust Parametric Estimation of Jointly Sparse Channels
+Comp=-0.0025 | Suff=-0.0150 | Rank=0.10909090909090911 | MAE=0.0330 | RMSE=0.0370 | Stab=-0.1788 | Time=15.26s | CPU=91.27s
+
+>>> [16/1000] Quantization using Compressive Sensing
+Comp=0.0019 | Suff=-0.0285 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.78s
+
+>>> [17/1000] Faster Least Squares Approximation
+Comp=0.0049 | Suff=-0.0494 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.93s | CPU=47.31s
+
+>>> [18/1000] Characterizing Topological Assumptions of Distributed Algorithms in   Dynamic Ne
+Comp=0.0041 | Suff=-0.0484 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.73s | CPU=22.25s
+
+>>> [19/1000] Display of probability densities for data from a continuous distribution
+Comp=0.0337 | Suff=-0.0093 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.75s
+
+>>> [20/1000] Controlled energy-selected electron capture and release in double   quantum dots
+Comp=0.0102 | Suff=-0.0186 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.56s | CPU=39.16s
+
+>>> [21/1000] FAST CLOUD: Pushing the Envelope on Delay Performance of Cloud Storage   with Co
+Comp=-0.0020 | Suff=-0.0334 | Rank=0.4909090909090909 | MAE=0.0154 | RMSE=0.0184 | Stab=0.1788 | Time=15.22s | CPU=90.86s
+
+>>> [22/1000] A Hybrid Method for Distance Metric Learning
+Comp=0.0197 | Suff=-0.0104 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.06s
+
+>>> [23/1000] The FDF or LES/PDF method for turbulent two-phase flows
+Comp=0.0077 | Suff=-0.0324 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.65s | CPU=9.89s
+
+>>> [24/1000] Shallow Water Waves and Solitary Waves
+Comp=-0.0325 | Suff=-0.0550 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [25/1000] Bayes Blocks: An Implementation of the Variational Bayesian Building   Blocks Fr
+Comp=0.0124 | Suff=-0.0376 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.53s | CPU=9.12s
+
+>>> [26/1000] QoS Analysis of Cognitive Radio Channels with Perfect CSI at both   Receiver and
+Comp=0.0054 | Suff=-0.0603 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.69s | CPU=40.05s
+
+>>> [27/1000] Bitwise Quantum Min-Entropy Sampling and New Lower Bounds for Random   Access Co
+Comp=0.0066 | Suff=-0.0130 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.65s | CPU=21.70s
+
+>>> [28/1000] Stability Analysis of a Hybrid Cellular Automaton Model of Cell Colony   Growth
+Comp=-0.0018 | Suff=-0.0425 | Rank=0.29090909090909095 | MAE=0.0256 | RMSE=0.0332 | Stab=0.4758 | Time=13.44s | CPU=80.45s
+
+>>> [29/1000] Scaling analyses based on wavelet transforms for the Talbot effect
+Comp=-0.0020 | Suff=-0.0123 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.06s
+
+>>> [30/1000] Minutiae Based Thermal Human Face Recognition using Label Connected   Component
+Comp=-0.0070 | Suff=-0.0144 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.00s | CPU=17.97s
+
+>>> [31/1000] Apparition de structures tourbillonnaires de type G\"ortler dans une   cavit\'e
+Comp=0.0021 | Suff=-0.0499 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.25s | CPU=37.30s
+
+>>> [32/1000] Stochastic Dynamical Structure (SDS) of Nonequilibrium Processes in the   Absenc
+Comp=-0.0013 | Suff=-0.0435 | Rank=0.40224719101123596 | MAE=0.0362 | RMSE=0.0431 | Stab=-0.0798 | Time=12.93s | CPU=77.41s
+
+>>> [33/1000] Wyner-Ziv Coding Based on Multidimensional Nested Lattices
+Comp=0.0055 | Suff=-0.0377 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.45s | CPU=20.64s
+
+>>> [34/1000] On sampling social networking services
+Comp=0.0469 | Suff=-0.0076 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.12s | CPU=0.64s
+
+>>> [35/1000] Synthesis of Reactive Protocols for Vehicle-to-Vehicle Communication
+Comp=0.0013 | Suff=-0.0119 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.76s | CPU=4.59s
+
+>>> [36/1000] Spatial and Temporal Sensing Limits of Microtubule Polarization in   Neuronal Gr
+Comp=-0.0003 | Suff=-0.0516 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.51s | CPU=92.75s
+
+>>> [37/1000] Increasing Smart Meter Privacy Through Energy Harvesting and Storage   Devices
+Comp=0.0001 | Suff=-0.0110 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.97s | CPU=41.73s
+
+>>> [38/1000] Reliability and Secrecy Functions of the Wiretap Channel under Cost   Constraint
+Comp=0.0010 | Suff=-0.0469 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.12s | CPU=84.41s
+
+>>> [40/1000] Exact Reasoning Under Uncertainty
+Comp=0.0093 | Suff=-0.0290 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.48s
+
+>>> [41/1000] A New Four States High Deflection Low Actuation Voltage Electrostatic   Mems Swi
+Comp=0.0026 | Suff=0.0060 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.72s | CPU=4.30s
+
+>>> [42/1000] Stabilization of biodiversity in the coevolutionary rock-paper-scissors   game o
+Comp=-0.0003 | Suff=-0.0583 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.43s | CPU=20.48s
+
+>>> [43/1000] The Relativistic Dynamics of Photon Gas Two dynamic equations are   established
+Comp=0.0191 | Suff=-0.0044 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.37s | CPU=2.23s
+
+>>> [44/1000] Thermo-mechanic-electrical coupling in phospholipid monolayers near the   critic
+Comp=0.0023 | Suff=-0.0262 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.39s
+
+>>> [45/1000] Correlating Pedestrian Flows and Search Engine Queries
+Comp=0.0022 | Suff=-0.0211 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.67s | CPU=4.03s
+
+>>> [46/1000] On Multiway Cut parameterized above lower bounds
+Comp=-0.0066 | Suff=-0.0079 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [47/1000] Programming an interpreter using molecular dynamics
+Comp=0.0338 | Suff=-0.0049 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.71s | CPU=4.28s
+
+>>> [48/1000] Birkhoff-von-Neumann Switches with Deflection-Compensated Mechanism
+Comp=0.0081 | Suff=-0.0280 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.29s | CPU=103.45s
+
+>>> [49/1000] Aplicaci\'on Gr\'afica para el estudio de un Modelo de Celda Electrol\'itica usa
+Comp=-0.0009 | Suff=-0.0237 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.56s | CPU=9.34s
+
+>>> [50/1000] Logspace computations for Garside groups of spindle type
+Comp=0.0021 | Suff=-0.0156 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.14s
+
+>>> [51/1000] Design of Energy Scavengers Mounted on Rotating Shafts
+Comp=0.0018 | Suff=-0.0364 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=13.70s | CPU=81.88s
+
+>>> [52/1000] Isochronic Pendulum
+Comp=0.0089 | Suff=0.0030 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.47s | CPU=8.80s
+
+>>> [53/1000] Multiconfiguration Dirac-Hartree-Fock energy levels and transition   probabiliti
+Comp=-0.0003 | Suff=-0.0485 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.60s | CPU=9.62s
+
+>>> [54/1000] Energy Transfer from Individual Semiconductor Nanocrystals to Graphene
+Comp=0.0022 | Suff=-0.0381 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.13s | CPU=84.42s
+
+>>> [55/1000] Brittle fracture in a periodic structure with internal potential energy.   Quasi
+Comp=-0.0025 | Suff=-0.0491 | Rank=0.26491228070175443 | MAE=0.0262 | RMSE=0.0342 | Stab=0.0193 | Time=13.39s | CPU=80.19s
+
+>>> [56/1000] The Multimedia Product - between Design and Information, Design and   Utility an
+Comp=0.0159 | Suff=-0.0358 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=0.92s
+
+>>> [57/1000] Solving MAX-r-SAT Above a Tight Lower Bound
+Comp=-0.0021 | Suff=-0.0182 | Rank=0.35757575757575755 | MAE=0.0304 | RMSE=0.0380 | Stab=-0.3778 | Time=15.77s | CPU=94.38s
+
+>>> [58/1000] Temperature dependent polarization of the thermal radiation emitted by   thin, h
+Comp=0.0018 | Suff=-0.0336 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.55s | CPU=21.12s
+
+>>> [59/1000] Confusion in Thermodynamics
+Comp=-0.0068 | Suff=-0.0305 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.48s | CPU=8.88s
+
+>>> [60/1000] Low-Filling-Factor Superconducting Single Photon Detector with High   System Det
+Comp=0.0028 | Suff=-0.0249 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.95s
+
+>>> [61/1000] Bianchi Type I Cosmology in Generalized Saez-Ballester Theory via   Noether Gaug
+Comp=0.0011 | Suff=-0.0440 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.47s | CPU=8.81s
+
+>>> [62/1000] A Posteriori Equivalence: A New Perspective for Design of Optimal   Channel Shor
+Comp=-0.0008 | Suff=-0.0444 | Rank=0.39999999999999997 | MAE=0.0153 | RMSE=0.0175 | Stab=-0.0833 | Time=12.25s | CPU=73.28s
+
+>>> [63/1000] Latent Semantic Learning with Structured Sparse Representation for Human   Actio
+Comp=0.0106 | Suff=-0.0701 | Rank=0.5499999999999999 | MAE=0.0077 | RMSE=0.0109 | Stab=0.5833 | Time=13.03s | CPU=78.08s
+
+>>> [64/1000] Outage rates and outage durations of opportunistic relaying systems
+Comp=0.0055 | Suff=-0.0354 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.38s | CPU=2.17s
+
+>>> [65/1000] Local Runup Amplification By Resonant Wave Interactions
+Comp=0.0003 | Suff=-0.0375 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.17s | CPU=42.89s
+
+>>> [66/1000] RMR-Efficient Randomized Abortable Mutual Exclusion
+Comp=-0.0005 | Suff=-0.0393 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.77s | CPU=106.48s
+
+>>> [67/1000] Identity Based Strong Designated Verifier Parallel Multi-Proxy Signature   Schem
+Comp=0.0392 | Suff=-0.0024 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.28s | CPU=1.69s
+
+>>> [68/1000] A robust ranking algorithm to spamming
+Comp=0.0131 | Suff=-0.0350 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.46s | CPU=8.64s
+
+>>> [69/1000] Semiclassical approach to the description of the basic properties of   nanoobjec
+Comp=-0.0037 | Suff=-0.0228 | Rank=0.07272727272727274 | MAE=0.0372 | RMSE=0.0418 | Stab=0.1545 | Time=11.43s | CPU=68.41s
+
+>>> [70/1000] Impact of background flow on dissolution trapping of carbon dioxide   injected i
+Comp=-0.0012 | Suff=-0.0238 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.95s
+
+>>> [71/1000] Interference Alignment as a Rank Constrained Rank Minimization
+Comp=0.0025 | Suff=-0.0594 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.18s | CPU=90.86s
+
+>>> [72/1000] Distributed Source Coding for Interactive Function Computation
+Comp=-0.0013 | Suff=-0.0489 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.69s | CPU=46.00s
+
+>>> [73/1000] Inhomogeneities and impurities in a dense one-dimensional Rydberg   lattice gas
+Comp=-0.0023 | Suff=-0.0370 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.29s | CPU=19.70s
+
+>>> [74/1000] Dimensional fragility of the Kardar-Parisi-Zhang universality class
+Comp=-0.0023 | Suff=-0.0360 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.06s
+
+>>> [75/1000] Speeding Up the 3D Surface Generator VESTA
+Comp=0.0113 | Suff=-0.0519 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.64s | CPU=9.81s
+
+>>> [76/1000] A high order cell-centered semi-Lagrangian scheme for multi-dimensional   kineti
+Comp=-0.0033 | Suff=-0.0471 | Rank=0.33333333333333337 | MAE=0.0068 | RMSE=0.0082 | Stab=0.2889 | Time=14.75s | CPU=88.14s
+
+>>> [77/1000] Test the Principle of Maximum Entropy in Constant Sum 2x2 Game:Evidence   in Exp
+Comp=0.0277 | Suff=-0.0254 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.38s
+
+>>> [78/1000] On types of growth for graph-different permutations
+Comp=-0.0038 | Suff=-0.0271 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.71s | CPU=4.28s
+
+>>> [79/1000] New Polynomial Classes for Logic-Based Abduction
+Comp=-0.0030 | Suff=-0.0111 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.77s
+
+>>> [80/1000] Optimal Data Split Methodology for Model Validation
+Comp=0.0127 | Suff=-0.0308 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.77s | CPU=22.52s
+
+>>> [81/1000] SOSTOOLS Version 4.00 Sum of Squares Optimization Toolbox for MATLAB
+Comp=-0.0001 | Suff=0.0370 | Rank=0.0 | MAE=0.0361 | RMSE=0.0448 | Stab=-0.0630 | Time=15.90s | CPU=95.20s
+
+>>> [82/1000] Topological-collaborative approach for disambiguating authors' names in   collab
+Comp=-0.0028 | Suff=-0.0180 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.25s | CPU=85.31s
+
+>>> [83/1000] Basis set construction for molecular electronic structure theory:   Natural orbi
+Comp=-0.0025 | Suff=0.0165 | Rank=0.3473684210526316 | MAE=0.0189 | RMSE=0.0245 | Stab=0.0035 | Time=14.10s | CPU=84.20s
+
+>>> [84/1000] On the Possibility of Quantum Informational Structural Realism
+Comp=-0.0047 | Suff=-0.0597 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.85s | CPU=11.02s
+
+>>> [85/1000] Enforced Development Of The Earth's Atmosphere
+Comp=0.0126 | Suff=-0.0515 | Rank=0.31666666666666665 | MAE=0.0076 | RMSE=0.0099 | Stab=0.0278 | Time=11.51s | CPU=68.77s
+
+>>> [86/1000] Understanding the core density profile in TCV H-mode plasmas
+Comp=-0.0012 | Suff=-0.0653 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.96s | CPU=47.55s
+
+>>> [87/1000] Solution for (1+1) dimensional surface solitons in thermal nonlinear   media
+Comp=0.0045 | Suff=-0.0203 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.69s | CPU=4.11s
+
+>>> [88/1000] Deadline aware virtual machine scheduler for scientific grids and cloud   comput
+Comp=-0.0047 | Suff=-0.0281 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.91s | CPU=23.31s
+
+>>> [89/1000] State distributions and minimum relative entropy noise sequences in   uncertain
+Comp=-0.0000 | Suff=-0.0434 | Rank=0.18333333333333335 | MAE=0.0121 | RMSE=0.0130 | Stab=-0.0944 | Time=14.03s | CPU=83.92s
+
+>>> [90/1000] Close the Gaps: A Learning-while-Doing Algorithm for a Class of   Single-Product
+Comp=-0.0000 | Suff=-0.0007 | Rank=0.6969696969696969 | MAE=0.0182 | RMSE=0.0234 | Stab=0.0707 | Time=13.96s | CPU=83.61s
+
+>>> [91/1000] Impossibility of Local State Transformation via Hypercontractivity
+Comp=0.0121 | Suff=-0.0191 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.68s | CPU=9.97s
+
+>>> [92/1000] Convergence Time Analysis of Quantized Gossip Consensus on Digraphs
+Comp=0.0084 | Suff=-0.0316 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.61s | CPU=9.59s
+
+>>> [93/1000] A Simple Network Management Architecture for Supporting Network   Administrator
+Comp=0.0266 | Suff=-0.0285 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.62s | CPU=9.70s
+
+>>> [94/1000] Precoded Turbo Equalizer for Power Line Communication Systems
+Comp=0.0193 | Suff=-0.0438 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.78s
+
+>>> [95/1000] Estimating Unknown Sparsity in Compressed Sensing
+Comp=0.0028 | Suff=0.0395 | Rank=-0.05454545454545456 | MAE=0.0308 | RMSE=0.0441 | Stab=-0.0333 | Time=14.74s | CPU=88.08s
+
+>>> [96/1000] Network science: a review focused on tourism
+Comp=-0.0011 | Suff=-0.0372 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.58s | CPU=9.39s
+
+>>> [97/1000] Multicriteria Steiner Tree Problem for Communication Network
+Comp=0.0053 | Suff=-0.0211 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.66s | CPU=9.88s
+
+>>> [99/1000] Apricot - An Object-Oriented Modeling Language for Hybrid Systems
+Comp=0.0107 | Suff=-0.0320 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [100/1000] Initiation and blocking of the action potential in the axon in weak   ultrasonic
+Comp=0.0062 | Suff=-0.0311 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.61s | CPU=21.70s
+
+>>> [101/1000] One-Hop Throughput of Wireless Networks with Random Connections
+Comp=-0.0007 | Suff=-0.0475 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.62s | CPU=9.73s
+
+>>> [102/1000] Magnetic trapping of atomic nitrogen (14^N) and cotrapping of NH   (X-triplet-Si
+Comp=0.0078 | Suff=-0.0169 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.39s | CPU=20.25s
+
+>>> [103/1000] String Art: Circle Drawing Using Straight Lines
+Comp=-0.0006 | Suff=-0.0107 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.30s | CPU=19.69s
+
+>>> [104/1000] Dynamics of volumetrically heated matter passing through the   liquid-vapor meta
+Comp=-0.0036 | Suff=-0.0279 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.66s | CPU=9.91s
+
+>>> [105/1000] The MIMOME Channel
+Comp=0.0018 | Suff=-0.0476 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.61s | CPU=9.56s
+
+>>> [106/1000] Negative order KdV equation with both solitons and kink wave solutions
+Comp=-0.0042 | Suff=-0.0279 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.37s | CPU=2.23s
+
+>>> [107/1000] On the synthesis of Quantum Hall Array Resistance Standards
+Comp=0.0062 | Suff=-0.0444 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.74s | CPU=10.38s
+
+>>> [108/1000] Magnetic circular dichroism in real-time time-dependent density   functional the
+Comp=0.0098 | Suff=-0.0389 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.29s | CPU=43.45s
+
+>>> [109/1000] A new parametrizable model of molecular electronic structure
+Comp=0.0010 | Suff=-0.0411 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.68s | CPU=27.78s
+
+>>> [110/1000] Passive Supporters of Terrorism and Phase Transitions
+Comp=-0.0078 | Suff=-0.0220 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.67s | CPU=4.02s
+
+>>> [111/1000] Quantum Chaos and Regularity in Ultracold Fermi Gases
+Comp=0.0058 | Suff=-0.0249 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.97s
+
+>>> [112/1000] Non-uniqueness for the Euler equations: the effect of the boundary
+Comp=0.0082 | Suff=-0.0426 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.20s | CPU=19.16s
+
+>>> [113/1000] Phase Space Approach to Laser-driven Electronic Wavepacket Propagation
+Comp=0.0019 | Suff=-0.0424 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.60s | CPU=21.55s
+
+>>> [114/1000] A New Ensemble of Rate-Compatible LDPC Codes
+Comp=-0.0008 | Suff=-0.0380 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.38s | CPU=2.27s
+
+>>> [115/1000] Optimal Multiuser Zero-Forcing with Per-Antenna Power Constraints for   Network
+Comp=0.0048 | Suff=-0.1061 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.28s | CPU=43.48s
+
+>>> [116/1000] Statistical physics of social dynamics
+Comp=0.0099 | Suff=-0.0229 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.57s | CPU=9.34s
+
+>>> [117/1000] Decorated proofs for computational effects: Exceptions
+Comp=0.0134 | Suff=-0.0263 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.97s
+
+>>> [118/1000] Quiet Planting in the Locked Constraint Satisfaction Problems
+Comp=0.0135 | Suff=-0.0389 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.46s | CPU=8.70s
+
+>>> [119/1000] The Life of a Vortex Knot
+Comp=0.0134 | Suff=-0.0310 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.77s | CPU=10.62s
+
+>>> [120/1000] On Automation and Medical Image Interpretation, With Applications for   Laryngea
+Comp=-0.0011 | Suff=-0.0217 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.21s | CPU=84.95s
+
+>>> [121/1000] Synthesis of Different Zinc and Zinc Included Nanostructures by High   Power Cop
+Comp=0.0017 | Suff=-0.0202 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.01s | CPU=6.08s
+
+>>> [122/1000] Tensorial depolarization of alkali atoms by isotropic collisions with   neutral
+Comp=0.0004 | Suff=-0.0292 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=13.74s | CPU=82.12s
+
+>>> [123/1000] A Generalized Arc-Consistency Algorithm for a Class of Counting   Constraints: R
+Comp=0.0113 | Suff=0.0000 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.06s
+
+>>> [124/1000] Chandra Publication Statistics
+Comp=0.0529 | Suff=-0.0137 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.86s | CPU=5.16s
+
+>>> [125/1000] Nature of the epidemic threshold for the   susceptible-infected-susceptible dyna
+Comp=-0.0031 | Suff=-0.0191 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.12s
+
+>>> [126/1000] An Analytic Approach to People Evaluation in Crowdsourcing Systems
+Comp=0.0261 | Suff=0.0046 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.59s | CPU=9.55s
+
+>>> [127/1000] What Good Are Strong Specifications?
+Comp=-0.0014 | Suff=-0.0392 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.61s | CPU=45.47s
+
+>>> [128/1000] Many to Many Matching with Demands and Capacities
+Comp=0.0190 | Suff=0.0065 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=0.91s
+
+>>> [129/1000] Method of images applied to an opto-mechanical Fabry-Perot resonator
+Comp=0.0021 | Suff=-0.0092 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=0.94s
+
+>>> [130/1000] Collaborative Training in Sensor Networks: A graphical model approach
+Comp=0.0070 | Suff=-0.0425 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.73s
+
+>>> [131/1000] Hep Cluster First Step Towards Grid Computing
+Comp=-0.0019 | Suff=-0.0951 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.80s | CPU=4.83s
+
+>>> [132/1000] Can Nondeterminism Help Complementation?
+Comp=0.0149 | Suff=-0.0173 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.59s | CPU=21.41s
+
+>>> [133/1000] Clarksons Algorithm for Violator Spaces
+Comp=0.0021 | Suff=0.0117 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.01s | CPU=89.67s
+
+>>> [134/1000] On the Necessity of Mixed Models: Dynamical Frustrations in the Mind
+Comp=0.0127 | Suff=0.0125 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.39s | CPU=2.34s
+
+>>> [135/1000] An Electron-Ion Collider at Jefferson lab
+Comp=0.0111 | Suff=0.0086 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.86s
+
+>>> [136/1000] Records in stochastic processes -- Theory and applications
+Comp=0.0008 | Suff=-0.0384 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.23s | CPU=43.23s
+
+>>> [137/1000] Framework to Solve Load Balancing Problem in Heterogeneous Web Servers
+Comp=0.0023 | Suff=-0.0132 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.63s | CPU=21.62s
+
+>>> [138/1000] Analyzing Flowgraphs with ATL
+Comp=0.0175 | Suff=-0.0406 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.79s | CPU=4.64s
+
+>>> [139/1000] SMML estimators for 1-dimensional continuous data
+Comp=-0.0021 | Suff=-0.0390 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.58s | CPU=9.50s
+
+>>> [140/1000] Learning to Predict the Wisdom of Crowds
+Comp=0.0406 | Suff=-0.0173 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.41s
+
+>>> [141/1000] Characterization and exploitation of community structure in cover song   network
+Comp=-0.0014 | Suff=0.0319 | Rank=0.5 | MAE=0.0114 | RMSE=0.0136 | Stab=0.0278 | Time=12.56s | CPU=75.11s
+
+>>> [142/1000] Probing the tunneling site of electrons in strong field enhanced   ionization of
+Comp=-0.0013 | Suff=-0.0772 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.26s | CPU=43.44s
+
+>>> [143/1000] Pattern occurrence in the dyadic expansion of square root of two and an   analys
+Comp=0.0030 | Suff=-0.0402 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.85s | CPU=22.95s
+
+>>> [144/1000] iKlax: a New Musical Audio Format for Active Listening
+Comp=0.0058 | Suff=-0.0319 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.16s | CPU=18.75s
+
+>>> [145/1000] The Ratio Index for Budgeted Learning, with Applications
+Comp=0.0017 | Suff=0.1045 | Rank=0.08421052631578947 | MAE=0.0439 | RMSE=0.0567 | Stab=0.0684 | Time=14.97s | CPU=89.56s
+
+>>> [146/1000] Nanotechnology as a Field of Science: Its Delineation in terms of   Journals and
+Comp=0.0053 | Suff=-0.0320 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.58s | CPU=93.09s
+
+>>> [147/1000] Angle-Resolved Spectroscopy of Parametric Fluorescence
+Comp=0.0085 | Suff=-0.0225 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.48s
+
+>>> [148/1000] Minimum Dissipative Relaxed States Applied to Laboratory and Space   Plasmas
+Comp=-0.0028 | Suff=-0.0281 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.78s | CPU=10.56s
+
+>>> [149/1000] Analysis and Implementation of Distinct Steganographic Methods
+Comp=0.0152 | Suff=-0.0245 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.84s
+
+>>> [150/1000] Quantitative photoacoustic imaging in radiative transport regime
+Comp=-0.0000 | Suff=-0.0273 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.57s | CPU=21.34s
+
+>>> [151/1000] New Bounds on the Capacity of Fiber-Optics Communications
+Comp=0.0760 | Suff=-0.0121 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.75s
+
+>>> [152/1000] An Algorithm for Odd Gracefulness of the Tensor Product of Two Line   Graphs
+Comp=-0.0028 | Suff=-0.0313 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.96s | CPU=11.67s
+
+>>> [153/1000] From least action in electrodynamics to magnetomechanical energy -- a   review
+Comp=-0.0007 | Suff=-0.0133 | Rank=0.5666666666666667 | MAE=0.0066 | RMSE=0.0073 | Stab=0.6667 | Time=11.96s | CPU=71.45s
+
+>>> [154/1000] Pareto Boundary of the Rate Region for Single-Stream MIMO Interference   Channel
+Comp=-0.0007 | Suff=-0.0621 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.70s | CPU=93.84s
+
+>>> [155/1000] Gaussian Stochastic Linearization for Open Quantum Systems Using   Quadratic App
+Comp=-0.0011 | Suff=-0.0361 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.93s | CPU=11.44s
+
+>>> [156/1000] A numerical analysis of finite Debye-length effects in induced-charge   electro-
+Comp=-0.0012 | Suff=-0.0512 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.09s | CPU=24.39s
+
+>>> [157/1000] Characterization of the degree of Musical non-Markovianity
+Comp=-0.0071 | Suff=0.0050 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.35s | CPU=85.61s
+
+>>> [158/1000] Monovalent Ion Condensation at the Electrified Liquid/Liquid Interface
+Comp=0.0057 | Suff=0.0063 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.14s
+
+>>> [159/1000] Local Warming
+Comp=-0.0013 | Suff=0.0117 | Rank=0.7939393939393938 | MAE=0.0253 | RMSE=0.0275 | Stab=0.3576 | Time=14.91s | CPU=89.03s
+
+>>> [160/1000] Adaptive multiple subtraction with wavelet-based complex unary Wiener   filters
+Comp=-0.0019 | Suff=-0.0271 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.65s | CPU=45.64s
+
+>>> [161/1000] Direct Measurements of Magnetic Twist in the Solar Corona
+Comp=-0.0004 | Suff=0.0068 | Rank=0.26666666666666666 | MAE=0.0349 | RMSE=0.0413 | Stab=0.0146 | Time=15.08s | CPU=90.12s
+
+>>> [162/1000] Enhancing synchronization by directionality in complex networks
+Comp=-0.0010 | Suff=-0.0371 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.77s | CPU=10.62s
+
+>>> [163/1000] Multi-frame denoising of high speed optical coherence tomography data   using in
+Comp=-0.0006 | Suff=-0.0490 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.51s | CPU=20.92s
+
+>>> [164/1000] On the 2D behavior of 3D MHD with a strong guiding field
+Comp=-0.0053 | Suff=-0.0186 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.64s | CPU=21.77s
+
+>>> [165/1000] Dynamics of an elementary quantum system in environments out of thermal   equili
+Comp=-0.0009 | Suff=-0.0619 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.70s | CPU=10.20s
+
+>>> [166/1000] Low-energy inelastic collisions of OH radicals with He atoms and D$_2$   molecul
+Comp=0.0031 | Suff=-0.0759 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.35s | CPU=49.95s
+
+>>> [167/1000] Involutive Bases Algorithm Incorporating F5 Criterion
+Comp=-0.0029 | Suff=-0.0453 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.67s | CPU=22.02s
+
+>>> [168/1000] On the serial connection of the regular asynchronous systems
+Comp=-0.0004 | Suff=-0.0136 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.10s | CPU=24.56s
+
+>>> [169/1000] Contextuality, decoherence and quantum trajectories
+Comp=-0.0138 | Suff=-0.0202 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.17s | CPU=0.94s
+
+>>> [170/1000] Effect of Range Naming Conventions on Reliability and Development Time   for Sim
+Comp=-0.0053 | Suff=-0.0243 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.76s | CPU=22.41s
+
+>>> [171/1000] Utilities as Random Variables: Density Estimation and Structure   Discovery
+Comp=-0.0044 | Suff=-0.0553 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.64s | CPU=93.39s
+
+>>> [172/1000] Hamiltonian Formulation of Classical Fields with Fractional Derivatives
+Comp=0.0097 | Suff=-0.0287 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.31s | CPU=1.88s
+
+>>> [173/1000] An Improved Multiple Faults Reassignment based Recovery in Cluster   Computing
+Comp=0.0030 | Suff=-0.0776 | Rank=0.5666666666666667 | MAE=0.0254 | RMSE=0.0304 | Stab=0.1018 | Time=13.30s | CPU=79.58s
+
+>>> [174/1000] Extending the Interaction Nets Calculus by Generic Rules
+Comp=0.0100 | Suff=-0.0185 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [175/1000] Hypergeometric-Gaussian Modes
+Comp=-0.0038 | Suff=-0.0460 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.53s | CPU=45.00s
+
+>>> [176/1000] Optimal Design of Ad Hoc Injection Networks by Using Genetic Algorithms
+Comp=-0.0095 | Suff=-0.0118 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.14s
+
+>>> [177/1000] Observation of scalar nuclear spin-spin coupling in van der Waals   molecules
+Comp=-0.0008 | Suff=-0.0223 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.83s | CPU=10.95s
+
+>>> [178/1000] Superlubricity through graphene multilayers between Ni(111) surfaces
+Comp=-0.0026 | Suff=-0.0218 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.84s | CPU=100.59s
+
+>>> [179/1000] Weighted Sum Rate Optimization for Cognitive Radio MIMO Broadcast   Channels
+Comp=0.0024 | Suff=-0.0470 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.01s | CPU=47.70s
+
+>>> [180/1000] Modelling collisions in a relativistic plasma
+Comp=0.0068 | Suff=-0.0044 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.41s
+
+>>> [181/1000] Intrinsic filtering on Lie groups with applications to attitude   estimation
+Comp=0.0095 | Suff=-0.0503 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.90s | CPU=23.39s
+
+>>> [182/1000] Irreversibilities and efficiency at maximum power of heat engines:   illustrativ
+Comp=-0.0009 | Suff=-0.0405 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.59s | CPU=9.39s
+
+>>> [183/1000] Inferring global network properties from egocentric data with   applications to
+Comp=0.0154 | Suff=-0.0514 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.56s | CPU=45.27s
+
+>>> [184/1000] Optimal Delay-Throughput Trade-offs in Mobile Ad-Hoc Networks: Hybrid   Random W
+Comp=-0.0020 | Suff=-0.0498 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.65s | CPU=9.88s
+
+>>> [185/1000] Modal abundances of CAIs: Implications for bulk chondrite element   abundances a
+Comp=-0.0022 | Suff=0.0034 | Rank=0.09473684210526317 | MAE=0.0371 | RMSE=0.0473 | Stab=0.1930 | Time=16.74s | CPU=99.92s
+
+>>> [188/1000] A short note on estimating intelligence from user profiles in the   context of u
+Comp=0.0109 | Suff=0.0280 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.86s | CPU=23.05s
+
+>>> [189/1000] Dynamic Infinite Mixed-Membership Stochastic Blockmodel
+Comp=0.0042 | Suff=-0.0253 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.70s | CPU=10.14s
+
+>>> [190/1000] GB-hash : Hash Functions Using Groebner Basis
+Comp=0.0082 | Suff=-0.0192 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.78s | CPU=10.55s
+
+>>> [191/1000] Systematic Improvement of Splitting Methods for the Hamilton Equations
+Comp=-0.0146 | Suff=-0.0293 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [192/1000] Wave Propagation and Diffusive Transition of Oscillations in Pair   Plasmas with
+Comp=-0.0007 | Suff=-0.0292 | Rank=0.43030303030303024 | MAE=0.0234 | RMSE=0.0306 | Stab=0.3212 | Time=14.42s | CPU=86.28s
+
+>>> [193/1000] Benchmark tests of slow light in saturable absorbers
+Comp=0.0002 | Suff=-0.0429 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.31s | CPU=1.86s
+
+>>> [194/1000] Solitaire: Recent Developments
+Comp=0.0108 | Suff=-0.0026 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.05s
+
+>>> [195/1000] Phase retrieval combined with digital holography
+Comp=0.0061 | Suff=-0.0379 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.73s
+
+>>> [196/1000] Nouvelles problematiques posees par le cyclage thermo-mecanique en   cavites sal
+Comp=-0.0049 | Suff=-0.0224 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.78s | CPU=4.64s
+
+>>> [197/1000] Mpemba Effect, Shechtman's Quasicrystals and Students' Exploring   Activities
+Comp=0.0063 | Suff=-0.0077 | Rank=0.6363636363636364 | MAE=0.0179 | RMSE=0.0259 | Stab=-0.1091 | Time=12.52s | CPU=74.72s
+
+>>> [198/1000] Graph and Network Theory in Physics
+Comp=0.0040 | Suff=-0.0189 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.56s | CPU=21.20s
+
+>>> [199/1000] Implementation of Connectivity and Handover through Wireless Sensor Node   based
+Comp=0.0098 | Suff=-0.0048 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.30s | CPU=1.80s
+
+>>> [200/1000] Communities in Networks
+Comp=0.0059 | Suff=-0.0149 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.06s
+
+>>> [201/1000] Imaging a single atom in a time-of-flight experiment
+Comp=0.0012 | Suff=-0.0499 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.64s | CPU=9.80s
+
+>>> [202/1000] A low-loss photonic silica nanofiber for higher-order modes
+Comp=-0.0013 | Suff=-0.0015 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.56s | CPU=21.22s
+
+>>> [203/1000] Constant Factor Lasserre Integrality Gaps for Graph Partitioning   Problems
+Comp=-0.0039 | Suff=0.0050 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.14s | CPU=24.81s
+
+>>> [204/1000] Raising a Hardness Result
+Comp=0.0105 | Suff=0.0064 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.78s | CPU=4.67s
+
+>>> [205/1000] Asymptotic dynamics of closed-boundary vehicular traffic
+Comp=-0.0090 | Suff=-0.0272 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.62s | CPU=9.62s
+
+>>> [206/1000] Nucleation of colloids and macromolecules: does the nucleation pathway   matter?
+Comp=0.0049 | Suff=-0.0279 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.44s | CPU=2.62s
+
+>>> [207/1000] A Model for Reasoning with Uncertain Rules in Event Composition Systems
+Comp=-0.0045 | Suff=0.0102 | Rank=0.13939393939393938 | MAE=0.0257 | RMSE=0.0323 | Stab=-0.0141 | Time=12.98s | CPU=77.53s
+
+>>> [208/1000] Comprehensive Analysis on the Vulnerability and Efficiency of P2P   Networks und
+Comp=-0.0018 | Suff=-0.0005 | Rank=-0.06666666666666665 | MAE=0.0226 | RMSE=0.0290 | Stab=-0.0465 | Time=14.73s | CPU=88.08s
+
+>>> [209/1000] Lower Bounds on the Complexity of MSO1 Model-Checking
+Comp=0.0003 | Suff=-0.0455 | Rank=0.25 | MAE=0.0065 | RMSE=0.0090 | Stab=0.1500 | Time=16.80s | CPU=100.38s
+
+>>> [210/1000] Negative differential thermal resistance induced by ballistic transport
+Comp=-0.0027 | Suff=-0.0309 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.48s
+
+>>> [211/1000] Computing Consensus Curves
+Comp=-0.0002 | Suff=-0.0445 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.60s | CPU=21.48s
+
+>>> [212/1000] Algorithmic Detection of Computer Generated Text
+Comp=0.0002 | Suff=-0.0294 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.51s | CPU=44.77s
+
+>>> [213/1000] Simplification of QPLDA: A practical method to the correction for the   LDA band
+Comp=0.0018 | Suff=0.0537 | Rank=-0.4017543859649123 | MAE=0.0390 | RMSE=0.0477 | Stab=-0.1509 | Time=16.04s | CPU=95.95s
+
+>>> [214/1000] A characterization of entanglement-assisted quantum low-density   parity-check c
+Comp=0.0074 | Suff=-0.0042 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.86s
+
+>>> [215/1000] High precision framework for Chaos Many-Body Engine
+Comp=0.0076 | Suff=-0.0436 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.49s | CPU=20.72s
+
+>>> [216/1000] Modeling off-resonant nonlinear-optical cascading in mesoscopic thin   films and
+Comp=-0.0029 | Suff=-0.0454 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.16s
+
+>>> [217/1000] Nonlocal Form of the Rapid Pressure-Strain Correlation in Turbulent   Flows
+Comp=-0.0041 | Suff=-0.0460 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.88s | CPU=5.28s
+
+>>> [218/1000] Wave localization at the boundary of disordered photonic lattices
+Comp=-0.0068 | Suff=-0.0163 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [219/1000] Timed Parity Games: Complexity and Robustness
+Comp=-0.0028 | Suff=0.0010 | Rank=0.14444444444444443 | MAE=0.0231 | RMSE=0.0383 | Stab=-0.1019 | Time=16.01s | CPU=95.53s
+
+>>> [220/1000] Propagation of an ultrashort electromagnetic pulse in solid-state plasma
+Comp=0.0127 | Suff=-0.0064 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.39s
+
+>>> [221/1000] Beamforming for MISO Interference Channels with QoS and RF Energy   Transfer
+Comp=-0.0000 | Suff=-0.0498 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.79s | CPU=52.64s
+
+>>> [222/1000] Effect of aging on the reinforcement efficiency of carbon nanotubes in   epoxy m
+Comp=0.0008 | Suff=-0.0475 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.44s | CPU=20.50s
+
+>>> [223/1000] Absolute density measurement of SD radicals in a supersonic jet at the   quantum
+Comp=-0.0005 | Suff=-0.0250 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.42s | CPU=2.56s
+
+>>> [224/1000] Power scaling of high efficiency 1.5micron cascaded Raman fiber lasers
+Comp=-0.0016 | Suff=-0.0417 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.45s | CPU=20.41s
+
+>>> [225/1000] On-line trading as a renewal process: Waiting time and inspection   paradox
+Comp=0.0057 | Suff=-0.0214 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.62s | CPU=9.70s
+
+>>> [226/1000] Towards sustainable transport: wireless detection of passenger trips on   public
+Comp=0.0088 | Suff=0.0068 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.77s | CPU=4.64s
+
+>>> [227/1000] On the Tape-Number Problem for Deterministic Time Classes
+Comp=0.0033 | Suff=-0.0312 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.73s | CPU=10.30s
+
+>>> [228/1000] A role-free approach to indexing large RDF data sets in secondary memory   for e
+Comp=-0.0014 | Suff=-0.0198 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.79s | CPU=10.64s
+
+>>> [229/1000] Heuristic Contraction Hierarchies with Approximation Guarantee
+Comp=0.0010 | Suff=-0.0307 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.34s
+
+>>> [230/1000] Metric Problems for Quadrics in Multidimensional Space
+Comp=0.0021 | Suff=-0.0158 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.32s | CPU=1.97s
+
+>>> [231/1000] Stochastic Simulation Algorithms for Dynamic Probabilistic Networks
+Comp=-0.0043 | Suff=-0.0673 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.72s | CPU=100.00s
+
+>>> [232/1000] Impulse Noise Removal In Speech Using Wavelets
+Comp=-0.0049 | Suff=-0.0391 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.70s | CPU=10.19s
+
+>>> [233/1000] Non-magnetic simplified cylindrical cloak with suppressed zero-th order   scatte
+Comp=-0.0038 | Suff=-0.0259 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.20s | CPU=18.97s
+
+>>> [234/1000] Balanced K-SAT and Biased random K-SAT on trees
+Comp=0.0019 | Suff=-0.0148 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.41s | CPU=2.41s
+
+>>> [235/1000] Impact of site dilution and agent diffusion on the critical behavior of   the ma
+Comp=0.0143 | Suff=-0.0322 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.79s | CPU=4.73s
+
+>>> [236/1000] A study of large scale dynamo growth rates from numerical simulations   and impl
+Comp=-0.0005 | Suff=-0.0770 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.36s | CPU=55.86s
+
+>>> [237/1000] Sparse Phase Retrieval: Uniqueness Guarantees and Recovery Algorithms
+Comp=0.0039 | Suff=-0.0240 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.99s | CPU=107.48s
+
+>>> [238/1000] Demonstration of Time-Reversal in Indoor Ultra-Wideband Communication:   Time Do
+Comp=-0.0002 | Suff=-0.0400 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.28s | CPU=19.48s
+
+>>> [239/1000] Towards Energy Neutrality in Energy Harvesting Wireless Sensor Networks:   A Cas
+Comp=0.0025 | Suff=-0.0234 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.88s | CPU=5.25s
+
+>>> [240/1000] Layered Index-less Indexed Flash Codes for Improving Average Performance
+Comp=-0.0025 | Suff=-0.0201 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.38s | CPU=85.94s
+
+>>> [241/1000] Application of Generalized Fokker-Planck Theory To Electron And Photon   Transpo
+Comp=-0.0010 | Suff=-0.0727 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.02s | CPU=41.97s
+
+>>> [242/1000] Some Combinatorial Problems on Binary Matrices in Programming Courses
+Comp=0.0063 | Suff=0.0069 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.50s | CPU=8.88s
+
+>>> [244/1000] Automated Dynamic Offset Applied to Cell Association
+Comp=-0.0009 | Suff=-0.0543 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.01s | CPU=101.61s
+
+>>> [245/1000] Lagrangian time correlations of vorticity alignments in isotropic   turbulence:
+Comp=-0.0027 | Suff=-0.0492 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.49s | CPU=20.78s
+
+>>> [246/1000] Colliding Message Pairs for 23 and 24-step SHA-512
+Comp=0.0027 | Suff=0.0041 | Rank=0.5833333333333334 | MAE=0.0064 | RMSE=0.0094 | Stab=0.2222 | Time=12.43s | CPU=74.22s
+
+>>> [247/1000] The Demon in a vacuum tube
+Comp=-0.0003 | Suff=-0.0186 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.85s | CPU=11.06s
+
+>>> [248/1000] Avoiding Unbound Anions in Density Functional Calculations
+Comp=-0.0102 | Suff=-0.0252 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.05s
+
+>>> [249/1000] New Probabilistic Bounds on Eigenvalues and Eigenvectors of Random   Kernel Matr
+Comp=-0.0013 | Suff=-0.0051 | Rank=0.25 | MAE=0.0141 | RMSE=0.0163 | Stab=0.5278 | Time=11.28s | CPU=67.45s
+
+>>> [250/1000] Complexity of the conditional colorability of graphs
+Comp=0.0130 | Suff=-0.0323 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.85s | CPU=52.94s
+
+>>> [251/1000] Interference Effects in the Brain
+Comp=0.0632 | Suff=-0.0189 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.73s
+
+>>> [252/1000] Fast Distributed Process Creation with the XMOS XS1 Architecture
+Comp=0.0034 | Suff=-0.0168 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.46s | CPU=20.70s
+
+>>> [253/1000] Conceptual Foundations of Diffusion in Magnetic Resonance
+Comp=0.0099 | Suff=-0.0218 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.48s | CPU=8.89s
+
+>>> [254/1000] Fractional differentiation based image processing
+Comp=0.0036 | Suff=-0.0426 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.68s | CPU=39.94s
+
+>>> [255/1000] Outer Bounds for Multiple Access Channels with Feedback using Dependence   Balan
+Comp=-0.0020 | Suff=-0.0422 | Rank=-0.18181818181818182 | MAE=0.0312 | RMSE=0.0376 | Stab=-0.1818 | Time=14.04s | CPU=83.64s
+
+>>> [256/1000] A conjecture on equitable vertex arboricity of graphs
+Comp=0.0018 | Suff=-0.0152 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.91s
+
+>>> [257/1000] Equation of motion of an interstellar Bussard ramjet with radiation and   mass l
+Comp=0.0065 | Suff=-0.0128 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.69s | CPU=10.09s
+
+>>> [258/1000] Proximity-Aware Calculation of Cable Series Impedance for Systems of   Solid and
+Comp=-0.0061 | Suff=-0.0268 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.10s | CPU=42.45s
+
+>>> [259/1000] Berlekamp's Switching Game on Finite Projective and Affine Planes
+Comp=0.0474 | Suff=0.0339 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [260/1000] Algorithms for Internal Validation Clustering Measures in the Post   Genomic Era
+Comp=-0.0023 | Suff=-0.0471 | Rank=0.05 | MAE=0.0501 | RMSE=0.0572 | Stab=-0.0352 | Time=15.36s | CPU=91.80s
+
+>>> [261/1000] Characterization of 3D filament dynamics in a MAST SOL fluxtube geometry
+Comp=-0.0016 | Suff=0.0011 | Rank=0.43030303030303024 | MAE=0.0158 | RMSE=0.0190 | Stab=-0.1071 | Time=15.69s | CPU=93.78s
+
+>>> [262/1000] Dragged Metrics
+Comp=0.0151 | Suff=-0.0238 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.37s | CPU=2.25s
+
+>>> [263/1000] Uber das Gravitationsfeld eines Massenpunktes nach der Einstenschen   Theorie
+Comp=0.0050 | Suff=-0.0020 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.05s
+
+>>> [264/1000] The effect of defect layer on transmissivity and light field   distribution in g
+Comp=0.0211 | Suff=-0.0135 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [265/1000] The Layer 0 Inner Silicon Detector of the D0 Experiment
+Comp=-0.0069 | Suff=-0.0139 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.84s | CPU=5.03s
+
+>>> [266/1000] Discussion: Latent variable graphical model selection via convex   optimization
+Comp=0.0564 | Suff=0.0009 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.30s | CPU=1.88s
+
+>>> [267/1000] Canalization and control in automata networks: body segmentation in   Drosophila
+Comp=-0.0009 | Suff=-0.0189 | Rank=0.5166666666666667 | MAE=0.0078 | RMSE=0.0120 | Stab=0.5889 | Time=15.70s | CPU=93.77s
+
+>>> [268/1000] Rotating-crystal Malaria Diagnosis: Pre-clinical validation
+Comp=0.0014 | Suff=-0.0256 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=18.06s | CPU=108.03s
+
+>>> [269/1000] A Case Study of the Arbitrariness of the h-Index and the   Highly-Cited-Publicat
+Comp=0.0218 | Suff=0.0301 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.84s
+
+>>> [270/1000] Systematic Breakdown of Amontons' Law of Friction for an Elastic Object   Locall
+Comp=-0.0023 | Suff=-0.0408 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.18s | CPU=42.91s
+
+>>> [271/1000] Impedance model for the polarization-dependent optical absorption of   supercond
+Comp=-0.0009 | Suff=-0.0252 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.53s | CPU=21.08s
+
+>>> [272/1000] The first Italian research assessment exercise: a bibliometric   perspective
+Comp=0.0052 | Suff=0.0135 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.29s | CPU=25.59s
+
+>>> [273/1000] Theoretical spectroscopic studies of the atomic transitions and   lifetimes of l
+Comp=0.0033 | Suff=-0.0279 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.87s | CPU=47.06s
+
+>>> [274/1000] Is the Binding Energy of Galaxies related to their Core Black Hole Mass?
+Comp=0.0072 | Suff=-0.0261 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.76s | CPU=4.58s
+
+>>> [275/1000] Breaking the symmetry. The first steps of a new way of thinking
+Comp=0.0002 | Suff=-0.0112 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.72s | CPU=10.31s
+
+>>> [276/1000] Queries with Guarded Negation (full version)
+Comp=-0.0007 | Suff=-0.0152 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.06s | CPU=24.20s
+
+>>> [277/1000] Enhancing LTE-Advanced Relay Deployments via Relay Cell Extension
+Comp=0.0004 | Suff=-0.0356 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.42s | CPU=86.23s
+
+>>> [278/1000] A variational approach to modeling slow processes in stochastic   dynamical syst
+Comp=0.0029 | Suff=-0.0419 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.65s | CPU=21.81s
+
+>>> [279/1000] Variational Optimization
+Comp=0.0371 | Suff=0.0116 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.06s
+
+>>> [280/1000] Waveguide taper engineering using coordinate transformation technology
+Comp=-0.0009 | Suff=-0.0423 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.72s | CPU=4.31s
+
+>>> [281/1000] Lower bounds for finding the maximum and minimum elements with k lies
+Comp=-0.0054 | Suff=-0.0112 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=0.95s
+
+>>> [282/1000] Discrete Calculus of Variations for Quadratic Lagrangians. Convergence   Issues
+Comp=0.0031 | Suff=-0.0238 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.55s | CPU=9.30s
+
+>>> [283/1000] Low Surface Brightness Galaxies in the SDSS: the link between   environment, sta
+Comp=0.0031 | Suff=-0.0665 | Rank=0.8499999999999999 | MAE=0.0091 | RMSE=0.0115 | Stab=0.1500 | Time=16.50s | CPU=98.70s
+
+>>> [284/1000] A lower bound for constant dimension codes from multi-component lifted   MRD cod
+Comp=0.0097 | Suff=-0.0035 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.83s
+
+>>> [285/1000] Investigation of commuting Hamiltonian in quantum Markov network
+Comp=0.0219 | Suff=-0.0077 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.83s | CPU=4.95s
+
+>>> [286/1000] Kinetic equations: computation
+Comp=0.0025 | Suff=-0.0103 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.84s
+
+>>> [287/1000] Towards MKM in the Large: Modular Representation and Scalable Software   Archite
+Comp=-0.0033 | Suff=0.0084 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.60s | CPU=21.48s
+
+>>> [288/1000] Model of the response function of large mass bolometric detectors
+Comp=0.0030 | Suff=-0.0182 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.66s | CPU=39.89s
+
+>>> [289/1000] Long-Range Navigation on Complex Networks using L\'evy Random Walks
+Comp=0.0032 | Suff=-0.0397 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.72s | CPU=10.31s
+
+>>> [290/1000] Methods of Measuring Physical Characteristics of Partial Components of   Multico
+Comp=-0.0027 | Suff=-0.0180 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.86s
+
+>>> [291/1000] Simulating quantum statistics with entangled photons: a continuous   transition
+Comp=0.0018 | Suff=-0.0551 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.58s | CPU=21.36s
+
+>>> [292/1000] On Calculation of Thermal Conductivity from Einstein Relation in   Equilibrium M
+Comp=0.0080 | Suff=-0.0241 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.25s | CPU=19.45s
+
+>>> [293/1000] Coding With Action-dependent Side Information and Additional   Reconstruction Re
+Comp=-0.0033 | Suff=-0.0195 | Rank=-0.2606060606060606 | MAE=0.0206 | RMSE=0.0262 | Stab=-0.0828 | Time=14.96s | CPU=89.20s
+
+>>> [294/1000] Study of the interplay between magnetic shear and resonances using   Hamiltonian
+Comp=0.0015 | Suff=-0.0523 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.79s | CPU=22.62s
+
+>>> [295/1000] A Review of Automated Formal Verification of Ad Hoc Routing Protocols   for Wire
+Comp=0.0046 | Suff=-0.0457 | Rank=0.6166666666666666 | MAE=0.0059 | RMSE=0.0076 | Stab=-0.0056 | Time=11.40s | CPU=68.06s
+
+>>> [296/1000] Precision proton spectrometers for CMS
+Comp=0.0051 | Suff=-0.0189 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.14s
+
+>>> [297/1000] Measuring on Lattices
+Comp=0.0057 | Suff=-0.0080 | Rank=0.5666666666666667 | MAE=0.0044 | RMSE=0.0053 | Stab=0.4278 | Time=13.06s | CPU=78.03s
+
+>>> [298/1000] On the properties of the phenomenon like Vavilov-Cherenkov one with   emission o
+Comp=0.0113 | Suff=-0.0004 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.40s | CPU=20.42s
+
+>>> [299/1000] Behavior-Based online Incentive Mechanism for Crowd Sensing with Budget   Constr
+Comp=-0.0031 | Suff=-0.0089 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.73s | CPU=22.34s
+
+>>> [300/1000] Extraction of Symbolic Rules from Artificial Neural Networks
+Comp=0.0003 | Suff=-0.0367 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.34s | CPU=91.78s
+
+>>> [301/1000] On the approximation in the smoothed finite element method (SFEM)
+Comp=0.0026 | Suff=-0.0383 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.86s | CPU=5.22s
+
+>>> [302/1000] Development of Active Pixel Photodiode Sensors for Gamma Camera   Application
+Comp=0.0070 | Suff=-0.0044 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.55s | CPU=9.27s
+
+>>> [303/1000] Computation of anomalous scaling exponents of turbulence from   self-similar ins
+Comp=0.0048 | Suff=-0.0109 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.48s
+
+>>> [304/1000] Spin noise of exciton-polaritons in microcavities
+Comp=0.0003 | Suff=-0.0120 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [305/1000] Preferred orientation of n-hexane crystallized in silicon nanochannels:   A comb
+Comp=-0.0009 | Suff=-0.0217 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.93s | CPU=47.38s
+
+>>> [306/1000] Fast unfolding of communities in large networks
+Comp=-0.0015 | Suff=-0.0347 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.22s | CPU=19.23s
+
+>>> [307/1000] HOOMD-blue: A Python package for high-performance molecular dynamics and   hard
+Comp=0.0084 | Suff=-0.0301 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.61s | CPU=9.66s
+
+>>> [308/1000] Optimizing the Replay Protection at the Link Layer Security Framework in   Wirel
+Comp=-0.0025 | Suff=-0.0340 | Rank=0.2121212121212121 | MAE=0.0284 | RMSE=0.0327 | Stab=0.2889 | Time=11.81s | CPU=70.59s
+
+>>> [309/1000] Reply to 'Comment on "Extending Hirshfeld-I to bulk and periodic   materials" '
+Comp=-0.0026 | Suff=-0.0642 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.81s | CPU=88.30s
+
+>>> [310/1000] Relating Sequent Calculi for Bi-intuitionistic Propositional Logic
+Comp=0.0063 | Suff=-0.0230 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.86s | CPU=11.09s
+
+>>> [311/1000] On the Existence of Perfect Codes for Asymmetric Limited-Magnitude   Errors
+Comp=0.0048 | Suff=-0.0183 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.68s | CPU=4.06s
+
+>>> [312/1000] Undamped electrostatic plasma waves
+Comp=0.0008 | Suff=-0.0661 | Rank=0.48333333333333334 | MAE=0.0057 | RMSE=0.0070 | Stab=0.0111 | Time=14.96s | CPU=89.41s
+
+>>> [313/1000] Social Networks with Competing Products
+Comp=-0.0028 | Suff=-0.0220 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.09s | CPU=96.19s
+
+>>> [314/1000] Holographic laser Doppler ophthalmoscopy
+Comp=0.0013 | Suff=-0.0304 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [315/1000] Degrees of Freedom Region of the MIMO X channel with an Arbitrary Number   of An
+Comp=-0.0007 | Suff=-0.0205 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.76s | CPU=10.44s
+
+>>> [316/1000] INSTRUCT: Space-Efficient Structure for Indexing and Complete Query   Management
+Comp=0.0250 | Suff=-0.0054 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.35s | CPU=97.67s
+
+>>> [317/1000] Global Potential Energy Minima of $(H_2O)_n$ Clusters on Graphite: A   Comparati
+Comp=0.0063 | Suff=-0.0266 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.05s | CPU=12.19s
+
+>>> [318/1000] Analysis of Neighbourhoods in Multi-layered Dynamic Social Networks
+Comp=-0.0014 | Suff=-0.0436 | Rank=0.13703703703703707 | MAE=0.0476 | RMSE=0.0540 | Stab=-0.1123 | Time=15.15s | CPU=90.23s
+
+>>> [319/1000] Cross-species analysis traces adaptation of Rubisco towards optimality   in a lo
+Comp=-0.0057 | Suff=-0.0361 | Rank=0.35 | MAE=0.0114 | RMSE=0.0131 | Stab=0.3389 | Time=14.47s | CPU=86.47s
+
+>>> [320/1000] Simultaneous Go via quantum collapse
+Comp=0.0007 | Suff=-0.0180 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.76s | CPU=4.47s
+
+>>> [321/1000] Balmer and Rydberg Equations for Hydrogen Spectra Revisited
+Comp=-0.0050 | Suff=-0.0169 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.18s | CPU=1.12s
+
+>>> [322/1000] Ettore Majorana and his heritage seventy years later
+Comp=0.0087 | Suff=-0.0086 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.86s | CPU=5.16s
+
+>>> [323/1000] Endogenous games with goals: side-payments among goal-directed   artificial agen
+Comp=-0.0025 | Suff=-0.0353 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=18.55s | CPU=110.97s
+
+>>> [324/1000] Supervisory Control Synthesis of Discrete-Event Systems using   Coordination Sch
+Comp=-0.0008 | Suff=-0.0363 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.64s | CPU=9.78s
+
+>>> [325/1000] A nonlinear equation for ionic diffusion in a strong binary electrolyte
+Comp=-0.0001 | Suff=-0.0626 | Rank=0.7666666666666667 | MAE=0.0074 | RMSE=0.0090 | Stab=0.4944 | Time=13.70s | CPU=81.95s
+
+>>> [326/1000] Diversification in the Internet Economy:The Role of For-Profit Mediators
+Comp=0.0009 | Suff=-0.0236 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=18.93s | CPU=113.16s
+
+>>> [327/1000] Defining and Computing Alternative Routes in Road Networks
+Comp=0.0080 | Suff=0.0040 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.01s | CPU=17.95s
+
+>>> [328/1000] Citadel E-Learning: A New Dimension to Learning System
+Comp=0.0201 | Suff=-0.0113 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.68s | CPU=10.06s
+
+>>> [329/1000] High-precision atomic clocks with highly charged ions: nuclear spin-zero   $f^{1
+Comp=0.0017 | Suff=-0.0228 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.78s | CPU=4.66s
+
+>>> [330/1000] Lagrangian single particle turbulent statistics through the   Hilbert-Huang Tran
+Comp=-0.0011 | Suff=-0.0350 | Rank=0.7666666666666667 | MAE=0.0072 | RMSE=0.0113 | Stab=0.0389 | Time=13.48s | CPU=80.62s
+
+>>> [331/1000] Subspace System Identification via Weighted Nuclear Norm Optimization
+Comp=0.0041 | Suff=-0.0403 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.22s | CPU=19.17s
+
+>>> [332/1000] Smoothed Particle Hydrodynamics
+Comp=-0.0034 | Suff=-0.0374 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.76s | CPU=10.41s
+
+>>> [333/1000] Degenerate Perturbation Theory Describing the Mixing of Orbital Angular   Moment
+Comp=0.0039 | Suff=-0.0124 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.23s
+
+>>> [334/1000] OSNAP: Faster numerical linear algebra algorithms via sparser subspace   embeddi
+Comp=0.0002 | Suff=-0.0140 | Rank=0.16363636363636366 | MAE=0.0345 | RMSE=0.0409 | Stab=-0.0030 | Time=19.29s | CPU=114.94s
+
+>>> [335/1000] Exact Relativistic Ideal Hydrodynamical Solutions in (1+3)D with   Longitudinal
+Comp=-0.0036 | Suff=-0.0293 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.45s
+
+>>> [336/1000] Modules identification by a Dynamical Clustering algorithm based on   chaotic R\
+Comp=-0.0042 | Suff=-0.0383 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [337/1000] Nanoparticle enhanced evaporation of liquids: A case study of silicone   oil and
+Comp=0.0269 | Suff=-0.0319 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.48s
+
+>>> [338/1000] Rigorous sufficient conditions for index-guided mode in microstructured   dielec
+Comp=-0.0006 | Suff=-0.0140 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.76s | CPU=10.50s
+
+>>> [339/1000] Generalized Lorentz Transformations
+Comp=-0.0005 | Suff=-0.0179 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.32s | CPU=1.95s
+
+>>> [340/1000] XMDS2: Fast, scalable simulation of coupled stochastic partial   differential eq
+Comp=0.0093 | Suff=0.0051 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.84s | CPU=5.05s
+
+>>> [341/1000] On the Stretch Factor of Convex Delaunay Graphs
+Comp=0.0296 | Suff=-0.0141 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.86s
+
+>>> [342/1000] A chaos-based approach for information hiding security
+Comp=0.0011 | Suff=-0.0506 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.86s | CPU=40.92s
+
+>>> [343/1000] Conspiratorial cosmology - the case against the Universe
+Comp=0.0133 | Suff=-0.0191 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.77s | CPU=4.69s
+
+>>> [344/1000] Evolution of public cooperation on interdependent networks: The impact   of bias
+Comp=0.0004 | Suff=-0.0071 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.47s | CPU=44.66s
+
+>>> [345/1000] A partitioned model order reduction approach to rationalise   computational expe
+Comp=-0.0026 | Suff=-0.0338 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.77s | CPU=4.66s
+
+>>> [346/1000] The Standard Model fermions as excitations of an ether
+Comp=-0.0002 | Suff=-0.0207 | Rank=0.41666666666666663 | MAE=0.0081 | RMSE=0.0089 | Stab=0.5222 | Time=14.10s | CPU=84.19s
+
+>>> [347/1000] Author Identifiers in Scholarly Repositories
+Comp=-0.0015 | Suff=-0.0004 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.77s | CPU=4.59s
+
+>>> [349/1000] Hydrodynamics of confined active fluids
+Comp=0.0023 | Suff=-0.0411 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.97s | CPU=41.67s
+
+>>> [350/1000] Binary Causal-Adversary Channels
+Comp=0.0014 | Suff=0.0106 | Rank=0.8333333333333333 | MAE=0.0096 | RMSE=0.0109 | Stab=0.6833 | Time=13.62s | CPU=81.42s
+
+>>> [351/1000] A model analysis of rotationally inelastic Ar + H$_2$O scattering in an   electr
+Comp=-0.0016 | Suff=-0.0430 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.85s | CPU=5.05s
+
+>>> [352/1000] A Master equation approach to modeling an artificial protein motor
+Comp=0.0155 | Suff=-0.0483 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.73s | CPU=10.19s
+
+>>> [353/1000] Exploiting Interference for Efficient Distributed Computation in   Cluster-based
+Comp=-0.0029 | Suff=-0.0471 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.23s
+
+>>> [354/1000] On Konig-Egervary Square-Stable Graphs
+Comp=0.0051 | Suff=-0.0037 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.88s | CPU=5.25s
+
+>>> [355/1000] Comment: Citation Statistics
+Comp=0.0364 | Suff=0.0165 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.75s
+
+>>> [356/1000] Greedy Approach for Low-Rank Matrix Recovery
+Comp=0.0130 | Suff=-0.0105 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [357/1000] Blind Adaptive MIMO Receivers for Space-Time Block-Coded DS-CDMA Systems   in Mu
+Comp=0.0029 | Suff=-0.0382 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.88s
+
+>>> [358/1000] A Reliable Effective Terascale Linear Learning System
+Comp=0.0168 | Suff=-0.0131 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.84s | CPU=5.05s
+
+>>> [359/1000] Controlling Electron-Beam Emittance Partitioning for Future X-Ray Light   Source
+Comp=0.0072 | Suff=-0.0169 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.65s | CPU=9.73s
+
+>>> [360/1000] Number of degrees of freedom of two-dimensional turbulence
+Comp=-0.0013 | Suff=-0.0611 | Rank=0.3666666666666667 | MAE=0.0056 | RMSE=0.0067 | Stab=0.6556 | Time=17.38s | CPU=103.97s
+
+>>> [361/1000] Serial correlation and heterogeneous volatility in financial markets:   beyond t
+Comp=0.0009 | Suff=-0.0338 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.87s | CPU=5.22s
+
+>>> [362/1000] Off-axis compressed holographic microscopy in low-light conditions
+Comp=-0.0022 | Suff=-0.0519 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.71s | CPU=10.19s
+
+>>> [363/1000] Paradoxes of dissipation-induced destabilization or who opened Whitney's   umbre
+Comp=-0.0077 | Suff=-0.0321 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.83s | CPU=10.95s
+
+>>> [364/1000] Demonstration of Weak Measurement Based on Atomic Spontaneous Emission
+Comp=-0.0014 | Suff=-0.0702 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.65s | CPU=45.73s
+
+>>> [365/1000] LUXSim: A Component-Centric Approach to Low-Background Simulations
+Comp=-0.0002 | Suff=0.0930 | Rank=0.061403508771929835 | MAE=0.0410 | RMSE=0.0502 | Stab=-0.0807 | Time=14.19s | CPU=84.80s
+
+>>> [366/1000] On the Szeg\"o-Asymptotics for Doubly-Dispersive Gaussian Channels
+Comp=0.0062 | Suff=-0.0156 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [367/1000] One-side Energy costs of the RBO receiver
+Comp=0.0015 | Suff=-0.0036 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.71s | CPU=22.19s
+
+>>> [368/1000] Rewards and the evolution of cooperation in public good games
+Comp=0.0012 | Suff=0.0236 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.19s | CPU=43.06s
+
+>>> [369/1000] Soft-Decoding-Based Strategies for Relay and Interference Channels:   Analysis a
+Comp=0.0017 | Suff=-0.0564 | Rank=0.5166666666666667 | MAE=0.0063 | RMSE=0.0082 | Stab=0.3500 | Time=13.79s | CPU=82.27s
+
+>>> [370/1000] Observation of Defect States in PT-Symmetric Optical Lattices
+Comp=0.0073 | Suff=-0.0475 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.45s
+
+>>> [371/1000] Light-induced atomic desorption and diffusion of Rb from porous alumina
+Comp=-0.0014 | Suff=-0.0589 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.64s | CPU=21.62s
+
+>>> [372/1000] Magnetic Field Strength Maps for Molecular Clouds: A New Method Based on   a Pol
+Comp=-0.0031 | Suff=-0.0382 | Rank=-0.10370370370370373 | MAE=0.0432 | RMSE=0.0534 | Stab=-0.1926 | Time=16.10s | CPU=96.03s
+
+>>> [373/1000] Linear Fractional Network Coding and Representable Discrete Polymatroids
+Comp=0.0026 | Suff=-0.0479 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.08s | CPU=12.36s
+
+>>> [374/1000] Music in Terms of Science
+Comp=-0.0056 | Suff=0.0032 | Rank=0.5181818181818182 | MAE=0.0172 | RMSE=0.0243 | Stab=-0.1758 | Time=13.50s | CPU=80.81s
+
+>>> [375/1000] Comparative study of Rare Gas-H$_2$ triatomic complexes
+Comp=-0.0001 | Suff=-0.0450 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.69s | CPU=39.97s
+
+>>> [376/1000] Electrically charged droplet: Influence of the generator configuration   and the
+Comp=0.0074 | Suff=-0.0254 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.15s | CPU=18.81s
+
+>>> [377/1000] Dynamic Adaptive Mesh Refinement for Topology Optimization
+Comp=0.0004 | Suff=-0.0733 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.76s | CPU=46.31s
+
+>>> [378/1000] Charging of Interstellar Dust Grains Near the Heliopause
+Comp=0.0010 | Suff=-0.0471 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.85s | CPU=46.95s
+
+>>> [379/1000] Sequential Posted Pricing and Multi-parameter Mechanism Design
+Comp=-0.0028 | Suff=-0.0373 | Rank=0.6166666666666666 | MAE=0.0132 | RMSE=0.0170 | Stab=0.1333 | Time=14.32s | CPU=85.53s
+
+>>> [380/1000] Independence and concurrent separation logic
+Comp=0.0034 | Suff=-0.0267 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.58s | CPU=9.53s
+
+>>> [381/1000] Approximate Counting of Graphical Models Via MCMC Revisited
+Comp=0.0176 | Suff=-0.0086 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.59s | CPU=9.53s
+
+>>> [382/1000] Size Does Matter (in P2P Live Streaming)
+Comp=-0.0022 | Suff=-0.0287 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.85s | CPU=40.95s
+
+>>> [383/1000] Exact Philosophy of Space-Time
+Comp=0.0466 | Suff=0.0004 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [384/1000] An Efficient Algorithm for Clustering of Large-Scale Mass Spectrometry   Data
+Comp=-0.0008 | Suff=-0.0631 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.59s | CPU=93.16s
+
+>>> [385/1000] Effect of atomic electrons on 7.6 eV nuclear transition in   $^{229}$Th$^{3+}$
+Comp=-0.0026 | Suff=-0.0334 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.44s | CPU=2.62s
+
+>>> [386/1000] Local disalignment can promote coherent collective motion through rapid   inform
+Comp=0.0061 | Suff=-0.0513 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.75s | CPU=22.34s
+
+>>> [387/1000] Lossless Data Compression at Finite Blocklengths
+Comp=0.0024 | Suff=-0.0433 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.72s | CPU=46.17s
+
+>>> [388/1000] Inapproximability of NP-Complete Variants of Nash Equilibrium
+Comp=-0.0098 | Suff=0.0045 | Rank=-0.05454545454545454 | MAE=0.0178 | RMSE=0.0228 | Stab=-0.1071 | Time=15.79s | CPU=94.44s
+
+>>> [389/1000] An Optical Fibre Pulse Rate Multiplier for Ultra-low Phase-noise Signal   Genera
+Comp=0.0036 | Suff=-0.0614 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.87s | CPU=5.17s
+
+>>> [390/1000] Finding and Recommending Scholarly Articles
+Comp=-0.0072 | Suff=0.0648 | Rank=0.22584269662921347 | MAE=0.0430 | RMSE=0.0533 | Stab=0.1019 | Time=14.57s | CPU=87.17s
+
+>>> [391/1000] On the interaction of electromagnetic waves with conductors
+Comp=0.0132 | Suff=-0.0309 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.72s | CPU=4.31s
+
+>>> [392/1000] Electron correlation energy in confined two-electron systems
+Comp=-0.0038 | Suff=-0.0148 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.38s | CPU=2.27s
+
+>>> [393/1000] Probabilistic Quantitative Precipitation Forecasting Using Ensemble   Model Outp
+Comp=0.0032 | Suff=-0.0242 | Rank=0.8166666666666667 | MAE=0.0079 | RMSE=0.0094 | Stab=0.2222 | Time=13.00s | CPU=77.66s
+
+>>> [394/1000] Rotational molecular dynamics of laser-manipulated bromotrifluoromethane   studi
+Comp=-0.0024 | Suff=-0.0076 | Rank=-0.10000000000000002 | MAE=0.0211 | RMSE=0.0319 | Stab=-0.0545 | Time=15.10s | CPU=90.20s
+
+>>> [395/1000] Density Fluctuation Spectrum of Solar Wind Turbulence between Ion and   Electron
+Comp=-0.0144 | Suff=-0.0248 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.84s
+
+>>> [396/1000] Influence of Local and Residual Structures on the Scaling Behavior and   Dimensi
+Comp=-0.0021 | Suff=-0.0284 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.16s | CPU=24.91s
+
+>>> [397/1000] A near-optimal approximation algorithm for Asymmetric TSP on embedded   graphs
+Comp=0.0028 | Suff=-0.0378 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=18.42s | CPU=110.12s
+
+>>> [398/1000] Energetic Particle Diffusion In Critically Balanced Turbulence
+Comp=-0.0024 | Suff=-0.0712 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.91s | CPU=11.39s
+
+>>> [399/1000] Chemical reactions of ultracold alkali-metal dimers in the lowest-energy   $^3\S
+Comp=0.0009 | Suff=-0.0201 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.81s | CPU=46.64s
+
+>>> [400/1000] Efficient methodology for implementation of Encrypted File System in   User Spac
+Comp=0.0206 | Suff=-0.0576 | Rank=0.3696969696969697 | MAE=0.0165 | RMSE=0.0224 | Stab=0.4343 | Time=14.22s | CPU=84.78s
+
+>>> [401/1000] Far Infrared Slab Lensing and Subwavelength Imaging in Crystal Quartz
+Comp=0.0032 | Suff=-0.0173 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.38s | CPU=2.25s
+
+>>> [402/1000] Improved in-place associative integer sorting
+Comp=-0.0035 | Suff=-0.0120 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.89s | CPU=5.31s
+
+>>> [403/1000] Inertial waves in a differentially rotating spherical shell
+Comp=-0.0022 | Suff=-0.0281 | Rank=0.28181818181818186 | MAE=0.0256 | RMSE=0.0332 | Stab=0.2545 | Time=14.70s | CPU=87.81s
+
+>>> [404/1000] Error correcting code using tree-like multilayer perceptron
+Comp=0.0123 | Suff=-0.0317 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.44s | CPU=44.44s
+
+>>> [405/1000] Electro-Osmotic Instability and Chaos near Ion-Selective Surfaces
+Comp=0.0084 | Suff=-0.0539 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.70s | CPU=10.20s
+
+>>> [406/1000] A new method of identifying self-similarity in isotropic turbulence
+Comp=0.0072 | Suff=-0.0030 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.94s | CPU=5.50s
+
+>>> [407/1000] Vulnerability analysis of three remote voting methods
+Comp=-0.0023 | Suff=-0.0221 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.79s | CPU=4.78s
+
+>>> [408/1000] Software Engineering Education by Example
+Comp=0.0160 | Suff=-0.0107 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [409/1000] Simulation of mitochondrial metabolism using multi-agents system
+Comp=-0.0002 | Suff=-0.0550 | Rank=0.41818181818181827 | MAE=0.0298 | RMSE=0.0363 | Stab=0.1970 | Time=13.49s | CPU=80.61s
+
+>>> [410/1000] Intent expression using eye robot for mascot robot system
+Comp=0.0019 | Suff=-0.0164 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.39s | CPU=86.06s
+
+>>> [411/1000] On the Self-Consistent Event Biasing Schemes for Monte Carlo Simulations   of Na
+Comp=-0.0015 | Suff=-0.0154 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.47s | CPU=44.66s
+
+>>> [412/1000] Transformity: The Dependence of the Laws of Physics on   Higher-Dimensional Coor
+Comp=0.0133 | Suff=0.0056 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.54s | CPU=9.19s
+
+>>> [413/1000] Matrix Insertion-Deletion Systems
+Comp=0.0397 | Suff=-0.0110 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.17s | CPU=1.03s
+
+>>> [414/1000] RF engineering basic concepts: S-parameters
+Comp=0.0125 | Suff=-0.0008 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.50s
+
+>>> [415/1000] Radiation damage of polyethylene exposed in the stratosphere at an   altitude of
+Comp=-0.0025 | Suff=-0.0388 | Rank=0.6333333333333333 | MAE=0.0104 | RMSE=0.0133 | Stab=0.1222 | Time=14.54s | CPU=86.84s
+
+>>> [416/1000] Approximate Euclidean Ramsey theorems
+Comp=-0.0001 | Suff=-0.0207 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.17s | CPU=102.64s
+
+>>> [417/1000] Comparing journals from different fields of Science and Social Science   through
+Comp=0.0006 | Suff=-0.0252 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.64s | CPU=93.47s
+
+>>> [418/1000] On Exponential Time Lower Bound of Knapsack under Backtracking
+Comp=-0.0084 | Suff=-0.0157 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.73s | CPU=10.39s
+
+>>> [419/1000] Accelerated Stochastic Sampling of Discrete Statistical Systems
+Comp=-0.0040 | Suff=-0.0513 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.28s | CPU=91.27s
+
+>>> [420/1000] Min-type Morse theory for configuration spaces of hard spheres
+Comp=0.0003 | Suff=-0.0443 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.32s | CPU=1.91s
+
+>>> [421/1000] Outage Capacity for the Optical MIMO Channel
+Comp=-0.0040 | Suff=-0.0626 | Rank=0.6 | MAE=0.0103 | RMSE=0.0121 | Stab=0.1722 | Time=13.16s | CPU=78.69s
+
+>>> [422/1000] Water structure-forming capabilities are temperature shifted for   different mod
+Comp=0.0025 | Suff=-0.0440 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.27s | CPU=97.02s
+
+>>> [423/1000] Quantitative entanglement witnesses of Isotropic- and Werner-class via   local m
+Comp=-0.0055 | Suff=-0.0174 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.62s | CPU=9.61s
+
+>>> [424/1000] Employing Soft X-rays in Experimental Astrochemistry
+Comp=0.0052 | Suff=-0.0544 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.41s | CPU=97.95s
+
+>>> [425/1000] Solution of two-center time-dependent Dirac equation in spherical   coordinates:
+Comp=0.0023 | Suff=-0.0223 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.92s | CPU=5.48s
+
+>>> [426/1000] Ro-vibrational analysis of the XUV photodissociation of HeH$^+$ ions
+Comp=-0.0008 | Suff=-0.0497 | Rank=0.09999999999999999 | MAE=0.0119 | RMSE=0.0142 | Stab=0.3056 | Time=14.38s | CPU=85.77s
+
+>>> [427/1000] Transformation Optics, Generalized Cloaking and Superlenses
+Comp=-0.0002 | Suff=-0.0130 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.92s
+
+>>> [428/1000] 2D Path Solutions from a Single Layer Excitable CNN Model
+Comp=0.0103 | Suff=-0.0620 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.90s | CPU=89.08s
+
+>>> [429/1000] Mechanisms for Fair Allocation Problems: No-Punishment Payment Rules in   Fully
+Comp=0.0044 | Suff=0.0063 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.81s | CPU=10.83s
+
+>>> [430/1000] New noise-based logic representations to avoid some problems with time   complex
+Comp=-0.0038 | Suff=-0.0458 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.60s | CPU=21.50s
+
+>>> [431/1000] Feature Learning by Multidimensional Scaling and its Applications in   Object Re
+Comp=-0.0057 | Suff=-0.0308 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.65s | CPU=21.67s
+
+>>> [432/1000] Monte Carlo Approaches for Simulating a Particle at a Diffusivity   Interface an
+Comp=-0.0015 | Suff=-0.0378 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=21.30s | CPU=127.28s
+
+>>> [433/1000] Notes on approaches for solving the Euler-Poisson equations
+Comp=0.0046 | Suff=-0.0272 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.91s | CPU=5.53s
+
+>>> [434/1000] New Instability Results for High Dimensional Nearest Neighbor Search
+Comp=0.0020 | Suff=-0.0149 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.96s | CPU=5.72s
+
+>>> [435/1000] A falling droplet as it falls apart
+Comp=0.0034 | Suff=-0.0358 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.68s | CPU=3.98s
+
+>>> [436/1000] A Review On Securing Distributed Systems Using Symmetric Key   Cryptography
+Comp=0.0038 | Suff=-0.0469 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.47s | CPU=38.69s
+
+>>> [437/1000] Spatiotemporal dynamics in 2D Kolmogorov flow over large domains
+Comp=0.0004 | Suff=-0.0261 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.05s | CPU=101.92s
+
+>>> [438/1000] Motivation for hyperlink creation using inter-page relationships
+Comp=0.0484 | Suff=-0.0274 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.68s | CPU=9.95s
+
+>>> [439/1000] Efficient Maximum Likelihood Estimation of a 2-D Complex Sinusoidal   Based on B
+Comp=-0.0033 | Suff=-0.0241 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.63s | CPU=21.81s
+
+>>> [440/1000] On the probability of being synchronizable
+Comp=-0.0055 | Suff=-0.0155 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.38s | CPU=2.22s
+
+>>> [441/1000] Matrix operators for complex interferometer analysis
+Comp=0.0028 | Suff=-0.0318 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.06s
+
+>>> [442/1000] Performance of Polar Codes for Channel and Source Coding
+Comp=-0.0044 | Suff=-0.0162 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.42s
+
+>>> [443/1000] Diversity-Multiplexing Tradeoff in Multi-Antenna Multi-Relay Networks:   Improve
+Comp=-0.0008 | Suff=-0.0480 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.99s | CPU=101.59s
+
+>>> [444/1000] Quantum rotator: some examples in modern spirit
+Comp=0.0099 | Suff=-0.0360 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.56s | CPU=21.19s
+
+>>> [445/1000] Forward Tracking in the ILD Detector
+Comp=0.0135 | Suff=-0.0116 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.77s | CPU=10.44s
+
+>>> [446/1000] Resonant inelastic soft-x-ray scattering spectra at the N1s and C1s   edges of p
+Comp=-0.0021 | Suff=-0.0271 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.81s | CPU=10.75s
+
+>>> [447/1000] Generalizing the Dempster-Shafer Theory to Fuzzy Sets
+Comp=0.0067 | Suff=-0.0142 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.19s | CPU=25.03s
+
+>>> [448/1000] Preamble-Based Channel Estimation for CP-OFDM and OFDM/OQAM Systems: A   Compara
+Comp=0.0031 | Suff=-0.0807 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.98s | CPU=11.81s
+
+>>> [449/1000] Outage-based ergodic link adaptation for fading channels with delayed   CSIT
+Comp=-0.0008 | Suff=-0.0909 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.25s | CPU=49.20s
+
+>>> [451/1000] Signature-Based Gr\"obner Basis Algorithms --- Extended MMM Algorithm   for comp
+Comp=-0.0005 | Suff=-0.0366 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.80s | CPU=4.73s
+
+>>> [452/1000] Aesthetics and Astronomy: Studying the public's perception and   understanding o
+Comp=-0.0007 | Suff=0.0448 | Rank=0.8454545454545455 | MAE=0.0219 | RMSE=0.0312 | Stab=-0.0848 | Time=15.77s | CPU=94.16s
+
+>>> [453/1000] Ramsey method for Auger-electron interference induced by an attosecond   twin pu
+Comp=0.0057 | Suff=-0.0338 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.36s | CPU=12.83s
+
+>>> [454/1000] Performance Analysis of a Multiuser Multi-Packet Transmission System for   WLANs
+Comp=-0.0014 | Suff=-0.0374 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.75s | CPU=15.28s
+
+>>> [455/1000] General Model for Infrastructure Multi-channel Wireless LANs
+Comp=0.0124 | Suff=-0.0328 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.45s | CPU=2.69s
+
+>>> [456/1000] The 217.5 nm band, infrared absorption and infrared emission features in   hydro
+Comp=0.0069 | Suff=-0.0280 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=26.62s | CPU=137.86s
+
+>>> [457/1000] Three-electron anisotropic quantum dots in variable magnetic fields:   exact res
+Comp=0.0011 | Suff=-0.0191 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.25s | CPU=49.30s
+
+>>> [458/1000] Multiply resonant high quality photonic crystal nanocavities
+Comp=0.0010 | Suff=-0.0449 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.72s | CPU=4.33s
+
+>>> [459/1000] Thermodynamic stability of small-world oscillator networks: A case study   of pr
+Comp=0.0050 | Suff=-0.0398 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.16s | CPU=12.92s
+
+>>> [460/1000] Casimir-Polder Forces between Chiral Objects
+Comp=0.0063 | Suff=-0.0292 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.53s | CPU=21.03s
+
+>>> [461/1000] Transient Schr\"odinger-Poisson Simulations of a High-Frequency Resonant   Tunne
+Comp=0.0020 | Suff=-0.0470 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.73s | CPU=46.23s
+
+>>> [462/1000] A Time-Efficient Quantum Walk for 3-Distinctness Using Nested Updates
+Comp=0.0163 | Suff=-0.0201 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.06s
+
+>>> [463/1000] Comment on "Four-body charge transfer processes in proton--helium   collisions"
+Comp=0.0221 | Suff=-0.0103 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.84s
+
+>>> [464/1000] Random Spanning Trees and the Prediction of Weighted Graphs
+Comp=0.0078 | Suff=-0.0052 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.58s | CPU=21.34s
+
+>>> [465/1000] Identification of the Molecule-Metal Bonding Geometries of Molecular   Nanowires
+Comp=0.0105 | Suff=-0.0460 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.76s | CPU=4.58s
+
+>>> [466/1000] Architecture of a massive parallel processing nano brain operating 100   billion
+Comp=0.0013 | Suff=-0.0062 | Rank=0.6333333333333333 | MAE=0.0071 | RMSE=0.0084 | Stab=0.1278 | Time=12.69s | CPU=75.83s
+
+>>> [467/1000] Propagation of charged particle waves in a uniform magnetic field
+Comp=0.0199 | Suff=-0.0300 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.79s | CPU=22.59s
+
+>>> [468/1000] Orthogonal vs Non-Orthogonal Multiple Access with Finite Input Alphabet   and Fi
+Comp=0.0016 | Suff=-0.0539 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.32s | CPU=55.66s
+
+>>> [469/1000] Irregular turbo code design for the binary erasure channel
+Comp=0.0246 | Suff=-0.0573 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.51s | CPU=8.97s
+
+>>> [470/1000] Validity of Generalized Second Law of Thermodynamics in the Logamediate   and In
+Comp=0.0199 | Suff=-0.0152 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.83s | CPU=4.95s
+
+>>> [471/1000] Z2Z4-linear codes: generator matrices and duality
+Comp=0.0005 | Suff=-0.0147 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.12s | CPU=48.55s
+
+>>> [472/1000] Message and state cooperation in multiple access channels
+Comp=-0.0006 | Suff=-0.0152 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.85s | CPU=5.12s
+
+>>> [473/1000] On a Clique-Based Integer Programming Formulation of Vertex Colouring   with App
+Comp=0.0016 | Suff=0.0014 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.68s | CPU=10.06s
+
+>>> [474/1000] Robust Distributed Routing in Dynamical Flow Networks - Part II: Strong   Resili
+Comp=0.0072 | Suff=-0.0490 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=18.37s | CPU=109.72s
+
+>>> [475/1000] Convection in an ideal gas at high Rayleigh numbers
+Comp=-0.0027 | Suff=-0.0186 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.36s | CPU=43.95s
+
+>>> [476/1000] A double ion trap for large Coulomb crystals
+Comp=0.0016 | Suff=-0.0198 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.34s | CPU=20.05s
+
+>>> [477/1000] Photoelectron Angular Distributions for Two-photon Ionization of Helium   by Ult
+Comp=0.0002 | Suff=-0.0401 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.80s | CPU=10.86s
+
+>>> [478/1000] Analysis of a Nature Inspired Firefly Algorithm based Back-propagation   Neural
+Comp=-0.0003 | Suff=-0.0530 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.04s | CPU=83.83s
+
+>>> [479/1000] Inertial range scaling of the scalar flux spectrum in two-dimensional   turbulen
+Comp=-0.0051 | Suff=-0.0282 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.86s
+
+>>> [480/1000] Home Energy Management in Smart Grid
+Comp=-0.0004 | Suff=-0.0335 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.33s
+
+>>> [481/1000] Is the Information Entropy the Same as the Statistical Mechanical   Entropy?
+Comp=0.0052 | Suff=0.0047 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.32s | CPU=1.97s
+
+>>> [482/1000] Stochastic description of geometric phase for polarized waves in random   media
+Comp=0.0006 | Suff=-0.0288 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.47s | CPU=20.73s
+
+>>> [483/1000] Approximate textual retrieval
+Comp=0.0377 | Suff=-0.0217 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.97s
+
+>>> [484/1000] Kinetics of random sequential adsorption of nearly spherically symmetric   parti
+Comp=0.0106 | Suff=-0.0250 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.92s
+
+>>> [485/1000] Kapitza-Dirac effect in the relativistic regime
+Comp=0.0031 | Suff=-0.0236 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.76s | CPU=10.55s
+
+>>> [486/1000] On the Construction of Skew Quasi-Cyclic Codes
+Comp=0.0004 | Suff=-0.0456 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.85s | CPU=11.02s
+
+>>> [487/1000] Moon's perigee mass as a missing component of the Earth's   precession-nutation
+Comp=0.0130 | Suff=0.0358 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.09s
+
+>>> [488/1000] Asymptotic Improvement of the Gilbert-Varshamov Bound on the Size of   Permutati
+Comp=0.0050 | Suff=-0.0313 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.04s | CPU=54.14s
+
+>>> [489/1000] The Weakness of Weak Ties in the Classroom
+Comp=0.0035 | Suff=-0.0165 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.69s | CPU=93.80s
+
+>>> [490/1000] Thin-shell theory based analysis of radially pressurized multiwall   carbon nano
+Comp=0.0029 | Suff=-0.0403 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.76s | CPU=4.59s
+
+>>> [491/1000] Machine Learning: When and Where the Horses Went Astray?
+Comp=0.0157 | Suff=-0.0393 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.07s | CPU=18.36s
+
+>>> [492/1000] Ricci curvature and geodesic flows stability in Riemannian twisted flux   tubes
+Comp=-0.0008 | Suff=-0.0266 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.77s | CPU=10.56s
+
+>>> [494/1000] Unambiguous determination of structure parameters for soft matter   samples made
+Comp=-0.0031 | Suff=-0.0351 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.89s | CPU=23.30s
+
+>>> [495/1000] Dimensionality Reduction and Reconstruction using Mirroring Neural   Networks an
+Comp=0.0140 | Suff=-0.0297 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.84s | CPU=46.80s
+
+>>> [496/1000] Enumerating Finitary Processes
+Comp=0.0058 | Suff=-0.0316 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.38s | CPU=2.23s
+
+>>> [497/1000] Carrier-envelope phase control over pathway interference in strong-field   disso
+Comp=0.0034 | Suff=-0.0324 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.96s | CPU=5.78s
+
+>>> [498/1000] Single photon counting imaging system via compressive sensing
+Comp=-0.0007 | Suff=-0.0362 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.86s | CPU=5.08s
+
+>>> [499/1000] Numeric and symbolic evaluation of the pfaffian of general   skew-symmetric matr
+Comp=0.0025 | Suff=-0.0395 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.03s | CPU=89.88s
+
+>>> [500/1000] Robust PCA as Bilinear Decomposition with Outlier-Sparsity   Regularization
+Comp=-0.0009 | Suff=-0.0403 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.39s | CPU=56.03s
+
+>>> [501/1000] Superconducting flux-flow type ultra-low-noise magnetic sensors - An   alternati
+Comp=0.0006 | Suff=-0.0194 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.92s | CPU=11.45s
+
+>>> [502/1000] Gain assisted nanocomposite multilayers with near zero permittivity   modulus at
+Comp=0.0046 | Suff=-0.0322 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.92s | CPU=5.39s
+
+>>> [503/1000] Coded Modulation with Mismatched CSIT over Block-Fading Channels
+Comp=-0.0008 | Suff=-0.0357 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.76s | CPU=22.45s
+
+>>> [504/1000] Rapid Cycling Synchrotron Option for Project X
+Comp=0.0123 | Suff=-0.0359 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.69s
+
+>>> [505/1000] Multi-plectoneme phase of double-stranded DNA under torsion
+Comp=0.0006 | Suff=-0.0306 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.76s | CPU=4.53s
+
+>>> [506/1000] Swapping Variables for High-Dimensional Sparse Regression with   Correlated Meas
+Comp=0.0015 | Suff=-0.0305 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.41s | CPU=44.36s
+
+>>> [507/1000] Refinement Modal Logic
+Comp=0.0045 | Suff=-0.0286 | Rank=0.23636363636363633 | MAE=0.0322 | RMSE=0.0424 | Stab=-0.0505 | Time=13.55s | CPU=80.78s
+
+>>> [508/1000] The Vibrations Of A Beam With A Local Unilateral Elastic Contact
+Comp=-0.0003 | Suff=-0.0318 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.00s | CPU=41.83s
+
+>>> [509/1000] Toward Psycho-robots
+Comp=0.0022 | Suff=-0.0060 | Rank=0.7545454545454545 | MAE=0.0158 | RMSE=0.0216 | Stab=0.4212 | Time=13.30s | CPU=79.42s
+
+>>> [510/1000] Decoder for Nonbinary CWS Quantum Codes
+Comp=0.0078 | Suff=-0.0193 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [511/1000] Faster Approximate String Matching for Short Patterns
+Comp=0.0024 | Suff=-0.0400 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.99s | CPU=5.89s
+
+>>> [512/1000] Focusing Ultrasound with Acoustic Metamaterial Network
+Comp=-0.0020 | Suff=-0.0190 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.58s | CPU=9.42s
+
+>>> [513/1000] All in action
+Comp=0.0067 | Suff=-0.0471 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.91s | CPU=95.16s
+
+>>> [514/1000] Local Empathy provides Global Minimization of Congestion in   Communication Netw
+Comp=-0.0007 | Suff=0.0064 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.73s | CPU=46.14s
+
+>>> [515/1000] A Reduction of Imitation Learning and Structured Prediction to No-Regret   Onlin
+Comp=-0.0055 | Suff=-0.0257 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.17s | CPU=42.94s
+
+>>> [516/1000] Resonant scattering and diffraction beamline P09 at PETRA III
+Comp=0.0027 | Suff=-0.0444 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.62s | CPU=9.72s
+
+>>> [517/1000] Ising model for distribution networks
+Comp=0.0004 | Suff=-0.0402 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.26s | CPU=97.30s
+
+>>> [518/1000] Results for the response function determination of the Compact Neutron   Spectro
+Comp=-0.0007 | Suff=-0.0383 | Rank=0.5 | MAE=0.0043 | RMSE=0.0066 | Stab=0.5500 | Time=14.92s | CPU=89.11s
+
+>>> [519/1000] Energies of the first row atoms from quantum Monte Carlo
+Comp=0.0063 | Suff=-0.0362 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.39s | CPU=2.34s
+
+>>> [520/1000] Climate variability according to triple saros gravity cycles
+Comp=0.0072 | Suff=0.0095 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.59s | CPU=87.22s
+
+>>> [521/1000] Learning of Atomic Physics and Quantum Mechanics : Which should Begin   First
+Comp=0.0316 | Suff=-0.0192 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=0.94s
+
+>>> [522/1000] Agnostically Learning Juntas from Random Walks
+Comp=0.0397 | Suff=0.0050 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.22s | CPU=1.30s
+
+>>> [523/1000] PRIMEBALL: a Parallel Processing Framework Benchmark for Big Data   Applications
+Comp=-0.0027 | Suff=-0.0109 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.77s | CPU=4.55s
+
+>>> [524/1000] Cavity beam position monitor system for the Accelerator Test Facility 2
+Comp=0.0001 | Suff=-0.0338 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.43s | CPU=20.47s
+
+>>> [525/1000] All-Optical Switching with Transverse Optical Patterns
+Comp=-0.0088 | Suff=-0.0200 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.81s | CPU=10.77s
+
+>>> [526/1000] Transversal electric conductivity of quantum non-degenerate collisional   plasma
+Comp=0.0050 | Suff=-0.0582 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.14s
+
+>>> [527/1000] Modified Coulomb Law in a Strongly Magnetized Vacuum
+Comp=0.0005 | Suff=-0.0266 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.53s | CPU=86.89s
+
+>>> [528/1000] Optical activity tensor for radiating atomic and molecular systems
+Comp=0.0024 | Suff=-0.0706 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.42s | CPU=20.48s
+
+>>> [529/1000] Five Differences Between Ecological and Economic Networks
+Comp=-0.0154 | Suff=-0.0059 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.30s | CPU=1.78s
+
+>>> [530/1000] Functional Classical Mechanics and Rational Numbers
+Comp=0.0072 | Suff=-0.0587 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.43s | CPU=92.03s
+
+>>> [531/1000] Decidability of the interval temporal logic ABBar over the natural   numbers
+Comp=0.0085 | Suff=-0.0252 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.80s | CPU=4.88s
+
+>>> [532/1000] Search for variation of fundamental constants and violations of   fundamental sy
+Comp=0.0031 | Suff=-0.0217 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.69s | CPU=22.02s
+
+>>> [533/1000] On the reaction time of some synchronous systems
+Comp=0.0026 | Suff=-0.0520 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.48s | CPU=8.88s
+
+>>> [534/1000] Quality of Service Games for Spectrum Sharing
+Comp=-0.0019 | Suff=-0.0364 | Rank=0.5909090909090909 | MAE=0.0250 | RMSE=0.0316 | Stab=0.3091 | Time=14.88s | CPU=88.95s
+
+>>> [535/1000] Networks Utilization Improvements for Service Discovery Performance
+Comp=0.0063 | Suff=-0.0125 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.70s | CPU=45.95s
+
+>>> [536/1000] An extension of gas-kinetic BGK Navier-Stokes scheme to multidimensional   astro
+Comp=-0.0018 | Suff=0.0006 | Rank=-0.042105263157894736 | MAE=0.0418 | RMSE=0.0558 | Stab=-0.1573 | Time=12.88s | CPU=76.78s
+
+>>> [537/1000] Cavity Enhanced Optical Vernier Spectroscopy, Broad Band, High   Resolution, Hig
+Comp=0.0557 | Suff=-0.0044 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=0.94s
+
+>>> [538/1000] Coherent dynamical recoupling of diffusion-driven decoherence in   magnetic reso
+Comp=0.0004 | Suff=-0.0499 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.74s | CPU=10.41s
+
+>>> [539/1000] An Amendment of Fast Subspace Tracking Methods
+Comp=-0.0022 | Suff=-0.0092 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.59s | CPU=9.39s
+
+>>> [540/1000] Anatomy of a Bit: Information in a Time Series Observation
+Comp=0.0084 | Suff=-0.0480 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.44s | CPU=20.52s
+
+>>> [541/1000] Mathematics as the language of physics
+Comp=0.0132 | Suff=0.0098 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.06s
+
+>>> [542/1000] Space-efficient Local Computation Algorithms
+Comp=-0.0013 | Suff=-0.0397 | Rank=0.29696969696969694 | MAE=0.0322 | RMSE=0.0357 | Stab=-0.2485 | Time=12.48s | CPU=74.56s
+
+>>> [543/1000] Multiscale lattice Boltzmann approach to modeling gas flows
+Comp=0.0078 | Suff=-0.0460 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.02s | CPU=48.42s
+
+>>> [544/1000] Statistical Aspects of Ultracold Resonant Scattering
+Comp=0.0003 | Suff=-0.0193 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.90s | CPU=5.34s
+
+>>> [545/1000] The Refractive Index of Silicon at Gamma Ray Energies
+Comp=0.0082 | Suff=-0.0057 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.33s | CPU=25.53s
+
+>>> [547/1000] Scholarly literature and the press: scientific impact and social   perception of
+Comp=-0.0026 | Suff=-0.0009 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.79s | CPU=4.77s
+
+>>> [548/1000] Mapping Enzymatic Catalysis using the Effective Fragment Molecular   Orbital Met
+Comp=-0.0010 | Suff=-0.0218 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.94s | CPU=5.62s
+
+>>> [549/1000] Performance Comparison of Persistence Frameworks
+Comp=0.0057 | Suff=-0.0314 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.52s | CPU=41.69s
+
+>>> [550/1000] I am 4 vho: new approach to improve seamless vertical hanover in   heterogeneous
+Comp=-0.0036 | Suff=-0.0318 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.96s | CPU=5.70s
+
+>>> [551/1000] Knotting probabilities after a local strand passage in unknotted   self-avoiding
+Comp=-0.0003 | Suff=0.0114 | Rank=0.16363636363636364 | MAE=0.0212 | RMSE=0.0275 | Stab=0.2525 | Time=16.27s | CPU=97.22s
+
+>>> [552/1000] Models of magnetic-field evolution and effective viscosity in weakly   collision
+Comp=-0.0040 | Suff=0.0072 | Rank=0.2842105263157895 | MAE=0.0294 | RMSE=0.0378 | Stab=0.0930 | Time=16.10s | CPU=96.12s
+
+>>> [553/1000] Comparing intermittency and network measurements of words and their   dependency
+Comp=-0.0010 | Suff=-0.0496 | Rank=0.7833333333333333 | MAE=0.0097 | RMSE=0.0124 | Stab=0.2944 | Time=12.84s | CPU=76.66s
+
+>>> [554/1000] Exploring Subexponential Parameterized Complexity of Completion Problems
+Comp=0.0000 | Suff=-0.0428 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=29.01s | CPU=173.36s
+
+>>> [555/1000] Does query performance optimization lead to energy efficiency? A   comparative a
+Comp=-0.0004 | Suff=-0.0435 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.47s | CPU=104.31s
+
+>>> [556/1000] Simulation vs. Equivalence
+Comp=0.0265 | Suff=-0.0097 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.14s | CPU=42.56s
+
+>>> [557/1000] A Superspace Formulation of the BV Action for Higher Derivative Gauge   Theories
+Comp=-0.0018 | Suff=-0.0554 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.52s | CPU=9.11s
+
+>>> [558/1000] Wavelet Based Normal and Abnormal Heart Sound Identification using   Spectrogram
+Comp=-0.0027 | Suff=-0.0386 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.44s | CPU=20.56s
+
+>>> [559/1000] The VSL Discussion: What Does Variable Speed of Light Mean and Should we   be Al
+Comp=0.0078 | Suff=-0.0342 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.42s
+
+>>> [560/1000] The astronomical orientation of the urban plan of Alexandria
+Comp=0.0471 | Suff=0.0209 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.18s | CPU=19.09s
+
+>>> [561/1000] The Relativity of Simultaneity: An Analysis Based on the Properties of   Electro
+Comp=0.0052 | Suff=-0.0334 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.11s | CPU=24.64s
+
+>>> [562/1000] Top Down Approach: SIMULINK Mixed Hardware / Software Design
+Comp=-0.0015 | Suff=-0.0004 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.06s
+
+>>> [563/1000] In-plane nanoelectromechanical resonators based on silicon nanowire   piezoresis
+Comp=-0.0047 | Suff=-0.0448 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.55s | CPU=21.12s
+
+>>> [564/1000] Quantum Mechanics and Closed Timelike Curves
+Comp=0.0149 | Suff=-0.0633 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.52s | CPU=9.02s
+
+>>> [565/1000] Hierarchical structure and the prediction of missing links in networks
+Comp=-0.0027 | Suff=-0.0628 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.90s | CPU=23.36s
+
+>>> [566/1000] On the Separability of Targets Using Binary Proximity Sensors
+Comp=-0.0045 | Suff=0.0529 | Rank=-0.2771929824561404 | MAE=0.0446 | RMSE=0.0554 | Stab=-0.0404 | Time=13.07s | CPU=78.17s
+
+>>> [567/1000] Probability Distinguishes Different Types of Conditional Statements
+Comp=-0.0051 | Suff=0.0103 | Rank=-0.06363636363636364 | MAE=0.0315 | RMSE=0.0415 | Stab=0.0273 | Time=14.80s | CPU=88.25s
+
+>>> [568/1000] A two-state model for helicase translocation and unwinding of nucleic   acids
+Comp=0.0073 | Suff=-0.0483 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.13s | CPU=96.25s
+
+>>> [569/1000] Analytical Coexistence Benchmark for Assessing the Utmost Interference   Tolerat
+Comp=0.0062 | Suff=0.0170 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.81s | CPU=10.83s
+
+>>> [570/1000] Tableau-based decision procedure for full coalitional multiagent   temporal-epis
+Comp=0.0134 | Suff=-0.0248 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.05s
+
+>>> [571/1000] Spontaneous Symmetry Breaking in Presence of Electric and Magnetic   Charges
+Comp=0.0028 | Suff=-0.0201 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.05s | CPU=12.23s
+
+>>> [572/1000] Production of ultracold NH molecules by sympathetic cooling with Mg
+Comp=-0.0062 | Suff=-0.0090 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.06s
+
+>>> [573/1000] Reweighted LP Decoding for LDPC Codes
+Comp=-0.0050 | Suff=-0.0653 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.56s | CPU=9.20s
+
+>>> [574/1000] Queuing Methodology Based Power Efficient Routing Protocol for Reliable   Data C
+Comp=0.0250 | Suff=-0.0297 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.27s | CPU=43.50s
+
+>>> [575/1000] The hardness of Median in the synchronized bit communication model
+Comp=0.0054 | Suff=-0.0421 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.87s | CPU=5.25s
+
+>>> [576/1000] A New Notion of Effective Resistance for Directed Graphs-Part I:   Definition an
+Comp=0.0011 | Suff=-0.0354 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.71s | CPU=10.28s
+
+>>> [577/1000] Contextual hypotheses and semantics of logic programs
+Comp=-0.0026 | Suff=-0.0196 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.31s | CPU=55.67s
+
+>>> [578/1000] Information Filtering via Collaborative User Clustering Modeling
+Comp=0.0013 | Suff=0.0111 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.17s | CPU=42.73s
+
+>>> [579/1000] Quantum teleportation using active feed-forward between two Canary   Islands
+Comp=-0.0076 | Suff=-0.0384 | Rank=0.5833333333333334 | MAE=0.0091 | RMSE=0.0110 | Stab=0.0889 | Time=14.51s | CPU=86.58s
+
+>>> [580/1000] Drifting instabilities of cavity solitons in vertical cavity   surface-emitting
+Comp=-0.0014 | Suff=-0.0632 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.60s | CPU=99.06s
+
+>>> [581/1000] Fundamental quantum optics experiments conceivable with satellites --   reaching
+Comp=0.0050 | Suff=-0.0276 | Rank=0.5 | MAE=0.0095 | RMSE=0.0105 | Stab=0.2944 | Time=14.63s | CPU=87.27s
+
+>>> [582/1000] Magnetic Generation due to Mass Difference between Charge Carriers
+Comp=-0.0002 | Suff=-0.0149 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.65s | CPU=9.78s
+
+>>> [583/1000] Exploring the mechanisms of protein folding
+Comp=-0.0007 | Suff=-0.0535 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.35s | CPU=97.75s
+
+>>> [584/1000] Towards atomistic resolution structure of phosphatidylcholine glycerol   backbon
+Comp=-0.0011 | Suff=-0.0288 | Rank=0.07078651685393259 | MAE=0.0390 | RMSE=0.0509 | Stab=0.0974 | Time=15.13s | CPU=90.44s
+
+>>> [585/1000] Improving the Load Balancing Performance of Vlasiator
+Comp=-0.0063 | Suff=-0.0501 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.64s | CPU=93.52s
+
+>>> [586/1000] Orthogonal Frequency Division Multiplexing and its Applications
+Comp=0.0212 | Suff=-0.0236 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.80s | CPU=10.77s
+
+>>> [588/1000] On the Equivalence of Quantum and Classical Coherence in Electronic   Energy Tra
+Comp=-0.0058 | Suff=-0.0362 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.06s
+
+>>> [589/1000] Bound states of dipolar molecules studied with the Berggren expansion   method
+Comp=0.0029 | Suff=-0.0145 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.81s | CPU=4.86s
+
+>>> [590/1000] Non-linear corrections to Lagrangians predicted by causal set theory:   Flat spa
+Comp=-0.0009 | Suff=-0.0006 | Rank=0.33333333333333326 | MAE=0.0230 | RMSE=0.0305 | Stab=-0.2081 | Time=12.63s | CPU=75.48s
+
+>>> [591/1000] Expectation-Propogation for the Generative Aspect Model
+Comp=-0.0009 | Suff=-0.0151 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.24s | CPU=19.33s
+
+>>> [592/1000] First observation of the exchange of transverse and longitudinal   emittances
+Comp=-0.0062 | Suff=-0.0239 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.97s
+
+>>> [593/1000] Iterators, Recursors and Interaction Nets
+Comp=0.0496 | Suff=-0.0273 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.84s
+
+>>> [594/1000] The Local Field Factor and Microscopic Cascading: A Self-Consistent   Method App
+Comp=0.0069 | Suff=-0.0186 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.70s | CPU=10.06s
+
+>>> [595/1000] Cometary Charge Exchange Diagnostics in UV and X-ray
+Comp=0.0065 | Suff=-0.0213 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.45s
+
+>>> [596/1000] Yet Another Snapshot of Foundational Attitudes Toward Quantum Mechanics
+Comp=0.0055 | Suff=0.0142 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.40s | CPU=2.44s
+
+>>> [597/1000] Arising information regularities in an observer
+Comp=0.0002 | Suff=-0.0478 | Rank=0.10852713178294573 | MAE=0.0493 | RMSE=0.0553 | Stab=-0.1078 | Time=14.86s | CPU=88.44s
+
+>>> [598/1000] Photon-Plasma: a modern high-order particle-in-cell code
+Comp=0.0027 | Suff=-0.0130 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.68s | CPU=45.86s
+
+>>> [599/1000] Profit-Aware Server Allocation for Green Internet Services
+Comp=0.0052 | Suff=-0.0024 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.44s
+
+>>> [600/1000] Optimizing Scrip Systems: Efficiency, Crashes, Hoarders, and Altruists
+Comp=0.0043 | Suff=-0.0290 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.09s | CPU=48.25s
+
+>>> [601/1000] Robust Uplink Communications over Fading Channels with Variable Backhaul   Conne
+Comp=-0.0004 | Suff=0.0119 | Rank=0.8333333333333333 | MAE=0.0085 | RMSE=0.0091 | Stab=0.4222 | Time=12.81s | CPU=76.53s
+
+>>> [602/1000] Irreflexive and Hierarchical Relations as Translations
+Comp=-0.0017 | Suff=-0.0254 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [603/1000] Formalizing cCSP Synchronous Semantics in PVS
+Comp=-0.0034 | Suff=-0.0565 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.01s | CPU=41.73s
+
+>>> [604/1000] Coherent bremsstrahlung in a bent crystal
+Comp=0.0034 | Suff=-0.0626 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.47s | CPU=20.64s
+
+>>> [605/1000] Modification of the turbulent energy cascade by polymer additives
+Comp=0.0266 | Suff=-0.0199 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.78s | CPU=4.58s
+
+>>> [606/1000] Non-Computability of Consciousness
+Comp=0.0131 | Suff=-0.0234 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.58s | CPU=9.44s
+
+>>> [607/1000] Atomic and molecular dynamics triggered by ultrashort light pulses on   the atto
+Comp=0.0001 | Suff=-0.0399 | Rank=0.29696969696969694 | MAE=0.0179 | RMSE=0.0237 | Stab=0.1313 | Time=13.51s | CPU=80.78s
+
+>>> [608/1000] A new method based on noise counting to monitor the frontend electronics   of th
+Comp=0.0042 | Suff=-0.0607 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.52s | CPU=9.08s
+
+>>> [609/1000] Experiences of Engineering Grid-Based Medical Software
+Comp=-0.0001 | Suff=-0.0442 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.94s | CPU=100.95s
+
+>>> [610/1000] Physical-Layer Security: Combining Error Control Coding and Cryptography
+Comp=-0.0014 | Suff=-0.0429 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.75s | CPU=46.34s
+
+>>> [611/1000] Production of optical phase space vortices with non-locally distributed   mode c
+Comp=0.0018 | Suff=-0.0413 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.58s | CPU=9.42s
+
+>>> [612/1000] Science Fiction as a Worldwide Phenomenon: A Study of International   Creation,
+Comp=0.0009 | Suff=-0.0045 | Rank=0.75 | MAE=0.0085 | RMSE=0.0096 | Stab=0.6389 | Time=11.70s | CPU=70.03s
+
+>>> [613/1000] On the approximability and exact algorithms for vector domination and   related
+Comp=0.0013 | Suff=-0.0206 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.02s | CPU=41.92s
+
+>>> [614/1000] Cooperative oligopoly games with boundedly rational firms
+Comp=0.0047 | Suff=0.0128 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.93s | CPU=41.53s
+
+>>> [615/1000] On Max Born's "Vorlesungen ueber Atommechanik, Erster Band"
+Comp=-0.0050 | Suff=-0.0112 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.86s | CPU=11.11s
+
+>>> [616/1000] Photonic heterostructures with Levy-type disorder: statistics of   coherent tran
+Comp=-0.0117 | Suff=-0.0160 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.25s | CPU=1.47s
+
+>>> [617/1000] Electromagnetic Fields Produced by Moving Sources in a Curved Beam Pipe
+Comp=-0.0023 | Suff=-0.0376 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.06s | CPU=48.12s
+
+>>> [618/1000] Polish grid infrastructure for science and research
+Comp=0.0151 | Suff=-0.0312 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.32s | CPU=1.86s
+
+>>> [619/1000] Intrinsic noise in game dynamical learning
+Comp=0.0229 | Suff=-0.0406 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.70s | CPU=10.09s
+
+>>> [620/1000] Asynchronous Distributed Downlink Beamforming and Power Control in   Multi-cell
+Comp=-0.0010 | Suff=-0.0532 | Rank=0.11515151515151514 | MAE=0.0187 | RMSE=0.0221 | Stab=0.1152 | Time=12.47s | CPU=74.53s
+
+>>> [621/1000] A universally fastest algorithm for Max 2-Sat, Max 2-CSP, and everything   in be
+Comp=-0.0000 | Suff=0.0024 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.34s | CPU=55.92s
+
+>>> [622/1000] Optimal diagnostic tests for sporadic Creutzfeldt-Jakob disease based on   suppo
+Comp=0.0192 | Suff=-0.0507 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.71s | CPU=51.98s
+
+>>> [623/1000] Greedy Connectivity of Geographically Embedded Graphs
+Comp=0.0350 | Suff=-0.0180 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.41s
+
+>>> [624/1000] The Call-by-need Lambda Calculus, Revisited
+Comp=0.0055 | Suff=-0.0335 | Rank=0.5727272727272729 | MAE=0.0308 | RMSE=0.0378 | Stab=0.1515 | Time=12.48s | CPU=74.47s
+
+>>> [625/1000] Community detection for correlation matrices
+Comp=0.0008 | Suff=-0.0618 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.17s | CPU=102.56s
+
+>>> [626/1000] Cloud Process Execution Engine - Evaluation of the Core Concepts
+Comp=0.0155 | Suff=0.0054 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.87s | CPU=5.09s
+
+>>> [627/1000] Effects of polarization on the transmission and localization of   classical wave
+Comp=-0.0063 | Suff=-0.0122 | Rank=-0.25 | MAE=0.0088 | RMSE=0.0098 | Stab=-0.1167 | Time=13.66s | CPU=81.61s
+
+>>> [628/1000] Exponential suppression of thermal conductance using coherent transport   and he
+Comp=-0.0016 | Suff=-0.0108 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [629/1000] Graphs whose edge set can be partitioned into maximum matchings
+Comp=0.0039 | Suff=-0.0100 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.75s
+
+>>> [630/1000] Yet Another Pacman 3D Adventures
+Comp=0.0336 | Suff=-0.0146 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [631/1000] Bursting water balloons
+Comp=0.0106 | Suff=-0.0276 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.68s | CPU=21.98s
+
+>>> [632/1000] Bicategorical Semantics for Nondeterministic Computation
+Comp=0.0159 | Suff=-0.0629 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.66s | CPU=9.84s
+
+>>> [633/1000] Morphology Scaling of Drop Impact onto a Granular Layer
+Comp=-0.0013 | Suff=-0.0097 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.59s | CPU=39.48s
+
+>>> [634/1000] Gyro-gauge-independent formulation of the guiding-center reduction to   arbitrar
+Comp=-0.0021 | Suff=0.0286 | Rank=0.13508771929824562 | MAE=0.0318 | RMSE=0.0516 | Stab=-0.0322 | Time=15.50s | CPU=92.55s
+
+>>> [635/1000] Distributed Control with Low-Rank Coordination
+Comp=0.0025 | Suff=-0.0143 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.14s | CPU=18.78s
+
+>>> [637/1000] Haus/Gross-Pitaevskii equation for random lasers
+Comp=0.0037 | Suff=-0.0272 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [638/1000] A Sufficiently Fast Algorithm for Finding Close to Optimal Junction   Trees
+Comp=0.0248 | Suff=-0.0305 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.80s | CPU=4.77s
+
+>>> [639/1000] Towards higher order lattice Boltzmann schemes
+Comp=0.0013 | Suff=-0.0395 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.39s
+
+>>> [640/1000] Quantum discord is Bohr's notion of non-mechanical disturbance   introduced in h
+Comp=0.0057 | Suff=-0.0230 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.99s | CPU=11.91s
+
+>>> [641/1000] Search for the "ultimate state" in turbulent Rayleigh-B\'enard   convection
+Comp=-0.0025 | Suff=-0.0150 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.93s | CPU=11.48s
+
+>>> [642/1000] Bodily tides near spin-orbit resonances
+Comp=0.0002 | Suff=-0.0439 | Rank=0.061403508771929835 | MAE=0.0243 | RMSE=0.0411 | Stab=-0.0433 | Time=15.40s | CPU=92.16s
+
+>>> [644/1000] Fast Multi-Instance Multi-Label Learning
+Comp=0.0000 | Suff=-0.0410 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.65s | CPU=105.38s
+
+>>> [645/1000] Invariant Generation through Strategy Iteration in Succinctly   Represented Cont
+Comp=-0.0070 | Suff=-0.0321 | Rank=-0.04242424242424241 | MAE=0.0218 | RMSE=0.0323 | Stab=-0.1394 | Time=14.19s | CPU=84.91s
+
+>>> [646/1000] Towards Automated Deduction in Blackmail Case Analysis with Forensic   Lucid
+Comp=-0.0037 | Suff=-0.0280 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.87s | CPU=5.23s
+
+>>> [647/1000] Quantitative Synthesis for Concurrent Programs
+Comp=0.0029 | Suff=-0.0712 | Rank=0.09999999999999999 | MAE=0.0091 | RMSE=0.0099 | Stab=0.1611 | Time=13.50s | CPU=80.75s
+
+>>> [648/1000] Finding the Ion Current Density of Microtubules by defining a potential   functi
+Comp=0.0008 | Suff=-0.0390 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.29s | CPU=19.75s
+
+>>> [649/1000] Maximum union-free subfamilies
+Comp=0.0032 | Suff=-0.0368 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.87s | CPU=46.98s
+
+>>> [650/1000] Quantum Noise Filtering via Cross-Correlations
+Comp=-0.0042 | Suff=-0.0223 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.78s | CPU=4.61s
+
+>>> [651/1000] RF Basics I and II
+Comp=0.0025 | Suff=-0.0120 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=2.06s
+
+>>> [652/1000] Fermilab PXIE Beam Diagnostics Development and Testing at the HINS Beam   Facili
+Comp=0.0008 | Suff=-0.0379 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.36s | CPU=91.56s
+
+>>> [653/1000] The role of semantics in mining frequent patterns from knowledge bases   in desc
+Comp=-0.0056 | Suff=-0.0119 | Rank=0.2333333333333333 | MAE=0.0129 | RMSE=0.0172 | Stab=0.3889 | Time=12.39s | CPU=73.91s
+
+>>> [654/1000] Safe Feature Elimination for the LASSO and Sparse Supervised Learning   Problems
+Comp=-0.0001 | Suff=-0.0346 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.17s | CPU=48.64s
+
+>>> [655/1000] A GPU Tool for Efficient, Accurate, and Realistic Simulation of Cone   Beam CT P
+Comp=0.0015 | Suff=-0.0530 | Rank=0.14186046511627903 | MAE=0.0495 | RMSE=0.0560 | Stab=0.0295 | Time=16.29s | CPU=97.27s
+
+>>> [656/1000] Magnetic noise around metallic microstructures
+Comp=-0.0008 | Suff=-0.0367 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.48s | CPU=20.67s
+
+>>> [657/1000] Indium-Gallium Segregation in CuIn$_{x}$Ga$_{1-x}$Se$_2$: An ab initio   based M
+Comp=0.0052 | Suff=-0.0077 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.68s | CPU=10.11s
+
+>>> [658/1000] Performance of the TOTEM Detectors at the LHC
+Comp=0.0217 | Suff=-0.0127 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.41s | CPU=2.45s
+
+>>> [659/1000] Economics 2.0: The Natural Step towards A Self-Regulating, Participatory   Marke
+Comp=-0.0026 | Suff=0.0644 | Rank=-0.07543859649122807 | MAE=0.0315 | RMSE=0.0436 | Stab=-0.0854 | Time=16.10s | CPU=96.19s
+
+>>> [660/1000] Variation of the Fine-Structure Constant and Laser Cooling of Atomic   Dysprosiu
+Comp=0.0009 | Suff=-0.0228 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.87s | CPU=5.22s
+
+>>> [661/1000] Information Measures for Long-Range Correlated Sequences: the Case of   the 24 H
+Comp=0.0086 | Suff=-0.0642 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.75s | CPU=22.44s
+
+>>> [662/1000] 3-Phase Recognition Approach to Pseudo 3D Building Generation from 2D   Floor Pl
+Comp=-0.0028 | Suff=-0.0366 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.75s | CPU=100.16s
+
+>>> [663/1000] Extending Object-Oriented Languages by Declarative Specifications of   Complex O
+Comp=0.0091 | Suff=-0.0179 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.62s | CPU=9.62s
+
+>>> [664/1000] Review of Flicker Noise Spectroscopy in Electrochemistry
+Comp=0.0025 | Suff=-0.0447 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.21s | CPU=13.20s
+
+>>> [665/1000] Interference Channels with One Cognitive Transmitter
+Comp=-0.0028 | Suff=-0.0447 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.49s | CPU=98.12s
+
+>>> [666/1000] Stochastic Vector Quantisers
+Comp=0.0130 | Suff=-0.0071 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.41s | CPU=2.42s
+
+>>> [667/1000] Reply to Comments on Neuroelectrodynamics: Where are the Real Conceptual   Pitfa
+Comp=-0.0039 | Suff=-0.0317 | Rank=0.5636363636363636 | MAE=0.0200 | RMSE=0.0259 | Stab=0.0747 | Time=13.26s | CPU=79.14s
+
+>>> [668/1000] Self-started unidirectional operation of a fiber ring soliton laser   without an
+Comp=-0.0055 | Suff=-0.0294 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=0.94s
+
+>>> [669/1000] Intricate Knots in Proteins: Function and Evolution
+Comp=0.0010 | Suff=-0.0590 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.25s | CPU=91.11s
+
+>>> [670/1000] A Low Energy Beam Transport Design with high SCC for TAC Proton   Accelerator
+Comp=0.0045 | Suff=-0.0322 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.85s | CPU=88.70s
+
+>>> [671/1000] Enhancement of maximum attainable ion energy in the radiation pressure   acceler
+Comp=-0.0020 | Suff=-0.0309 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.34s | CPU=19.97s
+
+>>> [672/1000] Rationality, irrationality and escalating behavior in lowest unique bid   auctio
+Comp=-0.0020 | Suff=-0.0321 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.78s | CPU=88.09s
+
+>>> [673/1000] Symmetry Breaking with Polynomial Delay
+Comp=0.0042 | Suff=-0.0052 | Rank=0.7833333333333333 | MAE=0.0100 | RMSE=0.0113 | Stab=0.2778 | Time=12.72s | CPU=75.95s
+
+>>> [674/1000] A Joint Initiative to Support the Semantic Interoperability within the   GIIDA P
+Comp=0.0081 | Suff=0.0079 | Rank=-0.12727272727272726 | MAE=0.0262 | RMSE=0.0361 | Stab=-0.1071 | Time=15.23s | CPU=90.81s
+
+>>> [675/1000] Relay vs. User Cooperation in Time-Duplexed Multiaccess Networks
+Comp=-0.0000 | Suff=-0.0245 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.86s | CPU=5.16s
+
+>>> [676/1000] Space-Time Codes from Structured Lattices
+Comp=0.0011 | Suff=-0.0785 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.40s | CPU=97.73s
+
+>>> [677/1000] Reflection Scan: an Off-Path Attack on TCP
+Comp=-0.0058 | Suff=-0.0285 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.03s | CPU=42.00s
+
+>>> [678/1000] Translation from Classical Two-Way Automata to Pebble Two-Way Automata
+Comp=-0.0003 | Suff=-0.0137 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.09s | CPU=24.34s
+
+>>> [679/1000] Coding for Caches in the Plane
+Comp=0.0002 | Suff=-0.0300 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.14s | CPU=84.45s
+
+>>> [680/1000] Application of Expurgated PPM to Indoor Visible Light Communications -   Part I:
+Comp=0.0017 | Suff=-0.0517 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.59s | CPU=45.28s
+
+>>> [681/1000] Handwritten Arabic Numeral Recognition using a Multi Layer Perceptron
+Comp=0.0155 | Suff=-0.0404 | Rank=0.8499999999999999 | MAE=0.0094 | RMSE=0.0109 | Stab=0.2000 | Time=12.47s | CPU=74.59s
+
+>>> [682/1000] Fast Bunch Integrators at Fermilab During Run II
+Comp=0.0189 | Suff=-0.0411 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.32s | CPU=1.97s
+
+>>> [683/1000] A Model for Neutrinos
+Comp=-0.0024 | Suff=-0.0329 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.30s | CPU=1.78s
+
+>>> [684/1000] Exact Methods for Multistage Estimation of a Binomial Proportion
+Comp=-0.0016 | Suff=-0.0364 | Rank=0.5833333333333334 | MAE=0.0056 | RMSE=0.0062 | Stab=0.3444 | Time=11.11s | CPU=66.36s
+
+>>> [685/1000] Mechanical energy dissipation induced by sloshing and wave breaking in a   fully
+Comp=0.0046 | Suff=-0.0125 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.05s | CPU=42.23s
+
+>>> [686/1000] Fictitious time wave packet dynamics: II. Hydrogen atom in external   fields
+Comp=-0.0014 | Suff=-0.0493 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.72s | CPU=93.88s
+
+>>> [687/1000] What do university rankings by fields rank? Exploring discrepancies   between th
+Comp=-0.0041 | Suff=-0.0139 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.58s | CPU=45.28s
+
+>>> [688/1000] Interpreting Power Anisotropy Measurements in Plasma Turbulence
+Comp=0.0115 | Suff=-0.0601 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.52s | CPU=21.00s
+
+>>> [689/1000] Cognitive Multiple Access Network with Outage Margin in the Primary   System
+Comp=0.0012 | Suff=-0.0617 | Rank=0.7 | MAE=0.0057 | RMSE=0.0070 | Stab=0.6667 | Time=13.07s | CPU=78.16s
+
+>>> [690/1000] Electronic control of extraordinary terahertz transmission through   subwaveleng
+Comp=0.0020 | Suff=-0.0365 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.26s | CPU=19.52s
+
+>>> [691/1000] ERP projects Internal Stakeholder network and how it influences the   projects o
+Comp=0.0024 | Suff=-0.0374 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=18.02s | CPU=107.39s
+
+>>> [692/1000] XTile: An Error-Correction Package for DNA Self-Assembly
+Comp=0.0063 | Suff=-0.0055 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.75s | CPU=22.27s
+
+>>> [693/1000] Magic radio-frequency dressing of nuclear spins in high-accuracy optical   clock
+Comp=-0.0065 | Suff=-0.0325 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.40s | CPU=2.42s
+
+>>> [694/1000] Detection of Bleeding in Wireless Capsule Endoscopy Images Using Range   Ratio C
+Comp=-0.0038 | Suff=-0.0132 | Rank=-0.1272727272727273 | MAE=0.0322 | RMSE=0.0424 | Stab=0.0364 | Time=13.12s | CPU=78.50s
+
+>>> [695/1000] On symmetry and topological origin of Weyl particles
+Comp=0.0018 | Suff=0.0469 | Rank=0.41666666666666663 | MAE=0.0071 | RMSE=0.0092 | Stab=0.2778 | Time=11.71s | CPU=70.03s
+
+>>> [696/1000] Low-Order Modelling of Blade-Induced Turbulence for RANS Actuator Disk   Computa
+Comp=0.0004 | Suff=-0.0209 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.70s | CPU=22.03s
+
+>>> [697/1000] Self-Confirming Price Prediction Strategies for Simultaneous One-Shot   Auctions
+Comp=0.0023 | Suff=-0.0493 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.76s | CPU=10.55s
+
+>>> [698/1000] Planning by Rewriting
+Comp=0.0027 | Suff=-0.0326 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.84s | CPU=40.75s
+
+>>> [699/1000] Short-time homomorphic wavelet estimation
+Comp=0.0030 | Suff=-0.0857 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.80s | CPU=40.70s
+
+>>> [700/1000] Increase of SERS Signal Upon Heating or Exposure to a High-Intensity   Laser Fie
+Comp=0.0062 | Suff=-0.0283 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.93s | CPU=5.52s
+
+>>> [701/1000] On Max-SINR Receiver for Hexagonal Multicarrier Transmission Over Doubly   Dispe
+Comp=0.0013 | Suff=-0.0456 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.84s | CPU=5.05s
+
+>>> [702/1000] Wave model of forming of the martensite crystal in the heterogeneity   medium
+Comp=-0.0038 | Suff=-0.0062 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.64s | CPU=9.83s
+
+>>> [703/1000] A Heuristic Description of Fast Fourier Transform
+Comp=0.0165 | Suff=-0.0169 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.69s | CPU=4.12s
+
+>>> [704/1000] Maximum Segment Sum, Monadically (distilled tutorial, with solutions)
+Comp=0.0312 | Suff=-0.0114 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.83s | CPU=4.97s
+
+>>> [705/1000] Modelling of anthropogenic pollutant diffusion in the atmosphere and   applicati
+Comp=0.0036 | Suff=-0.0277 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.08s | CPU=54.25s
+
+>>> [706/1000] Determining mean first-passage time on a class of treelike regular   fractals
+Comp=0.0067 | Suff=-0.0148 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=18.67s | CPU=111.58s
+
+>>> [707/1000] Hidden multiple bond effects in dynamic force spectroscopy
+Comp=-0.0025 | Suff=-0.0455 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.90s | CPU=11.30s
+
+>>> [708/1000] Design, development and implementation of a tool for construction of   declarati
+Comp=-0.0023 | Suff=-0.0122 | Rank=0.06363636363636364 | MAE=0.0282 | RMSE=0.0395 | Stab=-0.0879 | Time=14.42s | CPU=86.17s
+
+>>> [709/1000] The Complemented System Approach: A Novel Method for Calculating the   X-ray Sca
+Comp=0.0190 | Suff=-0.0853 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.83s | CPU=10.92s
+
+>>> [710/1000] Effective Differential Nullstellensatz for Ordinary DAE Systems with   Constant
+Comp=-0.0021 | Suff=-0.0508 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.25s | CPU=13.42s
+
+>>> [711/1000] On the Compatibility Between Quantum and Relativistic Effects in an   Electromag
+Comp=0.0308 | Suff=-0.0250 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [712/1000] Biomolecule surface patterning may enhance membrane association
+Comp=0.0014 | Suff=-0.0283 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.87s | CPU=5.25s
+
+>>> [713/1000] Optimization of Planck/LFI on--board data handling
+Comp=-0.0024 | Suff=0.0044 | Rank=-0.3833333333333333 | MAE=0.0460 | RMSE=0.0558 | Stab=-0.2741 | Time=15.90s | CPU=94.86s
+
+>>> [714/1000] Almost-Euclidean subspaces of $\ell_1^N$ via tensor products: a simple   approac
+Comp=0.0031 | Suff=0.0065 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.91s | CPU=11.47s
+
+>>> [715/1000] Direct Numerical Simulation of Electrokinetic Instability and Transition   to Ch
+Comp=-0.0038 | Suff=-0.0258 | Rank=0.2833333333333333 | MAE=0.0096 | RMSE=0.0115 | Stab=0.2278 | Time=15.20s | CPU=90.72s
+
+>>> [716/1000] Symmetries of Codeword Stabilized Quantum Codes
+Comp=0.0018 | Suff=-0.0390 | Rank=0.24848484848484845 | MAE=0.0175 | RMSE=0.0222 | Stab=-0.1717 | Time=14.46s | CPU=86.38s
+
+>>> [717/1000] Dissipation of Modified Entropic Gravitational Energy Through   Gravitational Wa
+Comp=0.0094 | Suff=-0.0229 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.51s | CPU=3.05s
+
+>>> [718/1000] The Variable Hierarchy for the Games mu-Calculus
+Comp=0.0093 | Suff=-0.0282 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.21s | CPU=43.20s
+
+>>> [719/1000] Transmitting Video-on-Demand Effectively
+Comp=0.0501 | Suff=-0.0150 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.52s | CPU=9.08s
+
+>>> [720/1000] Hybrid Poisson and multi-Bernoulli filters
+Comp=0.0134 | Suff=-0.0167 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.62s | CPU=21.69s
+
+>>> [721/1000] Simultaneous remote transfer of accurate timing and optical frequency   over a p
+Comp=0.0066 | Suff=-0.0113 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.37s | CPU=2.25s
+
+>>> [722/1000] Improvements to the ILC Upstream Polarimeter
+Comp=-0.0057 | Suff=-0.0474 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.31s | CPU=1.88s
+
+>>> [723/1000] Secure and Energy-Efficient Data Aggregation in Wireless Sensor Networks
+Comp=0.0041 | Suff=-0.0043 | Rank=-0.10000000000000002 | MAE=0.0309 | RMSE=0.0397 | Stab=0.0545 | Time=12.87s | CPU=76.86s
+
+>>> [724/1000] A side-by-side comparison of Daya Bay antineutrino detectors
+Comp=0.0022 | Suff=-0.0073 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.79s | CPU=4.67s
+
+>>> [725/1000] Cold Reactions of Alkali and Water Clusters inside Helium Nanodroplets
+Comp=0.0040 | Suff=-0.0186 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.03s
+
+>>> [726/1000] Accurate determination of electric-dipole matrix elements in K and Rb   from Sta
+Comp=0.0005 | Suff=-0.0468 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.24s | CPU=25.41s
+
+>>> [727/1000] Excitation transport through Rydberg dressing
+Comp=0.0027 | Suff=-0.0367 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.59s | CPU=9.53s
+
+>>> [728/1000] Active Classification for POMDPs: a Kalman-like State Estimator
+Comp=-0.0037 | Suff=-0.0598 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.45s | CPU=92.23s
+
+>>> [729/1000] A Greedy Omnidirectional Relay Scheme
+Comp=0.0167 | Suff=-0.0208 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [730/1000] Observation of blue-shifted ultralong-range Cs$_{2}$ Rydberg molecules
+Comp=-0.0011 | Suff=-0.0240 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.84s | CPU=11.05s
+
+>>> [731/1000] Heat conductivity of DNA double helix
+Comp=0.0011 | Suff=-0.0766 | Rank=-0.17272727272727276 | MAE=0.0296 | RMSE=0.0394 | Stab=-0.0970 | Time=15.49s | CPU=92.62s
+
+>>> [732/1000] The distribution of calibrated likelihood-ratios in speaker recognition
+Comp=0.0109 | Suff=-0.0286 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.71s | CPU=22.19s
+
+>>> [733/1000] Information systems security in special and public libraries: an   assessment of
+Comp=-0.0018 | Suff=-0.0290 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.67s | CPU=9.91s
+
+>>> [734/1000] A generalized back-door criterion
+Comp=0.0267 | Suff=-0.0226 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.60s | CPU=9.53s
+
+>>> [735/1000] A New Capacity Result for the Z-Gaussian Cognitive Interference Channel
+Comp=0.0027 | Suff=-0.0034 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.41s | CPU=2.44s
+
+>>> [736/1000] A Sensing Policy Based on Confidence Bounds and a Restless Multi-Armed   Bandit
+Comp=-0.0042 | Suff=0.0457 | Rank=-0.08333333333333334 | MAE=0.0111 | RMSE=0.0145 | Stab=0.7111 | Time=12.12s | CPU=72.34s
+
+>>> [737/1000] Connectivity-Enforcing Hough Transform for the Robust Extraction of Line   Segme
+Comp=-0.0014 | Suff=-0.0487 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.24s | CPU=97.14s
+
+>>> [738/1000] A Web Aggregation Approach for Distributed Randomized PageRank   Algorithms
+Comp=0.0097 | Suff=0.0142 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.10s | CPU=42.41s
+
+>>> [739/1000] Coxeter Groups and Asynchronous Cellular Automata
+Comp=0.0043 | Suff=-0.0132 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.75s
+
+>>> [740/1000] An Instability in a Straightening Chain
+Comp=0.0183 | Suff=0.0037 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [741/1000] Ion irradiation and biomolecular radiation damage II. Indirect effect
+Comp=-0.0005 | Suff=-0.0818 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.74s | CPU=10.41s
+
+>>> [742/1000] Solar system constraints on a Rindler-type extra-acceleration from   modified gr
+Comp=0.0051 | Suff=-0.0390 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=9.05s | CPU=54.05s
+
+>>> [743/1000] Scientific Collaborations: principles of WikiBridge Design
+Comp=0.0070 | Suff=-0.0199 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.30s | CPU=1.78s
+
+>>> [744/1000] Macrodynamics of users' behavior in Information Retrieval
+Comp=-0.0042 | Suff=0.0505 | Rank=0.5515151515151515 | MAE=0.0171 | RMSE=0.0211 | Stab=0.0909 | Time=13.32s | CPU=79.44s
+
+>>> [745/1000] Energy Loss of High-Energy Particles in Particle-in-Cell Simulation
+Comp=0.0257 | Suff=-0.0229 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.78s | CPU=10.69s
+
+>>> [746/1000] Scintillation light produced by low-energy beams of highly-charged ions
+Comp=0.0012 | Suff=-0.0507 | Rank=0.9333333333333332 | MAE=0.0060 | RMSE=0.0079 | Stab=0.6333 | Time=13.52s | CPU=80.95s
+
+>>> [747/1000] Session Types at the Mirror
+Comp=0.0156 | Suff=0.0241 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.78s | CPU=4.62s
+
+>>> [748/1000] A 490 GHz planar circuit balanced Nb-Al$_\mathbf{2}$O$_{\mathbf{3}}$-Nb   quasip
+Comp=0.0011 | Suff=-0.0049 | Rank=-0.35438596491228075 | MAE=0.0377 | RMSE=0.0440 | Stab=0.1035 | Time=16.48s | CPU=98.55s
+
+>>> [749/1000] Java File Security System (JFSS) Evaluation Using Software Engineering   Approac
+Comp=-0.0074 | Suff=-0.0066 | Rank=0.3454545454545455 | MAE=0.0127 | RMSE=0.0178 | Stab=0.0455 | Time=12.37s | CPU=73.88s
+
+>>> [750/1000] One-to-one direct modeling of experiments and astrophysical scenarios:   pushing
+Comp=0.0028 | Suff=-0.0528 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.74s | CPU=22.27s
+
+>>> [751/1000] In vivo measurement of human brain elasticity using a light aspiration   device
+Comp=-0.0005 | Suff=-0.0383 | Rank=0.28181818181818186 | MAE=0.0276 | RMSE=0.0344 | Stab=-0.1758 | Time=13.73s | CPU=82.14s
+
+>>> [752/1000] Atoms which can bind positrons
+Comp=0.0062 | Suff=-0.0081 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.79s | CPU=4.77s
+
+>>> [753/1000] A study of the breakdown of the quasi-static approximation at high   densities a
+Comp=-0.0025 | Suff=-0.0481 | Rank=0.5 | MAE=0.0068 | RMSE=0.0087 | Stab=-0.1278 | Time=14.71s | CPU=87.98s
+
+>>> [754/1000] Rank Bounds for Design Matrices with Applications to Combinatorial   Geometry an
+Comp=0.0028 | Suff=-0.0164 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=20.98s | CPU=125.22s
+
+>>> [755/1000] I/O-Efficient Planar Range Skyline and Attrition Priority Queues
+Comp=0.0019 | Suff=0.0166 | Rank=0.35 | MAE=0.0311 | RMSE=0.0425 | Stab=-0.0130 | Time=21.13s | CPU=126.19s
+
+>>> [756/1000] Electric dipoles at ultralow temperatures
+Comp=0.0248 | Suff=-0.0164 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [757/1000] Spectral Singularities and a New Method of Generating Tunable Lasers
+Comp=0.0010 | Suff=-0.0236 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.38s
+
+>>> [758/1000] Study of SEY degradation of amorphous carbon coatings
+Comp=0.0022 | Suff=-0.0495 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.25s | CPU=43.36s
+
+>>> [759/1000] Tracking and Characterizing Botnets Using Automatically Generated   Domains
+Comp=-0.0002 | Suff=0.0336 | Rank=0.5 | MAE=0.0065 | RMSE=0.0081 | Stab=0.3500 | Time=14.10s | CPU=84.17s
+
+>>> [760/1000] Hardness of conjugacy and factorization of multidimensional subshifts of   finit
+Comp=-0.0133 | Suff=-0.0167 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.84s
+
+>>> [761/1000] Immune System Approaches to Intrusion Detection - A Review
+Comp=0.0041 | Suff=-0.0590 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.36s | CPU=20.03s
+
+>>> [762/1000] A theory of turbulence. Part 1:Towards solutions of the Navier-stokes   equation
+Comp=0.0012 | Suff=-0.0218 | Rank=0.48333333333333334 | MAE=0.0092 | RMSE=0.0114 | Stab=0.5556 | Time=13.31s | CPU=79.42s
+
+>>> [763/1000] Duality between equilibrium and growing networks
+Comp=0.0437 | Suff=-0.0152 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.14s | CPU=18.78s
+
+>>> [764/1000] Role of self-propulsion of marine larvae on their probability of contact   with
+Comp=0.0005 | Suff=-0.0062 | Rank=-0.5407407407407409 | MAE=0.0530 | RMSE=0.0656 | Stab=0.1185 | Time=15.58s | CPU=93.03s
+
+>>> [765/1000] Derivation of a Fundamental Diagram for Urban Traffic Flow
+Comp=0.0130 | Suff=-0.0226 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.76s | CPU=4.58s
+
+>>> [766/1000] Nonlinear Eigenproblems in Data Analysis - Balanced Graph Cuts and the   RatioDC
+Comp=-0.0044 | Suff=-0.0194 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.97s
+
+>>> [767/1000] Context Aware Sensor Configuration Model for Internet of Things
+Comp=0.0067 | Suff=-0.0025 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [768/1000] Vortex dynamics in $R^4$
+Comp=-0.0023 | Suff=-0.0469 | Rank=0.7833333333333333 | MAE=0.0054 | RMSE=0.0072 | Stab=-0.0111 | Time=13.01s | CPU=77.73s
+
+>>> [769/1000] On the Post-Peak Structural Response due to Softening with Localization
+Comp=0.0003 | Suff=-0.0458 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.54s | CPU=21.20s
+
+>>> [770/1000] An Improved Data Assimilation Scheme for High Dimensional Nonlinear   Systems
+Comp=-0.0006 | Suff=-0.0249 | Rank=0.21666666666666667 | MAE=0.0137 | RMSE=0.0149 | Stab=0.4500 | Time=13.55s | CPU=80.88s
+
+>>> [771/1000] Polarization and spatial coherence of electromagnetic waves in   uncorrelated di
+Comp=0.0021 | Suff=-0.0530 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.62s | CPU=9.70s
+
+>>> [772/1000] Meshing strategies for the alleviation of mesh-induced effects in   cohesive ele
+Comp=0.0131 | Suff=-0.0380 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.94s | CPU=23.52s
+
+>>> [773/1000] Reconstruction from anisotropic random measurements
+Comp=0.0028 | Suff=-0.0248 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.69s
+
+>>> [774/1000] Functional Dependence of Secrets in a Collaboration Network
+Comp=0.0084 | Suff=-0.0343 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.17s | CPU=18.95s
+
+>>> [775/1000] Swarming Overlay Construction Strategies
+Comp=0.0002 | Suff=-0.0340 | Rank=0.18787878787878787 | MAE=0.0299 | RMSE=0.0367 | Stab=0.1919 | Time=12.56s | CPU=75.09s
+
+>>> [776/1000] Bayesian and L1 Approaches to Sparse Unsupervised Learning
+Comp=-0.0028 | Suff=-0.0156 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.15s | CPU=24.83s
+
+>>> [777/1000] Learning Probabilistic Models of Word Sense Disambiguation
+Comp=0.0116 | Suff=-0.0346 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.41s
+
+>>> [778/1000] A Unified Framework for Representation-based Subspace Clustering of   Out-of-sam
+Comp=-0.0034 | Suff=-0.0514 | Rank=0.32121212121212117 | MAE=0.0221 | RMSE=0.0263 | Stab=-0.3576 | Time=13.84s | CPU=82.78s
+
+>>> [779/1000] Non-Bayesian Quickest Detection with Stochastic Sample Right Constraints
+Comp=0.0032 | Suff=-0.0654 | Rank=0.44545454545454555 | MAE=0.0307 | RMSE=0.0355 | Stab=-0.0636 | Time=13.49s | CPU=80.61s
+
+>>> [780/1000] Shaping the evanescent field of optical nanofibers for cold atom   trapping
+Comp=0.0009 | Suff=-0.0259 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.84s | CPU=4.97s
+
+>>> [781/1000] An Optimal Heuristic for Sum of All Prime Numbers Logic for Large Inputs   using
+Comp=0.0105 | Suff=0.0021 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.49s | CPU=20.80s
+
+>>> [782/1000] Influence of gravitational forces and fluid flows on a shape of surfaces   of a
+Comp=0.0137 | Suff=-0.0221 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.72s | CPU=4.30s
+
+>>> [783/1000] John Ellard Gore: of immensity and minuteness
+Comp=0.0006 | Suff=-0.0040 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.59s | CPU=9.42s
+
+>>> [784/1000] The epic journey from Kepler's laws to Newton's law of universal   gravitation r
+Comp=-0.0101 | Suff=-0.0294 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.97s
+
+>>> [785/1000] Advanced robot calibration using partial pose measurements
+Comp=0.0018 | Suff=-0.0388 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.00s | CPU=89.81s
+
+>>> [786/1000] Energy Aware Task Scheduling for Soft Real Time Systems using an   Analytical Ap
+Comp=-0.0034 | Suff=-0.0479 | Rank=0.14545454545454548 | MAE=0.0235 | RMSE=0.0331 | Stab=0.1485 | Time=13.00s | CPU=77.55s
+
+>>> [787/1000] New set of experimental wavenumber values for visible part of emission   spectru
+Comp=-0.0129 | Suff=-0.0130 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.18s | CPU=1.02s
+
+>>> [788/1000] Sensitivity enhancement in optical micro-tube resonator sensors via mode   coupl
+Comp=-0.0013 | Suff=-0.0265 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.77s | CPU=4.59s
+
+>>> [789/1000] Covariant form of the ideal magnetohydrodynamic "connection theorem" in   a rela
+Comp=0.0092 | Suff=-0.0192 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.17s | CPU=1.03s
+
+>>> [790/1000] Long-range resonant interactions in biological systems
+Comp=-0.0019 | Suff=-0.0319 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.71s | CPU=10.25s
+
+>>> [791/1000] Can mosquitoes fly in the rain?
+Comp=0.0021 | Suff=-0.0222 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.32s | CPU=19.89s
+
+>>> [792/1000] Logical analysis of natural language semantics to solve the problem of   compute
+Comp=-0.0037 | Suff=0.0041 | Rank=-0.045454545454545456 | MAE=0.0358 | RMSE=0.0432 | Stab=0.1364 | Time=12.20s | CPU=72.94s
+
+>>> [793/1000] The Heisenberg spin glass model on GPU: myths and actual facts
+Comp=-0.0089 | Suff=-0.0174 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.84s
+
+>>> [794/1000] TORCH: Time of Flight Identification with Cherenkov Radiation
+Comp=0.0325 | Suff=0.0050 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.73s
+
+>>> [795/1000] A characterization of Konig-Egervary graphs using a common property of   all max
+Comp=0.0204 | Suff=-0.0149 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.76s | CPU=4.58s
+
+>>> [796/1000] Physical Degrees of Freedom in Higgs Models
+Comp=-0.0033 | Suff=-0.0473 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.48s | CPU=98.53s
+
+>>> [797/1000] Bottom-trapped currents as statistical equilibrium states above   topographic an
+Comp=0.0021 | Suff=-0.0657 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.69s | CPU=10.14s
+
+>>> [798/1000] A Unifying Framework for the Electrical Structure-Based Approach to PMU   Placem
+Comp=0.0024 | Suff=-0.0444 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.94s | CPU=23.53s
+
+>>> [799/1000] Interpretations of the Web of Data
+Comp=0.0112 | Suff=-0.0004 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.46s | CPU=44.52s
+
+>>> [800/1000] Does coherence enhance transport in photosynthesis?
+Comp=0.0050 | Suff=-0.0474 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.77s | CPU=22.50s
+
+>>> [801/1000] Off-center defects in crystals revisited: dynamic features
+Comp=0.0013 | Suff=-0.0396 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.54s | CPU=9.19s
+
+>>> [802/1000] Variance-Based Rewards for Approximate Bayesian Reinforcement Learning
+Comp=-0.0018 | Suff=-0.0223 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.53s | CPU=21.08s
+
+>>> [803/1000] Dynamic control of Coding in Delay Tolerant Networks
+Comp=0.0098 | Suff=-0.0442 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.60s | CPU=9.52s
+
+>>> [804/1000] Image interpolation using Shearlet based iterative refinement
+Comp=-0.0016 | Suff=-0.0440 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.68s | CPU=10.02s
+
+>>> [805/1000] Magnetic reconnection mediated by hyper-resistive plasmoid instability
+Comp=0.0018 | Suff=-0.0145 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.33s | CPU=25.86s
+
+>>> [806/1000] Observation of a gradient catastrophe generating solitons
+Comp=-0.0072 | Suff=-0.0159 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.02s
+
+>>> [807/1000] Optimal radiotherapy treatment planning using minimum entropy models
+Comp=0.0005 | Suff=-0.0731 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.23s | CPU=43.09s
+
+>>> [809/1000] Efficient multicore-aware parallelization strategies for iterative   stencil com
+Comp=0.0023 | Suff=-0.0449 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.72s
+
+>>> [810/1000] Multistability at arbitrary low optical intensities in a   metallo-dielectric la
+Comp=0.0141 | Suff=-0.0221 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.80s | CPU=4.77s
+
+>>> [811/1000] On the approximability of minmax (regret) network optimization problems
+Comp=0.0293 | Suff=-0.0289 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=0.97s
+
+>>> [812/1000] Testing Permanent Oracles -- Revisited
+Comp=0.0183 | Suff=-0.0109 | Rank=0.9500000000000001 | MAE=0.0056 | RMSE=0.0067 | Stab=0.3556 | Time=13.79s | CPU=82.39s
+
+>>> [813/1000] Asymptotic Behavior of the Maximum and Minimum Singular Value of Random   Vander
+Comp=-0.0036 | Suff=0.0018 | Rank=-0.6666666666666666 | MAE=0.0459 | RMSE=0.0595 | Stab=0.1444 | Time=16.70s | CPU=99.66s
+
+>>> [814/1000] On the recently determined anomalous perihelion precession of Saturn
+Comp=-0.0036 | Suff=-0.0361 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.01s | CPU=12.09s
+
+>>> [815/1000] List (d,1)-total labelling of graphs embedded in surfaces
+Comp=0.0045 | Suff=-0.0336 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.41s
+
+>>> [816/1000] One-class Collaborative Filtering with Random Graphs: Annotated Version
+Comp=0.0013 | Suff=-0.0274 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.42s | CPU=20.41s
+
+>>> [817/1000] Lyapunov Analysis of Homogeneous Isotropic Turbulence
+Comp=-0.0035 | Suff=-0.0478 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.83s | CPU=4.97s
+
+>>> [818/1000] Optical forces and torques in non-uniform beams of light
+Comp=0.0227 | Suff=-0.0451 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.85s | CPU=40.91s
+
+>>> [819/1000] Programming with Algebraic Effects and Handlers
+Comp=0.0099 | Suff=-0.0309 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.88s | CPU=5.19s
+
+>>> [820/1000] A New Clustering Approach based on Page's Path Similarity for Navigation   Patte
+Comp=0.0114 | Suff=-0.0206 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.77s | CPU=10.33s
+
+>>> [821/1000] Pose Estimation from a Single Depth Image for Arbitrary Kinematic   Skeletons
+Comp=0.0007 | Suff=-0.0176 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.38s | CPU=2.22s
+
+>>> [822/1000] Watermarking Java Programs using Dummy Methods with Dynamically Opaque   Predica
+Comp=-0.0009 | Suff=-0.0156 | Rank=0.16666666666666666 | MAE=0.0400 | RMSE=0.0495 | Stab=0.1333 | Time=16.84s | CPU=100.17s
+
+>>> [823/1000] From Qualitative to Quantitative Probabilistic Networks
+Comp=0.0023 | Suff=-0.0414 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.70s | CPU=10.08s
+
+>>> [824/1000] Open Bisimulation for Quantum Processes
+Comp=-0.0007 | Suff=-0.0302 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.31s | CPU=1.88s
+
+>>> [825/1000] When do nonlinear filters achieve maximal accuracy?
+Comp=0.0055 | Suff=-0.0307 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.14s
+
+>>> [826/1000] Lack of consensus in social systems
+Comp=0.0002 | Suff=-0.0550 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.46s | CPU=38.48s
+
+>>> [827/1000] Proceedings Fifth Interaction and Concurrency Experience
+Comp=-0.0083 | Suff=-0.0058 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.01s | CPU=41.75s
+
+>>> [828/1000] Efficient coordinate-descent for orthogonal matrices through Givens   rotations
+Comp=-0.0037 | Suff=-0.0368 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.44s | CPU=20.58s
+
+>>> [829/1000] Communication and trust in the bounded confidence model
+Comp=0.0434 | Suff=0.0449 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.43s | CPU=8.50s
+
+>>> [830/1000] A New Structural Property of SAT
+Comp=0.0002 | Suff=0.0127 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.91s | CPU=41.41s
+
+>>> [831/1000] A Hierarchical Exact Accelerated Stochastic Simulation Algorithm
+Comp=-0.0041 | Suff=-0.0102 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.89s | CPU=88.69s
+
+>>> [832/1000] Ab initio calculation of H + He$^+$ charge transfer cross sections for   plasma
+Comp=-0.0029 | Suff=-0.0353 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.14s | CPU=24.53s
+
+>>> [833/1000] Photoionization of hydrogen atom by coherent intense high-frequency   short lase
+Comp=0.0021 | Suff=-0.0225 | Rank=0.04943820224719101 | MAE=0.0369 | RMSE=0.0508 | Stab=0.3097 | Time=15.14s | CPU=90.41s
+
+>>> [834/1000] NP has log-space verifiers with fixed-size public quantum registers
+Comp=0.0142 | Suff=0.0075 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.91s
+
+>>> [835/1000] Some hard families of parameterised counting problems
+Comp=0.0014 | Suff=-0.0081 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.80s | CPU=4.78s
+
+>>> [836/1000] Crosstalk between non-processive myosin motors mediated by the actin   filament
+Comp=-0.0009 | Suff=-0.0124 | Rank=-0.05454545454545454 | MAE=0.0174 | RMSE=0.0226 | Stab=-0.2364 | Time=12.54s | CPU=74.72s
+
+>>> [837/1000] Incidence Handling and Response System
+Comp=0.0080 | Suff=-0.0291 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.81s | CPU=40.69s
+
+>>> [838/1000] Partially-disordered photonic-crystal thin films for enhanced and robust   photo
+Comp=-0.0057 | Suff=-0.0338 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [839/1000] Using Genetic Programming to Model Software
+Comp=0.0326 | Suff=-0.0123 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.84s
+
+>>> [840/1000] A biomechanical model of the face including muscles for the prediction   of defo
+Comp=-0.0014 | Suff=-0.0495 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.07s | CPU=18.38s
+
+>>> [841/1000] Basis set convergence of post-CCSD contributions to molecular   atomization ener
+Comp=-0.0001 | Suff=-0.0476 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=20.91s | CPU=124.75s
+
+>>> [842/1000] Micro-CernVM: Slashing the Cost of Building and Deploying Virtual   Machines
+Comp=0.0014 | Suff=-0.0030 | Rank=0.6166666666666666 | MAE=0.0119 | RMSE=0.0135 | Stab=0.5056 | Time=13.29s | CPU=79.25s
+
+>>> [843/1000] Applying statistical methods to text steganography
+Comp=0.0043 | Suff=-0.0284 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.31s | CPU=1.86s
+
+>>> [844/1000] Introduction to the Bag of Features Paradigm for Image Classification   and Retr
+Comp=0.0027 | Suff=-0.0219 | Rank=0.5636363636363636 | MAE=0.0273 | RMSE=0.0355 | Stab=0.2000 | Time=13.97s | CPU=82.92s
+
+>>> [845/1000] Optimal Limited Contingency Planning
+Comp=0.0007 | Suff=-0.0496 | Rank=0.7166666666666667 | MAE=0.0055 | RMSE=0.0065 | Stab=0.4667 | Time=11.92s | CPU=71.12s
+
+>>> [846/1000] Linearizability with Ownership Transfer
+Comp=0.0045 | Suff=-0.0149 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.55s | CPU=21.22s
+
+>>> [847/1000] Tokamak operation at low q and scaling toward a fusion machine
+Comp=-0.0087 | Suff=-0.0154 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.84s
+
+>>> [848/1000] Basic Network Creation Games with Communication Interests
+Comp=0.0075 | Suff=-0.0770 | Rank=0.17062146892655367 | MAE=0.0386 | RMSE=0.0503 | Stab=-0.1684 | Time=16.33s | CPU=97.72s
+
+>>> [849/1000] Geometrical theory of diffracted rays, orbiting and complex rays
+Comp=-0.0009 | Suff=-0.0175 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.06s | CPU=24.33s
+
+>>> [850/1000] An Experiment on the Connection between the DLs' Family DL<ForAllPiZero>   and t
+Comp=-0.0037 | Suff=-0.0021 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.16s
+
+>>> [851/1000] The Forgotten Night: The Number Devil Explores Spherical Geometry
+Comp=0.0054 | Suff=0.0313 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.39s
+
+>>> [852/1000] Mirror symmetry breaking with limited enantioselective autocatalysis and   tempe
+Comp=0.0057 | Suff=-0.0343 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.55s | CPU=9.27s
+
+>>> [853/1000] The Bayesian Structural EM Algorithm
+Comp=0.0053 | Suff=-0.0241 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.44s | CPU=20.44s
+
+>>> [854/1000] Why does superfluid helium leak out of an open container?
+Comp=-0.0015 | Suff=-0.0641 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.53s | CPU=9.17s
+
+>>> [855/1000] MHD and Gyro-kinetic Stability of JET Pedestals
+Comp=-0.0044 | Suff=-0.0249 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.67s | CPU=21.94s
+
+>>> [856/1000] Biological Observer-Participation and Wheeler's 'Law without Law'
+Comp=0.0064 | Suff=0.0183 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.03s
+
+>>> [857/1000] Extending a system in the calculus of structures with a self-dual   quantifier
+Comp=0.0141 | Suff=-0.0247 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.76s | CPU=10.47s
+
+>>> [858/1000] Ultra-high-Q tunable whispering-gallery-mode microresonator
+Comp=0.0071 | Suff=-0.0063 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.44s
+
+>>> [859/1000] An Achievable Rate Region for Interference Channels with Conferencing
+Comp=0.0041 | Suff=-0.0460 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.77s | CPU=4.59s
+
+>>> [860/1000] Linear stability analysis of transverse dunes
+Comp=0.0033 | Suff=-0.0257 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.83s | CPU=5.06s
+
+>>> [861/1000] Parallelizing Stream with Future
+Comp=0.0051 | Suff=0.0004 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.64s | CPU=3.75s
+
+>>> [862/1000] Effect of plasma inhomogeneity on plasma wakefield acceleration driven   by long
+Comp=0.0070 | Suff=-0.0207 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.53s | CPU=9.03s
+
+>>> [863/1000] On the Performance of Low Density Parity Check Codes for Gaussian   Interference
+Comp=0.0009 | Suff=-0.0354 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.10s | CPU=42.31s
+
+>>> [864/1000] A weighted message-passing algorithm to estimate volume-related   properties of
+Comp=0.0001 | Suff=-0.0278 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.06s
+
+>>> [865/1000] A 7-core erbium doped double-clad fiber amplifier with side-coupled   pumping
+Comp=-0.0009 | Suff=0.0026 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=1.97s
+
+>>> [866/1000] Spacecraft charging: incoming and outgoing electrons
+Comp=0.0234 | Suff=-0.0164 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.71s | CPU=4.23s
+
+>>> [867/1000] Beyond the Cut-Set Bound: Uncertainty Computations in Network Coding   with Corr
+Comp=-0.0004 | Suff=-0.0399 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.21s | CPU=43.16s
+
+>>> [868/1000] Electrostatic Structures in Space Plasmas: Stability of Two-dimensional   Magnet
+Comp=0.0087 | Suff=-0.0021 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=17.07s | CPU=101.88s
+
+>>> [869/1000] Numerical Methods for Solving Convection-Diffusion Problems
+Comp=-0.0036 | Suff=-0.0485 | Rank=-0.12777777777777777 | MAE=0.0471 | RMSE=0.0532 | Stab=-0.0463 | Time=14.15s | CPU=84.39s
+
+>>> [870/1000] Anatomical Feature-guided Volumeric Registration of Multimodal Prostate   MRI
+Comp=0.0005 | Suff=-0.0634 | Rank=0.6242424242424242 | MAE=0.0222 | RMSE=0.0275 | Stab=0.0141 | Time=13.16s | CPU=78.61s
+
+>>> [871/1000] Knudsen Diffusion in Silicon Nanochannels
+Comp=-0.0010 | Suff=-0.0193 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.87s | CPU=5.25s
+
+>>> [872/1000] MiBoard: Multiplayer Interactive Board Game
+Comp=0.0015 | Suff=-0.0086 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.96s | CPU=17.77s
+
+>>> [873/1000] On Decidability Properties of Local Sentences
+Comp=0.0005 | Suff=-0.0265 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.65s | CPU=9.77s
+
+>>> [874/1000] Bypassing Cowling's theorem in axisymmetric fluid dynamos
+Comp=-0.0020 | Suff=-0.0259 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.19s | CPU=43.02s
+
+>>> [875/1000] On the Impact of Random Index-Partitioning on Index Compression
+Comp=0.0047 | Suff=0.0279 | Rank=0.07272727272727274 | MAE=0.0387 | RMSE=0.0467 | Stab=-0.0091 | Time=14.64s | CPU=87.55s
+
+>>> [876/1000] Role of thermal vibrations in phase transitions
+Comp=-0.0003 | Suff=-0.0340 | Rank=-0.03636363636363637 | MAE=0.0288 | RMSE=0.0431 | Stab=0.0152 | Time=13.96s | CPU=83.42s
+
+>>> [877/1000] High-Confidence Predictions under Adversarial Uncertainty
+Comp=-0.0113 | Suff=-0.0033 | Rank=-0.10175438596491228 | MAE=0.0387 | RMSE=0.0528 | Stab=0.3094 | Time=15.59s | CPU=93.00s
+
+>>> [878/1000] A Noise Addition Scheme in Decision Tree for Privacy Preserving Data   Mining
+Comp=-0.0037 | Suff=0.0063 | Rank=-0.09090909090909088 | MAE=0.0187 | RMSE=0.0230 | Stab=-0.0424 | Time=12.06s | CPU=72.02s
+
+>>> [879/1000] Natural Light Cloaking for Aquatic and Terrestrial Creatures
+Comp=0.0035 | Suff=0.0084 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.75s | CPU=10.55s
+
+>>> [880/1000] The principle of a virtual multi-channel lock-in amplifier and its   application
+Comp=0.0037 | Suff=-0.0286 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.45s
+
+>>> [881/1000] Hybrid Semantics of Stochastic Programs with Dynamic Reconfiguration
+Comp=0.0043 | Suff=-0.0388 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.78s | CPU=4.67s
+
+>>> [882/1000] Reducing the Heterogeneity of Payoffs: an Effective Way to Promote   Cooperation
+Comp=0.0013 | Suff=-0.0057 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.73s
+
+>>> [883/1000] Learning to Blend by Relevance
+Comp=-0.0012 | Suff=0.0421 | Rank=-0.0503875968992248 | MAE=0.0436 | RMSE=0.0592 | Stab=0.0282 | Time=13.21s | CPU=78.78s
+
+>>> [884/1000] The Study and Approach of Software Re-Engineering
+Comp=0.0010 | Suff=-0.0390 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.72s | CPU=4.33s
+
+>>> [885/1000] A Characterization of Reduced Forms of Linear Differential Systems
+Comp=0.0038 | Suff=-0.0506 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.92s | CPU=11.48s
+
+>>> [886/1000] Quantum theory as a tool for the description of simple psychological   phenomena
+Comp=0.0022 | Suff=-0.0245 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.67s | CPU=10.02s
+
+>>> [887/1000] Enabling single-mode behavior over large areas with photonic Dirac cones
+Comp=0.0049 | Suff=-0.0346 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.71s | CPU=22.11s
+
+>>> [888/1000] Polymer nanofibers as novel light-emitting sources and lasing material
+Comp=-0.0021 | Suff=-0.0257 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.04s | CPU=24.11s
+
+>>> [889/1000] Uniform electron gases
+Comp=-0.0006 | Suff=-0.0400 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.35s | CPU=2.14s
+
+>>> [890/1000] Effective slip over superhydrophobic surfaces in thin channels
+Comp=0.0079 | Suff=-0.0065 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.30s | CPU=85.47s
+
+>>> [891/1000] Energy Efficient Control of an Induction Machine under Load Torque Step   Change
+Comp=0.0009 | Suff=-0.0807 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=2.90s | CPU=17.31s
+
+>>> [892/1000] Comparison-Based Learning with Rank Nets
+Comp=0.0085 | Suff=0.0138 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.74s | CPU=4.44s
+
+>>> [893/1000] Efficient Indexing and Querying over Syntactically Annotated Trees
+Comp=-0.0023 | Suff=-0.0154 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.17s | CPU=90.73s
+
+>>> [894/1000] Geometric Mixing, Peristalsis, and the Geometric Phase of the Stomach
+Comp=-0.0015 | Suff=-0.0358 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.74s | CPU=10.38s
+
+>>> [895/1000] A superhigh-frequency optoelectromechanical system based on a slotted   photonic
+Comp=-0.0015 | Suff=-0.0208 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.69s | CPU=10.11s
+
+>>> [896/1000] Phase retrieval by power iterations
+Comp=0.0266 | Suff=-0.0253 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.30s | CPU=1.78s
+
+>>> [897/1000] A mathematical proof of the existence of trends in financial time series
+Comp=-0.0000 | Suff=-0.0269 | Rank=0.6 | MAE=0.0082 | RMSE=0.0091 | Stab=0.2778 | Time=10.54s | CPU=62.77s
+
+>>> [898/1000] Integrating Datalog and Constraint Solving
+Comp=0.0097 | Suff=-0.0209 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.48s | CPU=8.78s
+
+>>> [899/1000] Substituent Effects on the Spin-Transition Temperature in Complexes with   Tris(
+Comp=-0.0016 | Suff=-0.0320 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.82s | CPU=4.95s
+
+>>> [900/1000] The principle of superposition for waves
+Comp=0.0178 | Suff=-0.0358 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.66s | CPU=9.88s
+
+>>> [901/1000] The Problem of the Observer in Physics
+Comp=0.0179 | Suff=-0.0493 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.53s | CPU=9.08s
+
+>>> [902/1000] Low-rank optimization for distance matrix completion
+Comp=0.0016 | Suff=-0.0334 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.58s | CPU=39.25s
+
+>>> [903/1000] Electron-hole pairs during the adsorption dynamics of O2 on Pd(100) -   Exciting
+Comp=-0.0027 | Suff=-0.0358 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.16s | CPU=24.81s
+
+>>> [904/1000] An efficient multigrid calculation of the far field map for Helmholtz   and Schr
+Comp=0.0020 | Suff=-0.0398 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.83s | CPU=10.94s
+
+>>> [905/1000] The Durham adaptive optics real-time controller: Capability and ELT   suitabilit
+Comp=0.0049 | Suff=-0.0004 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.37s | CPU=2.23s
+
+>>> [906/1000] Comment on "Space-Time Crystals of Trapped Ions": And Yet it Moves Not !
+Comp=0.0059 | Suff=-0.0083 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.75s
+
+>>> [907/1000] Origin of line tension for a Lennard-Jones nanodroplet
+Comp=0.0248 | Suff=-0.0401 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.50s
+
+>>> [909/1000] Approach to Universality in Axisymmetric Bubble Pinch-Off
+Comp=0.0036 | Suff=-0.0453 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.89s | CPU=5.34s
+
+>>> [910/1000] Shortest Path Computation with No Information Leakage
+Comp=-0.0001 | Suff=0.0036 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.45s | CPU=86.41s
+
+>>> [911/1000] Universality of scholarly impact metrics
+Comp=0.0028 | Suff=-0.0131 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.47s | CPU=20.77s
+
+>>> [912/1000] A subsystems approach for parameter estimation of ODE models of hybrid   systems
+Comp=0.0826 | Suff=-0.0195 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.83s
+
+>>> [913/1000] 3D-Mesh denoising using an improved vertex based anisotropic diffusion
+Comp=-0.0021 | Suff=-0.0124 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.66s | CPU=39.78s
+
+>>> [914/1000] Femtosecond Photo-Induced Multiphoton Analog Computation for   Symmetry-Based Pa
+Comp=-0.0021 | Suff=-0.0333 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.79s | CPU=100.23s
+
+>>> [915/1000] Online Vertex-Weighted Bipartite Matching and Single-bid Budgeted   Allocations
+Comp=0.0040 | Suff=-0.0298 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=18.23s | CPU=108.89s
+
+>>> [916/1000] Cell Oscillation Resolution in Mobility Profile Building
+Comp=-0.0047 | Suff=-0.0512 | Rank=-0.011111111111111108 | MAE=0.0345 | RMSE=0.0483 | Stab=0.0593 | Time=11.83s | CPU=70.81s
+
+>>> [917/1000] Semi-Global Approximate stabilization of an infinite dimensional quantum   stoch
+Comp=0.0018 | Suff=-0.0284 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.79s | CPU=10.67s
+
+>>> [918/1000] Nonlinear DNA dynamics: nonlinearity versus dispersion
+Comp=-0.0028 | Suff=-0.0308 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.41s
+
+>>> [919/1000] The Interfacial-Organized Monolayer Water Hindering the Aggregation of   Nanogra
+Comp=0.0017 | Suff=-0.0417 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.05s | CPU=48.08s
+
+>>> [920/1000] On the Critical Coupling for Kuramoto Oscillators
+Comp=-0.0003 | Suff=-0.0055 | Rank=0.12727272727272726 | MAE=0.0178 | RMSE=0.0230 | Stab=0.1798 | Time=15.58s | CPU=93.08s
+
+>>> [921/1000] Design Studies of the PWO Forward End-cap Calorimeter for PANDA
+Comp=0.0059 | Suff=-0.0142 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.85s | CPU=100.52s
+
+>>> [922/1000] Modus Ponens Generating Function in the Class of ^-valuations of   Plausibility
+Comp=0.0081 | Suff=-0.0137 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.32s | CPU=1.88s
+
+>>> [923/1000] Functional Dependence in Strategic Games
+Comp=0.0022 | Suff=-0.0163 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.31s | CPU=1.88s
+
+>>> [924/1000] Adaptive Modulation in Multi-user Cognitive Radio Networks over Fading   Channel
+Comp=0.0050 | Suff=-0.0600 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.46s | CPU=8.69s
+
+>>> [925/1000] Self-synchronizing pulse position modulation with error tolerance
+Comp=0.0014 | Suff=-0.0583 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=16.43s | CPU=97.91s
+
+>>> [926/1000] Regret Bound by Variation for Online Convex Optimization
+Comp=0.0019 | Suff=-0.0386 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.21s | CPU=19.20s
+
+>>> [927/1000] Recent Applications of Optical Parametric Amplifiers in Hybrid WDM TDM   Local A
+Comp=-0.0019 | Suff=-0.0186 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.39s | CPU=2.34s
+
+>>> [928/1000] FPGA-based Time to Digital Converter and Data Acquisition system for   High Ener
+Comp=-0.0019 | Suff=-0.0093 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.74s | CPU=10.41s
+
+>>> [929/1000] Mobile Robots in Teaching Programming for IT Engineers and its Effects
+Comp=0.0005 | Suff=0.0056 | Rank=0.3438596491228071 | MAE=0.0318 | RMSE=0.0414 | Stab=-0.0901 | Time=12.09s | CPU=72.19s
+
+>>> [930/1000] Where are your Manners? Sharing Best Community Practices in the Web 2.0
+Comp=0.0209 | Suff=-0.0056 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.79s | CPU=4.69s
+
+>>> [931/1000] Optimization for Compressed Sensing: the Simplex Method and Kronecker   Sparsifi
+Comp=0.0010 | Suff=-0.0204 | Rank=0.44545454545454555 | MAE=0.0340 | RMSE=0.0411 | Stab=0.3394 | Time=12.76s | CPU=76.08s
+
+>>> [932/1000] One-Bit Quantizers for Fading Channels
+Comp=0.0026 | Suff=-0.0278 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.39s | CPU=2.34s
+
+>>> [933/1000] Effect of the anisotropy on the glory structure of molecule-molecule   scatterin
+Comp=-0.0060 | Suff=-0.0251 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.82s | CPU=4.88s
+
+>>> [934/1000] Effect of viscosity and surface tension on the growth of Rayleigh   -Taylor inst
+Comp=0.0007 | Suff=-0.0538 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.57s | CPU=21.38s
+
+>>> [935/1000] Contracts for Interacting Two-Party Systems
+Comp=0.0091 | Suff=0.0152 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.34s | CPU=2.05s
+
+>>> [936/1000] Numerical analysis of impact processes of granular jets
+Comp=-0.0010 | Suff=-0.0680 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.17s | CPU=18.89s
+
+>>> [937/1000] Fractal universe and the speed of light: Revision of the universal   constants
+Comp=0.0025 | Suff=-0.0428 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.99s | CPU=89.34s
+
+>>> [938/1000] Interacting new agegraphic viscous dark energy with varying $G$
+Comp=-0.0021 | Suff=-0.0272 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.70s | CPU=4.17s
+
+>>> [939/1000] What have we learned from observational cosmology ?
+Comp=-0.0022 | Suff=-0.0394 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.86s | CPU=11.11s
+
+>>> [940/1000] Admixture and Drift in Oscillating Fluid Flows
+Comp=0.0008 | Suff=-0.0419 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.31s | CPU=7.88s
+
+>>> [941/1000] Data-Oblivious External-Memory Algorithms for the Compaction, Selection,   and S
+Comp=-0.0081 | Suff=-0.0444 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.80s | CPU=10.77s
+
+>>> [942/1000] The case for caution in predicting scientists' future impact
+Comp=-0.0030 | Suff=-0.0432 | Rank=0.6333333333333333 | MAE=0.0097 | RMSE=0.0121 | Stab=0.7889 | Time=13.01s | CPU=77.56s
+
+>>> [943/1000] Chemical compass model for avian magnetoreception as a quantum coherent   device
+Comp=-0.0034 | Suff=-0.0214 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.32s | CPU=43.52s
+
+>>> [944/1000] Bidirectional transport and pulsing states in a multi-lane ASEP model
+Comp=-0.0025 | Suff=-0.0575 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=8.04s | CPU=48.03s
+
+>>> [945/1000] Wavelength tunable spectral compression in a dispersion-increasing fiber
+Comp=-0.0010 | Suff=-0.0248 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.70s | CPU=4.12s
+
+>>> [946/1000] Particle trajectories beneath small amplitude shallow water waves in   constant
+Comp=-0.0018 | Suff=-0.0140 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.36s | CPU=2.16s
+
+>>> [947/1000] Redundancy in Systems which Entertain a Model of Themselves: Interaction   Infor
+Comp=0.0030 | Suff=0.0023 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.36s | CPU=43.89s
+
+>>> [948/1000] Compression and Combining Based on Channel Shortening and Rank Reduction   Techn
+Comp=-0.0015 | Suff=-0.0133 | Rank=0.4787878787878787 | MAE=0.0214 | RMSE=0.0244 | Stab=-0.1960 | Time=12.93s | CPU=76.97s
+
+>>> [949/1000] PySLHA: a Pythonic interface to SUSY Les Houches Accord data
+Comp=0.0475 | Suff=-0.0285 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.69s
+
+>>> [950/1000] Enhanced stiffness modeling of manipulators with passive joints
+Comp=-0.0017 | Suff=-0.0262 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.75s | CPU=10.45s
+
+>>> [951/1000] Advances towards pB11 Fusion with the Dense Plasma Focus
+Comp=-0.0029 | Suff=-0.0264 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.72s | CPU=10.19s
+
+>>> [952/1000] MIRAGE: An Iterative MapReduce based FrequentSubgraph Mining Algorithm
+Comp=-0.0010 | Suff=-0.0077 | Rank=-0.1515151515151515 | MAE=0.0257 | RMSE=0.0301 | Stab=-0.0424 | Time=13.23s | CPU=78.81s
+
+>>> [953/1000] Being, space and time in the Web
+Comp=-0.0022 | Suff=0.0113 | Rank=0.15964912280701757 | MAE=0.0286 | RMSE=0.0370 | Stab=0.1158 | Time=12.25s | CPU=73.03s
+
+>>> [954/1000] Kinetic exchange opinion model: solution in the single parameter map   limit
+Comp=0.0328 | Suff=-0.0483 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.08s | CPU=18.39s
+
+>>> [955/1000] Broadcast Strategies with Probabilistic Delivery Guarantee in   Multi-Channel Mu
+Comp=0.0016 | Suff=-0.0540 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.42s | CPU=8.48s
+
+>>> [956/1000] Lambda Dependency-Based Compositional Semantics
+Comp=0.0666 | Suff=-0.0144 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.13s | CPU=0.75s
+
+>>> [957/1000] Secure Data Processing in a Hybrid Cloud
+Comp=0.0001 | Suff=-0.0426 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.70s | CPU=45.86s
+
+>>> [958/1000] Stochastic variability of oceanic flows above topography anomalies
+Comp=0.0119 | Suff=-0.0422 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.49s | CPU=20.81s
+
+>>> [959/1000] Modeling and verifying a broad array of network properties
+Comp=-0.0056 | Suff=-0.0499 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.77s | CPU=10.36s
+
+>>> [960/1000] On the Concept of Variable Roles and its Use in Software Analysis
+Comp=-0.0006 | Suff=-0.0368 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.67s | CPU=9.98s
+
+>>> [961/1000] Exchanging OWL 2 QL Knowledge Bases
+Comp=-0.0134 | Suff=-0.0287 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.91s | CPU=5.50s
+
+>>> [962/1000] Bounds on the degree of APN polynomials The Case of $x^{-1}+g(x)$
+Comp=0.0001 | Suff=-0.0038 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.16s | CPU=1.03s
+
+>>> [963/1000] Computational Complexity of Decoding Orthogonal Space-Time Block Codes
+Comp=0.0020 | Suff=-0.0414 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.63s | CPU=9.83s
+
+>>> [964/1000] Entropy-Corrected New Agegraphic Dark Energy Model in Horava-Lifshitz   Gravity
+Comp=-0.0196 | Suff=-0.0277 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.17s | CPU=0.84s
+
+>>> [965/1000] LEDDB: LOFAR Epoch of Reionization Diagnostic Database
+Comp=0.0003 | Suff=-0.0069 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.55s | CPU=21.20s
+
+>>> [966/1000] Photon elastic scattering simulation: validation and improvements to   Geant4
+Comp=0.0056 | Suff=-0.0354 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.46s | CPU=44.55s
+
+>>> [967/1000] Scalable Grid Resource Discovery through Distributed Search
+Comp=0.0013 | Suff=-0.0376 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=13.93s | CPU=82.94s
+
+>>> [968/1000] One-Way Speed of Light Measurements Without Clock Synchronisation
+Comp=0.0007 | Suff=-0.0810 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.63s | CPU=45.31s
+
+>>> [969/1000] About the Mechanism of Geyser Eruption
+Comp=0.0041 | Suff=-0.0082 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.31s | CPU=1.70s
+
+>>> [970/1000] Towards an $O(\sqrt[3]{\log n})$-Approximation Algorithm for {\sc   Balanced Sep
+Comp=-0.0008 | Suff=-0.0223 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=20.54s | CPU=122.52s
+
+>>> [971/1000] Higher order splitting methods with modified integrators for a class of   Hamilt
+Comp=-0.0139 | Suff=-0.0298 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.15s | CPU=0.88s
+
+>>> [972/1000] The Parameterised Complexity of Counting Connected Subgraphs and Graph   Motifs
+Comp=0.0081 | Suff=-0.0328 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.88s | CPU=5.20s
+
+>>> [973/1000] Transmission of doughnut light through a bull's eye structure
+Comp=0.0103 | Suff=-0.0521 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.75s | CPU=4.41s
+
+>>> [974/1000] Spatial Resources Optimization in Distributed MIMO Networks with Limited   Data
+Comp=-0.0010 | Suff=-0.0310 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.66s | CPU=21.80s
+
+>>> [975/1000] Fuzzy Classification of Facial Component Parameters
+Comp=-0.0004 | Suff=-0.0096 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.77s | CPU=4.59s
+
+>>> [976/1000] Relativistic electron-ion recombination in the presence of an intense   laser fi
+Comp=-0.0167 | Suff=-0.0171 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.86s
+
+>>> [977/1000] Coronal mass ejections as expanding force-free structures
+Comp=0.0186 | Suff=-0.0350 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.85s | CPU=23.05s
+
+>>> [978/1000] On the Parameterized Complexity of Computing Balanced Partitions in   Graphs
+Comp=-0.0013 | Suff=0.0325 | Rank=-0.2666666666666666 | MAE=0.0464 | RMSE=0.0596 | Stab=-0.0556 | Time=13.73s | CPU=81.95s
+
+>>> [979/1000] Chkareuli-Froggatt-Nielsen Theorem and Photon Mass
+Comp=0.0128 | Suff=-0.0148 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.14s | CPU=0.73s
+
+>>> [980/1000] Numerical simulation of Faraday waves
+Comp=-0.0026 | Suff=-0.0350 | Rank=-0.3939393939393939 | MAE=0.0196 | RMSE=0.0224 | Stab=-0.0222 | Time=11.15s | CPU=66.39s
+
+>>> [981/1000] The Prediction value
+Comp=0.0148 | Suff=-0.0440 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.05s | CPU=42.20s
+
+>>> [982/1000] All-Optical Switching Demonstration using Two-Photon Absorption and the   Classi
+Comp=0.0211 | Suff=-0.0234 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.71s | CPU=4.20s
+
+>>> [983/1000] 32 Bin Near-Infrared Time-Multiplexing Detector with Attojoule   Single-Shot Ene
+Comp=-0.0005 | Suff=-0.0260 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.41s | CPU=20.34s
+
+>>> [984/1000] Partial-indistinguishability obfuscation using braids
+Comp=-0.0019 | Suff=-0.0172 | Rank=0.41666666666666663 | MAE=0.0080 | RMSE=0.0088 | Stab=0.0167 | Time=11.87s | CPU=70.92s
+
+>>> [985/1000] Sequential Monte Carlo Inference of Mixed Membership Stochastic   Blockmodels fo
+Comp=-0.0014 | Suff=-0.0425 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=6.83s | CPU=40.77s
+
+>>> [986/1000] The prospects for producing ultracold NH$_3$ molecules by sympathetic   cooling:
+Comp=0.0057 | Suff=-0.0290 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=15.80s | CPU=94.44s
+
+>>> [987/1000] Optimally coherent sets in geophysical flows: A new approach to   delimiting the
+Comp=-0.0041 | Suff=-0.0571 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.68s | CPU=22.03s
+
+>>> [988/1000] A Polyhedral Approximation Framework for Convex and Robust Distributed   Optimiz
+Comp=0.0041 | Suff=-0.0502 | Rank=0.6 | MAE=0.0248 | RMSE=0.0284 | Stab=-0.3495 | Time=13.66s | CPU=81.41s
+
+>>> [989/1000] Looking for plausibility
+Comp=0.0094 | Suff=-0.0206 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=14.64s | CPU=87.05s
+
+>>> [990/1000] Chapter 10: Algebraic Algorithms
+Comp=0.0051 | Suff=0.0095 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.71s | CPU=4.20s
+
+>>> [991/1000] Self-Organization Promotes the Evolution of Cooperation with Cultural   Propagat
+Comp=0.0006 | Suff=-0.0208 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.57s | CPU=9.30s
+
+>>> [992/1000] Exact Reconstruction of Spatially Undersampled Signals in Evolutionary   Systems
+Comp=0.0030 | Suff=-0.0330 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.89s | CPU=5.34s
+
+>>> [993/1000] Validation of fluorescence transition probability calculations
+Comp=0.0090 | Suff=-0.0417 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.33s | CPU=2.05s
+
+>>> [994/1000] VoIP Steganography and Its Detection - A Survey
+Comp=0.0262 | Suff=-0.0369 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=0.73s | CPU=4.41s
+
+>>> [995/1000] Deinterleaving Finite Memory Processes via Penalized Maximum Likelihood
+Comp=0.0130 | Suff=-0.0306 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=4.02s | CPU=24.00s
+
+>>> [996/1000] RIO: Minimizing User Interaction in Debugging of Knowledge Bases
+Comp=0.0014 | Suff=-0.0506 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=7.00s | CPU=41.83s
+
+>>> [997/1000] On certain properties of the compact Zakharov equation
+Comp=0.0029 | Suff=-0.0421 | Rank=0.5833333333333334 | MAE=0.0068 | RMSE=0.0088 | Stab=0.0056 | Time=16.99s | CPU=101.30s
+
+>>> [998/1000] Modeling Images using Transformed Indian Buffet Processes
+Comp=0.0125 | Suff=-0.0176 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.57s | CPU=9.36s
+
+>>> [999/1000] Analytical Nonlocal Electrostatics Using Eigenfunction Expansions of   Boundary-
+Comp=0.0005 | Suff=-0.0361 | Rank=0.9999999999999999 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=1.94s | CPU=11.53s
+
+>>> [1000/1000] Intelligent City Traffic Management and Public Transportation System
+Comp=0.0202 | Suff=-0.0009 | Rank=1.0 | MAE=0.0000 | RMSE=0.0000 | Stab=1.0000 | Time=3.49s | CPU=20.83s
+
+==================== AVG RESULTS (MAIHOA) ====================
+Avg Comprehensiveness: 0.0042
+Avg Sufficiency:       -0.0260
+Avg Rank Agreement:   0.8845
+Avg MAE:              0.0036
+Avg RMSE:             0.0046
+Avg Stability:        0.8576
+Avg Runtime (wall): 5.62s
+Avg CPU Time:       33.55s

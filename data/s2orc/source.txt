@@ -1,0 +1,3 @@
+S2ORC title-abstract-pair subset from sentence-transformers/s2orc on Hugging Face.
+Used as an additional scientific-paper recommendation dataset.
+Only title and abstract fields are used.

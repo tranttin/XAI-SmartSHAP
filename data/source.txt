@@ -1,0 +1,8 @@
+https://www.kaggle.com/datasets/sumitm004/arxiv-scientific-research-papers-dataset
+https://www.kaggle.com/datasets/evilspirit05/paper-keyword
+https://www.kaggle.com/datasets/jimmyyang0928/arxiv-dataset
+https://www.kaggle.com/datasets/themuneeb99/ai-research-papers
+https://www.kaggle.com/datasets/manupande21111997/msmarco-collection-passages
+https://www.kaggle.com/datasets/sumitm004/arxiv-scientific-research-papers-dataset
+https://www.kaggle.com/datasets/anthonytherrien/covid-19-research-articles
+https://www.kaggle.com/datasets/thedevastator/pubmed-article-summarization-dataset

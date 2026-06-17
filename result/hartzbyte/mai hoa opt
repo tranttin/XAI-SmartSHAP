@@ -1,0 +1,465 @@
+(venv) PS C:\Users\ADMIN\PycharmProjects\XAI> python main.py --samples 150 --dataset hartzbyte --log_name maihoa --ns_smart 200 --seed 2012 --mode maihoa_opt
+[*] Khởi tạo Recommender (Bi-encoder: BAAI/bge-small-en, Cross-encoder: BAAI/bge-reranker-base) trên cpu
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 199/199 [00:00<00:00, 5242.72it/s]
+BertModel LOAD REPORT from: BAAI/bge-small-en
+Key                     | Status     | Details
+------------------------+------------+--------
+embeddings.position_ids | UNEXPECTED |
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+Loading weights: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 201/201 [00:00<00:00, 5403.71it/s]
+XLMRobertaForSequenceClassification LOAD REPORT from: BAAI/bge-reranker-base
+Key                             | Status     | Details
+--------------------------------+------------+--------
+roberta.embeddings.position_ids | UNEXPECTED |
+
+Notes:
+- UNEXPECTED:   can be ignored when loading from different task/architecture; not ok if you expect identical arch.
+[*] Đang đọc file: data\hartzbyte\papers.csv
+[*] MODE: maihoa_opt | samples=150 | seed=2012
+
+>>> [1/150] Despite efforts to expand the knowledge of large language models (LLMs), knowled
+Comp=0.0393 | Suff=0.0075 | Rank=1.0 | MAE=0.2445 | RMSE=0.3855 | Stab=1.0000 | Time=0.55s | CPU=3.23s
+
+>>> [2/150] Speech Large Language Models (Speech LLMs) have emerged as a crucial paradigm in
+Comp=0.0047 | Suff=-0.0165 | Rank=1.0 | MAE=0.3197 | RMSE=0.4001 | Stab=1.0000 | Time=2.78s | CPU=16.42s
+
+>>> [3/150] Large Language Models (LLMs) have gained popularity in time series forecasting,
+Comp=0.0263 | Suff=-0.0369 | Rank=1.0 | MAE=0.3876 | RMSE=0.4546 | Stab=1.0000 | Time=0.26s | CPU=1.56s
+
+>>> [4/150] Retrieval-augmented generation (RAG) is typically optimized for topical relevanc
+Comp=0.0184 | Suff=0.0049 | Rank=1.0 | MAE=0.5930 | RMSE=0.6011 | Stab=1.0000 | Time=0.24s | CPU=1.23s
+
+>>> [5/150] Text-based AI system optimization typically involves a feedback loop scheme wher
+Comp=0.0126 | Suff=-0.0157 | Rank=1.0 | MAE=0.4928 | RMSE=0.5930 | Stab=1.0000 | Time=0.26s | CPU=1.47s
+
+>>> [6/150] Large Language Models (LLMs) are increasingly being implemented as joint decisio
+Comp=0.0371 | Suff=-0.0372 | Rank=1.0 | MAE=0.2474 | RMSE=0.3551 | Stab=1.0000 | Time=1.67s | CPU=9.72s
+
+>>> [7/150] Research on emergency and mass casualty incident (MCI) triage has been limited b
+Comp=0.0104 | Suff=0.0060 | Rank=1.0 | MAE=0.4075 | RMSE=0.4949 | Stab=1.0000 | Time=0.22s | CPU=1.31s
+
+>>> [8/150] We present Plancraft, a multi-modal evaluation dataset for LLM agents. Plancraft
+Comp=0.0008 | Suff=-0.0136 | Rank=1.0 | MAE=0.3637 | RMSE=0.4505 | Stab=1.0000 | Time=0.61s | CPU=3.28s
+
+>>> [9/150] Hallucinations in LLMs pose a significant concern to their safe deployment in re
+Comp=0.0039 | Suff=0.0098 | Rank=0.9999999999999999 | MAE=0.4541 | RMSE=0.4935 | Stab=1.0000 | Time=1.48s | CPU=8.81s
+
+>>> [10/150] The rapid development of large language models (LLMs), like ChatGPT, has resulte
+Comp=0.0070 | Suff=-0.0148 | Rank=1.0 | MAE=0.5327 | RMSE=0.5499 | Stab=1.0000 | Time=0.20s | CPU=1.12s
+
+>>> [11/150] Equitable access to reliable health information is vital when integrating AI int
+Comp=0.0148 | Suff=-0.0180 | Rank=0.9999999999999999 | MAE=0.4964 | RMSE=0.5471 | Stab=1.0000 | Time=1.60s | CPU=9.23s
+
+>>> [12/150] Large Language Models (LLMs) have demonstrated impressive performances in tasks
+Comp=-0.0100 | Suff=-0.0340 | Rank=1.0 | MAE=0.4033 | RMSE=0.4749 | Stab=1.0000 | Time=2.82s | CPU=16.33s
+
+>>> [13/150] Large language models (LLMs) have the potential to address social and behavioral
+Comp=0.0498 | Suff=0.0205 | Rank=0.9999999999999999 | MAE=0.3099 | RMSE=0.4173 | Stab=1.0000 | Time=0.12s | CPU=0.73s
+
+>>> [14/150] While large language models (LLMs) demonstrate impressive capabilities across nu
+Comp=0.0009 | Suff=0.0056 | Rank=1.0 | MAE=0.4313 | RMSE=0.4970 | Stab=1.0000 | Time=0.51s | CPU=2.92s
+
+>>> [15/150] LLM providers typically offer multiple LLM tiers, varying in performance and pri
+Comp=0.0155 | Suff=0.0037 | Rank=0.9999999999999999 | MAE=0.3748 | RMSE=0.4706 | Stab=1.0000 | Time=1.45s | CPU=8.62s
+
+>>> [16/150] The advent of Large Language Models (LLMs) has garnered significant popularity a
+Comp=0.0199 | Suff=-0.0211 | Rank=1.0 | MAE=0.3126 | RMSE=0.4138 | Stab=1.0000 | Time=0.40s | CPU=2.38s
+
+>>> [17/150] In the realm of language models, the nuanced linguistic and cultural intricacies
+Comp=0.0410 | Suff=0.0194 | Rank=1.0 | MAE=0.2914 | RMSE=0.4145 | Stab=1.0000 | Time=0.18s | CPU=1.03s
+
+>>> [18/150] Large language models (LLMs) exhibit dynamic capabilities and appear to comprehe
+Comp=0.0047 | Suff=-0.0128 | Rank=1.0 | MAE=0.5054 | RMSE=0.5507 | Stab=1.0000 | Time=0.57s | CPU=3.45s
+
+>>> [19/150] With the rise of large language models (LLMs), researchers are increasingly expl
+Comp=0.0077 | Suff=-0.0341 | Rank=1.0 | MAE=0.3910 | RMSE=0.4526 | Stab=1.0000 | Time=0.43s | CPU=2.52s
+
+>>> [20/150] In this work, we utilize Large Language Models (LLMs) for a novel use case: cons
+Comp=0.0276 | Suff=-0.0225 | Rank=1.0 | MAE=0.3090 | RMSE=0.4117 | Stab=1.0000 | Time=0.27s | CPU=1.58s
+
+>>> [21/150] Despite their performance, large language models (LLMs) can inadvertently perpet
+Comp=0.0118 | Suff=0.0123 | Rank=1.0 | MAE=0.3347 | RMSE=0.4397 | Stab=1.0000 | Time=0.66s | CPU=3.73s
+
+>>> [22/150] Routing a query through an appropriate LLM is challenging, particularly when use
+Comp=0.0190 | Suff=-0.0116 | Rank=1.0 | MAE=0.4034 | RMSE=0.4804 | Stab=1.0000 | Time=0.22s | CPU=1.30s
+
+>>> [23/150] Large language models (LLMs) have demonstrated notable potential in conducting c
+Comp=0.0273 | Suff=-0.0216 | Rank=0.9999999999999999 | MAE=0.8712 | RMSE=0.9201 | Stab=1.0000 | Time=0.08s | CPU=0.47s
+
+>>> [24/150] LLM (large language model) practitioners commonly notice that outputs can vary f
+Comp=0.0025 | Suff=-0.0278 | Rank=1.0 | MAE=0.3019 | RMSE=0.3963 | Stab=1.0000 | Time=4.20s | CPU=24.42s
+
+>>> [25/150] Large Language Models have been widely been adopted by users for writing tasks s
+Comp=0.0211 | Suff=-0.0087 | Rank=1.0 | MAE=0.6293 | RMSE=0.6314 | Stab=1.0000 | Time=0.17s | CPU=1.03s
+
+>>> [26/150] This paper presents a study on the feasibility of using large language models (L
+Comp=0.0243 | Suff=0.0050 | Rank=1.0 | MAE=0.6122 | RMSE=0.6480 | Stab=1.0000 | Time=0.38s | CPU=2.31s
+
+>>> [27/150] Large Language Models (LLMs) are a double-edged sword capable of generating harm
+Comp=0.0079 | Suff=-0.0027 | Rank=1.0 | MAE=0.6237 | RMSE=0.6324 | Stab=1.0000 | Time=0.22s | CPU=1.31s
+
+>>> [28/150] Large language models (LLMs) have recently revolutionized language processing ta
+Comp=0.0048 | Suff=-0.0223 | Rank=0.9999999999999999 | MAE=0.4099 | RMSE=0.4750 | Stab=1.0000 | Time=1.55s | CPU=9.09s
+
+>>> [29/150] The evaluation of Large Language Models (LLMs) is a key element in their continu
+Comp=0.0361 | Suff=0.0488 | Rank=1.0 | MAE=0.4692 | RMSE=0.5152 | Stab=1.0000 | Time=0.18s | CPU=1.11s
+
+>>> [30/150] Large language models (LLMs) have shown potential as general evaluators along wi
+Comp=0.0271 | Suff=-0.0393 | Rank=1.0 | MAE=0.3438 | RMSE=0.4192 | Stab=1.0000 | Time=0.45s | CPU=2.66s
+
+>>> [31/150] Large language models (LLMs) have demonstrated exceptional performance across a
+Comp=-0.0054 | Suff=0.0019 | Rank=1.0 | MAE=0.4019 | RMSE=0.4743 | Stab=1.0000 | Time=2.24s | CPU=13.27s
+
+>>> [32/150] Large Language Models (LLMs) have transformed the natural language processing la
+Comp=0.0316 | Suff=-0.0062 | Rank=1.0 | MAE=0.4394 | RMSE=0.5243 | Stab=1.0000 | Time=0.18s | CPU=1.05s
+
+>>> [33/150] The widespread adoption of open-source software (OSS) has accelerated software i
+Comp=0.0029 | Suff=-0.0133 | Rank=1.0 | MAE=0.2739 | RMSE=0.4110 | Stab=1.0000 | Time=0.40s | CPU=2.31s
+
+>>> [34/150] This paper addresses the challenge of aligning large language models (LLMs) with
+Comp=0.0531 | Suff=-0.0208 | Rank=0.9999999999999999 | MAE=0.6586 | RMSE=0.6685 | Stab=1.0000 | Time=0.08s | CPU=0.45s
+
+>>> [35/150] Knowledge graphs (KGs) are powerful data structures, but exploring them effectiv
+Comp=0.0042 | Suff=-0.0065 | Rank=0.9999999999999999 | MAE=0.8180 | RMSE=1.0112 | Stab=1.0000 | Time=0.08s | CPU=0.47s
+
+>>> [36/150] The advent of ultra-low-bit LLM models (1/1.58/2-bit), which match the perplexit
+Comp=0.0018 | Suff=-0.0593 | Rank=1.0 | MAE=0.4344 | RMSE=0.5692 | Stab=1.0000 | Time=6.00s | CPU=35.06s
+
+>>> [37/150] Recent progress in LLMs discussion suggests that multi-agent discussion improves
+Comp=-0.0009 | Suff=-0.0198 | Rank=1.0 | MAE=0.3011 | RMSE=0.4227 | Stab=1.0000 | Time=0.42s | CPU=2.48s
+
+>>> [38/150] LLM text decoding is key component for perceived LLM quality. We demonstrate two
+Comp=-0.0007 | Suff=-0.0295 | Rank=1.0 | MAE=0.3137 | RMSE=0.4019 | Stab=1.0000 | Time=3.55s | CPU=21.14s
+
+>>> [40/150] Large Language Models (LLMs) have emerged as a milestone in artificial intellige
+Comp=0.0239 | Suff=-0.0301 | Rank=1.0 | MAE=0.4315 | RMSE=0.4972 | Stab=1.0000 | Time=0.56s | CPU=3.47s
+
+>>> [41/150] Large Language Model (LLM) agents are increasingly used in many applications, ra
+Comp=-0.0007 | Suff=-0.0119 | Rank=0.548922774056615 | MAE=0.4841 | RMSE=0.5576 | Stab=1.0000 | Time=81.34s | CPU=474.45s
+
+>>> [42/150] We study an auction setting in which bidders bid for placement of their content
+Comp=0.0220 | Suff=-0.0134 | Rank=1.0 | MAE=0.3136 | RMSE=0.4104 | Stab=1.0000 | Time=0.15s | CPU=0.83s
+
+>>> [43/150] Equitable access to reliable health information is vital when integrating AI int
+Comp=0.0019 | Suff=-0.0049 | Rank=1.0 | MAE=0.3333 | RMSE=0.4847 | Stab=1.0000 | Time=2.23s | CPU=13.33s
+
+>>> [44/150] Large Language Models (LLMs) have demonstrated strong capabilities as autonomous
+Comp=0.0004 | Suff=-0.0091 | Rank=0.9999999999999999 | MAE=0.5537 | RMSE=0.5882 | Stab=1.0000 | Time=0.96s | CPU=5.73s
+
+>>> [45/150] Large language models (LLMs) have opened new opportunities for transforming natu
+Comp=0.0288 | Suff=-0.0233 | Rank=0.9999999999999999 | MAE=0.3038 | RMSE=0.4015 | Stab=1.0000 | Time=1.01s | CPU=6.05s
+
+>>> [46/150] The common approach to communicate a large language model's (LLM) uncertainty is
+Comp=0.0355 | Suff=0.0055 | Rank=1.0 | MAE=0.3234 | RMSE=0.4184 | Stab=1.0000 | Time=0.18s | CPU=1.11s
+
+>>> [47/150] In the rapidly evolving AI era with large language models (LLMs) at the core, ma
+Comp=0.0580 | Suff=0.0046 | Rank=1.0 | MAE=0.3133 | RMSE=0.4102 | Stab=1.0000 | Time=0.17s | CPU=0.92s
+
+>>> [48/150] Jailbreaking techniques trick Large Language Models (LLMs) into producing restri
+Comp=0.0429 | Suff=-0.0075 | Rank=1.0 | MAE=0.2670 | RMSE=0.3998 | Stab=1.0000 | Time=0.39s | CPU=2.28s
+
+>>> [49/150] Large language models (LLMs) are increasingly applied to complex reasoning tasks
+Comp=-0.0062 | Suff=-0.0251 | Rank=1.0 | MAE=0.4377 | RMSE=0.5195 | Stab=1.0000 | Time=0.39s | CPU=2.33s
+
+>>> [50/150] This paper introduces Tele-LLM-Hub, a user friendly low-code solution for rapid
+Comp=0.0028 | Suff=-0.0370 | Rank=1.0 | MAE=0.4280 | RMSE=0.5086 | Stab=1.0000 | Time=2.42s | CPU=14.38s
+
+>>> [51/150] Recent findings reveal that much of the knowledge in a Transformer-based Large L
+Comp=-0.0029 | Suff=0.0062 | Rank=1.0 | MAE=0.2796 | RMSE=0.3931 | Stab=1.0000 | Time=4.45s | CPU=26.31s
+
+>>> [52/150] Dense Retrieval (DR) is now considered as a promising tool to enhance the memori
+Comp=-0.0026 | Suff=-0.0159 | Rank=1.0 | MAE=0.5205 | RMSE=0.5772 | Stab=1.0000 | Time=0.49s | CPU=2.91s
+
+>>> [53/150] The integration of large language model (LLM) and data management (DATA) is rapi
+Comp=0.0121 | Suff=-0.0148 | Rank=1.0 | MAE=0.4056 | RMSE=0.4676 | Stab=1.0000 | Time=0.21s | CPU=1.27s
+
+>>> [54/150] Traditional reinforcement learning and planning typically requires vast amounts
+Comp=-0.0047 | Suff=-0.0236 | Rank=0.9999999999999999 | MAE=0.5034 | RMSE=0.5455 | Stab=1.0000 | Time=1.45s | CPU=8.67s
+
+>>> [55/150] Large language models (LLMs) have shown remarkable capabilities in language unde
+Comp=-0.0104 | Suff=-0.0088 | Rank=1.0 | MAE=0.3862 | RMSE=0.4503 | Stab=1.0000 | Time=0.39s | CPU=2.36s
+
+>>> [56/150] Existing work on improving language model reasoning typically explores a single
+Comp=0.0030 | Suff=0.0032 | Rank=1.0 | MAE=0.8066 | RMSE=0.8388 | Stab=1.0000 | Time=0.37s | CPU=2.14s
+
+>>> [57/150] This paper explores the possibilities of the current generation of Large Languag
+Comp=0.0031 | Suff=-0.0159 | Rank=1.0 | MAE=0.5275 | RMSE=0.5420 | Stab=1.0000 | Time=0.21s | CPU=1.31s
+
+>>> [58/150] Large Language Models (LLMs) have succeeded in a variety of natural language pro
+Comp=0.0100 | Suff=-0.0353 | Rank=1.0 | MAE=0.2824 | RMSE=0.3641 | Stab=1.0000 | Time=6.00s | CPU=35.53s
+
+>>> [59/150] Recent advances in Large Language Models (LLMs) offer unique opportunities for s
+Comp=0.0028 | Suff=0.0110 | Rank=1.0 | MAE=0.5509 | RMSE=0.6309 | Stab=1.0000 | Time=1.95s | CPU=11.62s
+
+>>> [60/150] Hardware-Aware Neural Architecture Search (HW-NAS) requires joint optimization o
+Comp=-0.0028 | Suff=0.0107 | Rank=1.0 | MAE=0.6102 | RMSE=0.6568 | Stab=1.0000 | Time=4.49s | CPU=26.50s
+
+>>> [61/150] Multiple-choice questions (MCQ) are frequently used to assess large language mod
+Comp=0.0017 | Suff=-0.0145 | Rank=1.0 | MAE=0.2155 | RMSE=0.3455 | Stab=1.0000 | Time=8.28s | CPU=49.08s
+
+>>> [62/150] Recent progress in large language models (LLMs) for code generation has raised s
+Comp=0.0254 | Suff=-0.0073 | Rank=0.9999999999999999 | MAE=0.6272 | RMSE=0.6287 | Stab=1.0000 | Time=0.08s | CPU=0.47s
+
+>>> [63/150] As AI agents increasingly act on behalf of human stakeholders in economic settin
+Comp=0.0034 | Suff=-0.0341 | Rank=1.0 | MAE=0.3867 | RMSE=0.4643 | Stab=1.0000 | Time=1.88s | CPU=11.17s
+
+>>> [64/150] Large Language Models (LLMs) have become extremely potent instruments with excep
+Comp=0.0077 | Suff=-0.0291 | Rank=1.0 | MAE=0.4673 | RMSE=0.5186 | Stab=1.0000 | Time=0.25s | CPU=1.50s
+
+>>> [65/150] Large vision-language models (VLMs) can jointly interpret images and text, but t
+Comp=0.0102 | Suff=-0.0333 | Rank=1.0 | MAE=0.2186 | RMSE=0.3561 | Stab=1.0000 | Time=1.71s | CPU=9.88s
+
+>>> [66/150] The advent of large language models (LLMs) has significantly advanced the field
+Comp=-0.0068 | Suff=-0.0352 | Rank=1.0 | MAE=0.3978 | RMSE=0.5061 | Stab=1.0000 | Time=0.44s | CPU=2.59s
+
+>>> [68/150] Retrieval-augmented generation (RAG) aims to reduce hallucinations by grounding
+Comp=0.0077 | Suff=-0.0120 | Rank=0.9999999999999999 | MAE=0.3036 | RMSE=0.4066 | Stab=1.0000 | Time=1.34s | CPU=7.94s
+
+>>> [69/150] In this paper, we conducted a Multi-Perspective Comparative Narrative Analysis (
+Comp=0.0433 | Suff=-0.0044 | Rank=1.0 | MAE=0.2850 | RMSE=0.4006 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [70/150] Despite advances in the field of privacy-preserving Natural Language Processing
+Comp=0.0318 | Suff=-0.0131 | Rank=1.0 | MAE=0.3020 | RMSE=0.4137 | Stab=1.0000 | Time=0.20s | CPU=1.22s
+
+>>> [71/150] In LLM inference, the same prompt may yield different outputs across different r
+Comp=0.0228 | Suff=-0.0399 | Rank=1.0 | MAE=0.3243 | RMSE=0.4334 | Stab=1.0000 | Time=2.14s | CPU=12.89s
+
+>>> [72/150] The ease of using a Large Language Model (LLM) to answer a wide variety of...
+Comp=0.0149 | Suff=-0.0015 | Rank=1.0 | MAE=0.4421 | RMSE=0.4831 | Stab=1.0000 | Time=0.14s | CPU=0.83s
+
+>>> [73/150] Large Language Models (LLMs) are increasingly used to evaluate information retri
+Comp=0.0365 | Suff=-0.0221 | Rank=1.0 | MAE=0.2618 | RMSE=0.3895 | Stab=1.0000 | Time=0.41s | CPU=2.42s
+
+>>> [74/150] The explosive growth of large language models (LLMs) has created a vast but opaq
+Comp=0.0369 | Suff=-0.0189 | Rank=1.0 | MAE=0.2964 | RMSE=0.4118 | Stab=1.0000 | Time=0.39s | CPU=2.34s
+
+>>> [75/150] One important approach to software verification is interactive theorem proving.
+Comp=-0.0050 | Suff=-0.0183 | Rank=1.0 | MAE=0.4179 | RMSE=0.4880 | Stab=1.0000 | Time=0.50s | CPU=3.02s
+
+>>> [76/150] Wav2Prompt is proposed which allows straightforward integration between spoken i
+Comp=0.0051 | Suff=0.0269 | Rank=1.0 | MAE=0.4340 | RMSE=0.5429 | Stab=1.0000 | Time=2.93s | CPU=17.28s
+
+>>> [77/150] The rise of LLM-based agents has opened new frontiers in AI applications, yet ev
+Comp=0.0199 | Suff=-0.0432 | Rank=1.0 | MAE=0.2627 | RMSE=0.3919 | Stab=1.0000 | Time=0.46s | CPU=2.81s
+
+>>> [78/150] Allocating more compute to large language models (LLMs) reasoning has generally
+Comp=0.0075 | Suff=-0.0235 | Rank=1.0 | MAE=0.5227 | RMSE=0.5585 | Stab=1.0000 | Time=0.16s | CPU=0.98s
+
+>>> [79/150] Rapid advancements in Autonomous Driving (AD) tasks turned a significant shift t
+Comp=0.0084 | Suff=0.0135 | Rank=1.0 | MAE=0.3964 | RMSE=0.4682 | Stab=1.0000 | Time=0.53s | CPU=3.16s
+
+>>> [80/150] We present a novel framework that improves the reliability of LLM judges by sele
+Comp=0.0000 | Suff=-0.0224 | Rank=0.9999999999999999 | MAE=0.4696 | RMSE=0.5545 | Stab=1.0000 | Time=1.13s | CPU=6.69s
+
+>>> [81/150] Automating code review with Large Language Models (LLMs) shows immense promise,
+Comp=0.0422 | Suff=-0.0329 | Rank=1.0 | MAE=0.3553 | RMSE=0.4270 | Stab=1.0000 | Time=0.46s | CPU=2.67s
+
+>>> [82/150] Large language models (LLMs) have demonstrated impressive capabilities in variou
+Comp=0.0029 | Suff=-0.0231 | Rank=1.0 | MAE=0.5385 | RMSE=0.5718 | Stab=1.0000 | Time=0.47s | CPU=2.72s
+
+>>> [83/150] Large Language Models (LLMs) are increasingly being explored for building Agents
+Comp=0.0008 | Suff=-0.0096 | Rank=1.0 | MAE=0.5138 | RMSE=0.6219 | Stab=1.0000 | Time=0.21s | CPU=1.31s
+
+>>> [84/150] The rapid advancement of Large Language Models (LLMs) necessitates a deep unders
+Comp=0.0118 | Suff=-0.0392 | Rank=1.0 | MAE=0.2985 | RMSE=0.4069 | Stab=1.0000 | Time=1.99s | CPU=11.80s
+
+>>> [85/150] Background: There is great interest in agentic LLMs, large language models that
+Comp=0.0138 | Suff=-0.0172 | Rank=1.0 | MAE=0.2977 | RMSE=0.4083 | Stab=1.0000 | Time=0.44s | CPU=2.70s
+
+>>> [86/150] Many people feel compelled to interpret, describe, and respond to Large Language
+Comp=0.0243 | Suff=-0.0033 | Rank=1.0 | MAE=0.3000 | RMSE=0.4113 | Stab=1.0000 | Time=0.61s | CPU=3.66s
+
+>>> [87/150] The growing adoption of large language models (LLMs) has led to a new paradigm i
+Comp=0.0087 | Suff=-0.0235 | Rank=1.0 | MAE=0.5185 | RMSE=0.6313 | Stab=1.0000 | Time=1.48s | CPU=8.80s
+
+>>> [88/150] Recently, overconfidence in large language models (LLMs) has garnered considerab
+Comp=0.0785 | Suff=-0.0148 | Rank=0.9999999999999999 | MAE=0.5477 | RMSE=0.5477 | Stab=1.0000 | Time=0.10s | CPU=0.62s
+
+>>> [89/150] Recently, large language models (LLMs) have been deployed to tackle various soft
+Comp=0.0754 | Suff=-0.0145 | Rank=0.9999999999999999 | MAE=0.5509 | RMSE=0.5509 | Stab=1.0000 | Time=0.09s | CPU=0.56s
+
+>>> [90/150] DeFi (Decentralized Finance) is one of the most important applications of today'
+Comp=0.0417 | Suff=-0.0209 | Rank=1.0 | MAE=0.4021 | RMSE=0.4588 | Stab=1.0000 | Time=0.21s | CPU=1.22s
+
+>>> [91/150] End users face a choice between privacy and efficiency in current Large Language
+Comp=0.0129 | Suff=-0.0083 | Rank=1.0 | MAE=0.4633 | RMSE=0.5165 | Stab=1.0000 | Time=0.50s | CPU=2.95s
+
+>>> [92/150] Large language model (LLM) shows promising performances in a variety of downstre
+Comp=0.0186 | Suff=-0.0131 | Rank=1.0 | MAE=0.5090 | RMSE=0.5430 | Stab=1.0000 | Time=0.42s | CPU=2.47s
+
+>>> [93/150] Well-being encompasses mental, physical, and social dimensions essential to pers
+Comp=0.0283 | Suff=0.0076 | Rank=0.9999999999999999 | MAE=0.3545 | RMSE=0.4211 | Stab=1.0000 | Time=0.07s | CPU=0.44s
+
+>>> [94/150] Large Language Models (LLMs) have gained significant attention in on-device appl
+Comp=0.0062 | Suff=-0.0078 | Rank=1.0 | MAE=0.2938 | RMSE=0.4134 | Stab=1.0000 | Time=0.17s | CPU=1.02s
+
+>>> [95/150] Many recent studies showed that LLMs are vulnerable to jailbreak attacks, where
+Comp=-0.0029 | Suff=-0.0119 | Rank=0.9999999999999999 | MAE=0.2979 | RMSE=0.4318 | Stab=1.0000 | Time=0.89s | CPU=5.39s
+
+>>> [96/150] Large language models (LLMs) are widely used as scalable evaluators of model res
+Comp=0.0266 | Suff=-0.0261 | Rank=1.0 | MAE=0.3555 | RMSE=0.4794 | Stab=1.0000 | Time=0.36s | CPU=2.12s
+
+>>> [97/150] While open Large Language Models (LLMs) have made significant progress, they sti
+Comp=0.0162 | Suff=-0.0070 | Rank=0.9999999999999999 | MAE=0.2475 | RMSE=0.3770 | Stab=1.0000 | Time=1.04s | CPU=6.17s
+
+>>> [98/150] Test set contamination, wherein test data from a benchmark ends up in a newer mo
+Comp=0.0739 | Suff=-0.0031 | Rank=1.0 | MAE=0.2642 | RMSE=0.3762 | Stab=1.0000 | Time=0.40s | CPU=2.20s
+
+>>> [99/150] The development of large language models (LLMs) has given rise to four major app
+Comp=0.0369 | Suff=-0.0370 | Rank=1.0 | MAE=0.4352 | RMSE=0.5333 | Stab=1.0000 | Time=0.18s | CPU=1.12s
+
+>>> [100/150] The potential of large language models (LLMs) to generate harmful content poses
+Comp=0.0409 | Suff=0.0113 | Rank=1.0 | MAE=0.2531 | RMSE=0.4025 | Stab=1.0000 | Time=0.19s | CPU=1.20s
+
+>>> [101/150] As hardware design complexity escalates, there is an urgent need for advanced au
+Comp=0.0439 | Suff=-0.0140 | Rank=0.9999999999999999 | MAE=0.6306 | RMSE=0.6326 | Stab=1.0000 | Time=0.09s | CPU=0.56s
+
+>>> [102/150] With the rise of artificial intelligence (AI), applying large language models (L
+Comp=0.0099 | Suff=-0.0116 | Rank=1.0 | MAE=0.5463 | RMSE=0.5895 | Stab=1.0000 | Time=0.52s | CPU=3.09s
+
+>>> [103/150] While Large Language Models (LLMs) can solve many NLP tasks in zero-shot setting
+Comp=0.0482 | Suff=-0.0129 | Rank=0.9999999999999999 | MAE=0.6035 | RMSE=0.6043 | Stab=1.0000 | Time=0.08s | CPU=0.47s
+
+>>> [104/150] This paper presents $\forall$uto$\exists$val, a new approach for scaling LLM ass
+Comp=0.0398 | Suff=-0.0295 | Rank=1.0 | MAE=0.4216 | RMSE=0.4619 | Stab=1.0000 | Time=0.21s | CPU=1.28s
+
+>>> [105/150] This work presents a Fully BInarized Large Language Model (FBI-LLM), demonstrati
+Comp=0.0264 | Suff=-0.0036 | Rank=1.0 | MAE=0.3179 | RMSE=0.4176 | Stab=1.0000 | Time=0.20s | CPU=1.22s
+
+>>> [106/150] Large Language Models (LLMs) represent substantial intellectual and economic inv
+Comp=0.0110 | Suff=0.0123 | Rank=0.9999999999999999 | MAE=0.5214 | RMSE=0.5652 | Stab=1.0000 | Time=1.24s | CPU=7.36s
+
+>>> [107/150] We claim that LLMs can be paired with formal analysis methods to provide accessi
+Comp=0.0244 | Suff=-0.0050 | Rank=0.9999999999999999 | MAE=0.5871 | RMSE=0.5872 | Stab=1.0000 | Time=0.08s | CPU=0.47s
+
+>>> [108/150] With the rapid advancements of large language models (LLMs), information retriev
+Comp=0.0307 | Suff=-0.0301 | Rank=1.0 | MAE=0.2691 | RMSE=0.3734 | Stab=1.0000 | Time=1.91s | CPU=11.55s
+
+>>> [109/150] Instruction-tuning is a widely adopted finetuning method that enables large lang
+Comp=0.0124 | Suff=-0.0307 | Rank=1.0 | MAE=0.3359 | RMSE=0.4317 | Stab=1.0000 | Time=0.43s | CPU=2.61s
+
+>>> [110/150] Legal services rely heavily on text processing. While large language models (LLM
+Comp=0.0223 | Suff=-0.0157 | Rank=1.0 | MAE=0.5378 | RMSE=0.6450 | Stab=1.0000 | Time=0.30s | CPU=1.75s
+
+>>> [111/150] Large language models (LLMs) have received considerable attention recently due t
+Comp=0.0173 | Suff=-0.0034 | Rank=1.0 | MAE=0.4362 | RMSE=0.4779 | Stab=1.0000 | Time=0.14s | CPU=0.88s
+
+>>> [112/150] Reinforcement learning (RL) enhanced large language models (LLMs), particularly
+Comp=0.0163 | Suff=-0.0260 | Rank=1.0 | MAE=0.4648 | RMSE=0.4977 | Stab=1.0000 | Time=0.35s | CPU=2.06s
+
+>>> [113/150] The effective execution of tests for REST APIs remains a considerable challenge
+Comp=0.0097 | Suff=-0.0011 | Rank=1.0 | MAE=0.3874 | RMSE=0.4638 | Stab=1.0000 | Time=0.22s | CPU=1.30s
+
+>>> [115/150] Recently, people have suffered from LLM hallucination and have become increasing
+Comp=0.0123 | Suff=-0.0030 | Rank=1.0 | MAE=0.3009 | RMSE=0.3960 | Stab=1.0000 | Time=2.89s | CPU=17.22s
+
+>>> [116/150] Large language models are increasingly adopted as semantic backbones for neural
+Comp=0.0054 | Suff=-0.0568 | Rank=1.0 | MAE=0.4510 | RMSE=0.5436 | Stab=1.0000 | Time=2.31s | CPU=13.70s
+
+>>> [117/150] Recent advancements in Large Language Models (LLMs) have expanded the horizons o
+Comp=0.0140 | Suff=-0.0046 | Rank=1.0 | MAE=0.5393 | RMSE=0.5519 | Stab=1.0000 | Time=0.16s | CPU=0.92s
+
+>>> [118/150] The rise of Large Language Models (LLMs) has revolutionized natural language pro
+Comp=0.0237 | Suff=-0.0250 | Rank=1.0 | MAE=0.5069 | RMSE=0.5320 | Stab=1.0000 | Time=0.17s | CPU=1.03s
+
+>>> [119/150] Graph-based retrieval-augmented generation (Graph-based RAG) has demonstrated si
+Comp=0.0021 | Suff=-0.0172 | Rank=1.0 | MAE=0.3678 | RMSE=0.4653 | Stab=1.0000 | Time=0.66s | CPU=3.94s
+
+>>> [120/150] As demand for Large Language Models (LLMs) and AI agents rapidly grows, optimizi
+Comp=0.0019 | Suff=-0.0355 | Rank=1.0 | MAE=0.4143 | RMSE=0.5530 | Stab=1.0000 | Time=2.04s | CPU=12.19s
+
+>>> [121/150] The ever-increasing computation and energy demand for LLM and AI agents call for
+Comp=0.0206 | Suff=-0.0421 | Rank=1.0 | MAE=0.3493 | RMSE=0.4338 | Stab=1.0000 | Time=0.58s | CPU=3.42s
+
+>>> [122/150] Recent advancements in Large Language Models (LLMs) have established them as age
+Comp=0.0106 | Suff=-0.0092 | Rank=1.0 | MAE=0.3853 | RMSE=0.4566 | Stab=1.0000 | Time=0.20s | CPU=1.22s
+
+>>> [123/150] Large language models (LLMs) have achieved remarkable success in natural languag
+Comp=0.0164 | Suff=-0.0149 | Rank=1.0 | MAE=0.4138 | RMSE=0.4843 | Stab=1.0000 | Time=0.55s | CPU=3.27s
+
+>>> [124/150] Large language models (LLMs) have shown great potential in natural language proc
+Comp=0.0114 | Suff=-0.0075 | Rank=1.0 | MAE=0.4468 | RMSE=0.4832 | Stab=1.0000 | Time=0.15s | CPU=0.94s
+
+>>> [125/150] While large language models (LLMs) have shown remarkable capability to generate
+Comp=0.0347 | Suff=-0.0265 | Rank=0.9999999999999999 | MAE=0.3558 | RMSE=0.4900 | Stab=1.0000 | Time=1.30s | CPU=7.75s
+
+>>> [126/150] The versatility of large language models (LLMs) led to the creation of diverse b
+Comp=0.0343 | Suff=0.0011 | Rank=1.0 | MAE=0.2564 | RMSE=0.3999 | Stab=1.0000 | Time=0.19s | CPU=1.14s
+
+>>> [127/150] We perform a critical examination of the scientific methodology behind contempor
+Comp=0.0211 | Suff=0.0327 | Rank=1.0 | MAE=0.4988 | RMSE=0.5247 | Stab=1.0000 | Time=0.20s | CPU=1.16s
+
+>>> [128/150] The use of language models for automatically evaluating long-form text (LLM-as-a
+Comp=0.0238 | Suff=0.0030 | Rank=1.0 | MAE=0.5199 | RMSE=0.5640 | Stab=1.0000 | Time=0.24s | CPU=1.42s
+
+>>> [129/150] Science journalism reports current scientific discoveries to non-specialists, ai
+Comp=0.0558 | Suff=-0.0008 | Rank=0.9999999999999999 | MAE=0.4788 | RMSE=0.4884 | Stab=1.0000 | Time=0.07s | CPU=0.47s
+
+>>> [130/150] Jailbreaks on large language models (LLMs) have recently received increasing att
+Comp=0.0077 | Suff=-0.0072 | Rank=1.0 | MAE=0.3383 | RMSE=0.4617 | Stab=1.0000 | Time=3.03s | CPU=18.11s
+
+>>> [131/150] Large language models (LLMs) with memory are computationally universal. However,
+Comp=0.0067 | Suff=-0.0123 | Rank=1.0 | MAE=0.4610 | RMSE=0.4934 | Stab=1.0000 | Time=0.19s | CPU=1.12s
+
+>>> [132/150] The use of LLM tutors to provide automated educational feedback to students on s
+Comp=0.0044 | Suff=-0.0075 | Rank=1.0 | MAE=0.3576 | RMSE=0.4329 | Stab=1.0000 | Time=0.51s | CPU=2.91s
+
+>>> [133/150] While large language models (LLMs) often adopt finetuning to unlock their capabi
+Comp=0.0060 | Suff=0.0064 | Rank=1.0 | MAE=0.4369 | RMSE=0.5397 | Stab=1.0000 | Time=0.37s | CPU=2.25s
+
+>>> [134/150] The identification of political actors who put forward claims in public debate i
+Comp=0.0029 | Suff=-0.0156 | Rank=1.0 | MAE=0.8061 | RMSE=0.8179 | Stab=1.0000 | Time=0.16s | CPU=0.95s
+
+>>> [135/150] LLM app stores have seen rapid growth, leading to the proliferation of numerous
+Comp=0.0035 | Suff=-0.0212 | Rank=1.0 | MAE=0.2722 | RMSE=0.3983 | Stab=1.0000 | Time=0.64s | CPU=3.72s
+
+>>> [136/150] Large Language Models (LLMs) have showcased remarkable capabilities in various N
+Comp=0.0138 | Suff=-0.0093 | Rank=1.0 | MAE=0.3673 | RMSE=0.4356 | Stab=1.0000 | Time=0.21s | CPU=1.22s
+
+>>> [137/150] Generative large language models (LLMs) have demonstrated gaps in diverse cultur
+Comp=0.0134 | Suff=-0.0048 | Rank=1.0 | MAE=0.5374 | RMSE=0.5665 | Stab=1.0000 | Time=0.17s | CPU=1.02s
+
+>>> [138/150] Training new engineers in digital design is a challenge, particularly when it co
+Comp=0.0088 | Suff=-0.0104 | Rank=1.0 | MAE=0.3268 | RMSE=0.4423 | Stab=1.0000 | Time=0.22s | CPU=1.41s
+
+>>> [139/150] Large language models (LLMs) have exhibited great potential in autonomously comp
+Comp=0.0129 | Suff=-0.0246 | Rank=0.9999999999999999 | MAE=0.3185 | RMSE=0.4071 | Stab=1.0000 | Time=0.97s | CPU=5.78s
+
+>>> [141/150] Large language models (LLMs) have exhibited impressive capabilities in comprehen
+Comp=0.0141 | Suff=-0.0200 | Rank=1.0 | MAE=0.2504 | RMSE=0.4055 | Stab=1.0000 | Time=0.16s | CPU=0.91s
+
+>>> [142/150] Large language models (LLMs) are rapidly being adopted for tasks like drafting e
+Comp=0.0071 | Suff=-0.0136 | Rank=1.0 | MAE=0.3543 | RMSE=0.4501 | Stab=1.0000 | Time=0.54s | CPU=3.27s
+
+>>> [143/150] The integration of large language models (LLMs) and search engines represents a
+Comp=0.0097 | Suff=-0.0288 | Rank=1.0 | MAE=0.3487 | RMSE=0.4269 | Stab=1.0000 | Time=1.92s | CPU=11.41s
+
+>>> [144/150] As they become more capable, large language models (LLMs) have continued to rapi
+Comp=0.0065 | Suff=0.0013 | Rank=1.0 | MAE=0.4734 | RMSE=0.5460 | Stab=1.0000 | Time=1.93s | CPU=11.45s
+
+>>> [145/150] Hidden LLM prompts have appeared in online documents with increasing frequency.
+Comp=0.0838 | Suff=-0.0001 | Rank=1.0 | MAE=0.3382 | RMSE=0.4132 | Stab=1.0000 | Time=0.16s | CPU=0.94s
+
+>>> [146/150] Implementing board games in code can be a time-consuming task. However, Large La
+Comp=0.0106 | Suff=-0.0224 | Rank=0.9999999999999999 | MAE=0.2588 | RMSE=0.3802 | Stab=1.0000 | Time=1.06s | CPU=6.22s
+
+>>> [148/150] Large language models (LLMs) can label data faster and cheaper than humans for v
+Comp=0.0170 | Suff=-0.0194 | Rank=1.0 | MAE=0.4406 | RMSE=0.4966 | Stab=1.0000 | Time=0.45s | CPU=2.62s
+
+>>> [149/150] Large-scale supervised data is essential for training modern ranking models, but
+Comp=0.0086 | Suff=-0.0346 | Rank=1.0 | MAE=0.6831 | RMSE=0.7123 | Stab=1.0000 | Time=0.65s | CPU=3.81s
+
+>>> [150/150] What is the fastest Artificial Intelligence Large Language Model (AI LLM) for ge
+Comp=0.0130 | Suff=0.0048 | Rank=1.0 | MAE=0.3685 | RMSE=0.4460 | Stab=1.0000 | Time=0.16s | CPU=0.92s
+
+==================== AVG RESULTS (MAIHOA_OPT) ====================
+Avg Comprehensiveness: 0.0172
+Avg Sufficiency:       -0.0131
+Avg Rank Agreement:   0.9969
+Avg MAE:              0.4171
+Avg RMSE:             0.4952
+Avg Stability:        1.0000
+Avg Runtime (wall): 1.46s
+Avg CPU Time:       8.60s
